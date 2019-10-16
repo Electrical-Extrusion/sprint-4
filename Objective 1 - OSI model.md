@@ -33,18 +33,6 @@ Let's take a look at the layers, broken into the 'Application Level' layers (5-7
 | 2 |Data Link| Data is chunked into packets, encoded and decoded at switches within a single local network. | Email is directed at the correct computer on network, MAC, LLC |
 | 1 |Physical  |Data is converted to bits and sent through hardware, pins, volts, and cables through electricity.  | Electricity travelling through ethernet cord, power cord.  |
 
-
-**Application Level**
- 7. Application - The user (human) puts in a request for information.
- 6. Presentation - Data is transformed and translated so it can be read.
- 5. Session - Connection between user and receiving server is opened and maintaned.
-
-**Moving Data Around**
- 4. Transport - Data moves from end to end, transfer is completed. (TCP, UDP).
- 3. Network - Data moves through switching and routing pathways. (IP addresses).
- 2. Data Link - Data is chunked into packets, encoded and decoded at switches within the local network.  
- 1 Physical - Data is converted to bits and sent through hardware, pins, volts, and cables through electricity. 
-
 A real life analogy might look something like this: 
 **Application Level**
  7. Write a letter in German for a Russian friend. 
@@ -62,14 +50,11 @@ In this analogy, the user (presumably German-speaking), needs to communicate wit
 ## We Do
 Okay, so that still doesn't answer the question - what actually happens when you type in google.com? We will synthesize those steps with a whiteboarding activity, and this time, consider both the transmission, and reciept of data. Keep this drawing handy, because you'll need it again throughout the unit. 
 
-  *Whiteboarding should walk through the 7 steps and visually display the transfer from application to device to routers to physical components and back again
+  *Whiteboarding should walk through the 7 steps and visually display the transfer from application to device to routers to physical components and back again. Include sketches of a computer, router, power cord, etc. 
 The required video animates the process well:*[https://www.youtube.com/watch?v=Ilk7UXzV_Qc&t=192s](https://www.youtube.com/watch?v=Ilk7UXzV_Qc&t=192s) *
 
 ## You Do
 Using the German/Russian correspondence example as a guide, develop a new analogy to link the OSI model to a process in every day life. 
-
-
-  
 
 ## Additional Resources
 - Blog: [You won't Believe what the OSI Model and Pizza Have in Common](https://www.versatek.com/blog/you-wont-believe-what-the-osi-model-and-pizza-have-in-common/)
@@ -78,7 +63,20 @@ Using the German/Russian correspondence example as a guide, develop a new analog
   
 
 
+---------
+*saved for later if I need it! *
+**Application Level**
+ 7. Application - The user (human) puts in a request for information.
+ 6. Presentation - Data is transformed and translated so it can be read.
+ 5. Session - Connection between user and receiving server is opened and maintaned.
+
+**Moving Data Around**
+ 4. Transport - Data moves from end to end, transfer is completed. (TCP, UDP).
+ 3. Network - Data moves through switching and routing pathways. (IP addresses).
+ 2. Data Link - Data is chunked into packets, encoded and decoded at switches within the local network.  
+ 1 Physical - Data is converted to bits and sent through hardware, pins, volts, and cables through electricity. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzMwNzU0MywxNjMzODU4NTQwLDE3OT
-YzODM2OTEsMTQwMzY1NjY1MF19
+eyJoaXN0b3J5IjpbODk3MzExODg1LDE2MzM4NTg1NDAsMTc5Nj
+M4MzY5MSwxNDAzNjU2NjUwXX0=
 -->
