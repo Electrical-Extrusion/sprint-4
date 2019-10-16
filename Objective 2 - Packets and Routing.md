@@ -18,6 +18,7 @@ A packet is a chunk of data. When a user makes a request to send or receive info
 Packet construction and transmission are dictated by something called the Transmission Control Protocol (TCP). TCP exists at both the sending and receiving end of a process. Both TCP entities work together to ensure timely, accurate data transfer. They do this using something called the 3-way-handshake. 
 
 
+![enter image description here](https://lh3.googleusercontent.com/TnoaLUVjrOHY8EjLbJpZauIFcKLfDyL5RkzqCn1qDGok5SxwwZ0b8FHKCeLqJ_iuC7pKYyTW6l4)
 
 **Packet Construction**
 When a user sends a request, the TCP on the user end breaks the data into payloads, and labels each with the needed header, creating a multitude of packets. 
@@ -56,6 +57,6 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTIyODkwMywxMDQyMTQ0MjksNzIyND
-I5MDYwXX0=
+eyJoaXN0b3J5IjpbLTEyNDQ1MDk3NTEsMTA0MjE0NDI5LDcyMj
+QyOTA2MF19
 -->
