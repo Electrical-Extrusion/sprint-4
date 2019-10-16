@@ -48,7 +48,7 @@ Okay, so that still doesn't answer the question - what actually happens when you
 The required video animates the process well:*[https://www.youtube.com/watch?v=Ilk7UXzV_Qc&t=192s](https://www.youtube.com/watch?v=Ilk7UXzV_Qc&t=192s) *
 
 ## You Do
-The OSI model is infamously complicated and hard to understand. OUsing the German/Russian correspondence example as a guide, develop a new analogy to link the OSI model to a process in every day life. 
+Using the German/Russian correspondence example as a guide, develop a new analogy to link the OSI model to a process in every day life. 
 
 
   
@@ -61,6 +61,5 @@ The OSI model is infamously complicated and hard to understand. OUsing the Germa
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM5NTc3OTksMTgwNzQzNjU4LDE1NTE0ND
-IxNjJdfQ==
+eyJoaXN0b3J5IjpbMTQwMzY1NjY1MF19
 -->
