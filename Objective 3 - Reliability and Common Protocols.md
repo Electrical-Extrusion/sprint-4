@@ -48,7 +48,8 @@ Recall that our OSI modelcontains 7 layers, and looks like this:
 In the first objective, we talked about OSI on a conceptual level, without knowledge of protocols. Now, we can start to add on to that understanding, by placing protocols into specific layers. 
 
 
-*Whiteboarding should include this information!* 
+*Whiteboarding should include this information!
+Note that all of the protocols we're worried about are in the 'moving data around' layers* 
 ![enter image description here](https://lh3.googleusercontent.com/lB2OSDFsHJyC3Hycn2DXDi9Qw-kV3C14UedeGGvP_hLwEvbM8zaisTDX6zPAMx_WlEiIsCDSIZs)
 
 
@@ -64,5 +65,5 @@ Summarize your current understanding of what happens when you type google.com in
 - Reading (UDP vs TCP): [User Diagram Protocol](https://www.lifewire.com/user-datagram-protocol-817976)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTAwOTY1NzUsMjYxOTk4MjJdfQ==
+eyJoaXN0b3J5IjpbNjcyOTAwMjQ0LDI2MTk5ODIyXX0=
 -->
