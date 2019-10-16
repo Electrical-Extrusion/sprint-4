@@ -41,9 +41,9 @@ A real-life analogy might look something like this:
 
 **Moving Data Around**
  4. The letter moves through international postal service. 
- 3. Letter moves around local Russian postal service. 
- 2. Letter is placed in the Russian mailbox.  
- 1 Recipient reads letter.  
+ 3. The letter moves around local Russian postal service. 
+ 2. The letter is placed in the Russian mailbox.  
+ 1 Recipient reads the letter.  
 
 In this analogy, the user (presumably German-speaking), needs to communicate with a Russian-speaking friend. If they didn't translate the letter, it wouldn't make sense to them. If they didn't put the letter in an envelope, it would never get to them. If the letter got lost in the international postal service... you guessed it, it wouldn't get to them! In the same way, all 7 layers of the OSI model are crucial for data transmission. We'll learn more about the technicalities of each layer in upcoming objectives, but for now, let's continue to focus on the overall theory in a common interview exercise: whiteboarding. 
 
@@ -77,7 +77,7 @@ Using the German/Russian correspondence example as a guide, develop a new analog
  1 Physical - Data is converted to bits and sent through hardware, pins, volts, and cables through electricity. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTMzMjY5MywtMTI1Nzg3NzIyNSwtND
+eyJoaXN0b3J5IjpbLTYwNTAxMDMwMCwtMTI1Nzg3NzIyNSwtND
 cxMTI0MjU3LDE2MzM4NTg1NDAsMTc5NjM4MzY5MSwxNDAzNjU2
 NjUwXX0=
 -->
