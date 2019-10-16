@@ -20,10 +20,7 @@ This objective deals with 6 important protocols involved in data transmission. H
 |TCP|Transmission Control Protocol |Transport Layer | Ensures accurate communication between devices.  |
 |UDP|User Datagram Protocol|Transport Layer|Ensures accurate communication between devices when TCP cannot be used. |
 
-
 You've heard of IP, and at the very least know that every device in the world has a unique IP address. In a broader context, IP is a set of rules that govern and standardize how packets move from one router to another. IP is great, but IP isn't perfect, and sometimes, packets can get lost. This is where TCP comes in. TCP works with IP to ensure that 1) no packets get lost or duplicated, 2) packets are assembled correctly, and 3) delays aren't significant. In cases where delays are significant, a less sophisticated protocol called UDP can be used to ensure similar packet delivery promises are kept. Sometimes, UDP is used instead of TCP where massive amounts of data need to be sent and reliability isn't as important. 
-
-The ICMP is triggered when UDP or TCP fails and offers suggestions (never seen by the user) to fix the issues, often when ICMP is triggered, the user doesn't know, and TCP/UDP finds another way to get the packets to their destination. 
 
 ### Local Network Protocol
 |Acronym| Meaning | Layer |Definition  |
@@ -31,6 +28,8 @@ The ICMP is triggered when UDP or TCP fails and offers suggestions (never seen b
 |ICMP|Internet Control Message Protocol |Transport Layer| Blocks inaccurate communication between devices when TCP and UDP fail. |
 |ARP|Address Resolution Protocol|Physical Network Layer| Makes sure communication goes to the correct device on a network.|
 |Ethernet|Ethernet|Physical Network Layer| Connects all the devices on a network (computers and routers). |
+
+The ICMP is triggered when UDP or TCP fails and offers suggestions (never seen by the user) to fix the issues, often when ICMP is triggered, the user doesn't know, and TCP/UDP finds another way to get the packets to their destination. 
 
 Finally, we need to consider ARP and ethernet. Both are working on the physical, network layer level. That means in your home, at the coffee shop, wherever connectivity exists. When data gets to its final network, it needs the ARP to find the specific device (computer, phone, tablet) that it should arrive at. It moves through the ethernet (more commonly, wifi*) until the message is finally received. 
 
@@ -74,6 +73,6 @@ Summarize your current understanding of what happens when you type google.com in
 - Reading (UDP vs TCP): [User Diagram Protocol](https://www.lifewire.com/user-datagram-protocol-817976)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMTczNDQ1OSwtOTU4MzA3MzYyLC0yNz
-AwODgyODBdfQ==
+eyJoaXN0b3J5IjpbLTQ5NDcyMzM4NSwxMTAxNzM0NDU5LC05NT
+gzMDczNjIsLTI3MDA4ODI4MF19
 -->
