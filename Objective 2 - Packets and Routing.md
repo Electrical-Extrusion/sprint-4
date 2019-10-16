@@ -69,12 +69,10 @@ Technically, looks more like this:
 ![enter image description here](https://lh3.googleusercontent.com/9sRO80ifa3IzSP4OPzDdcmH4zmVnMx7s71UYDmWMmQ-KcFOx22cL7eEA55PUOgWVWTi_621xrUo)
 
 
-
-
 ## We Do
  Using tools like Wireshark, which we will work closely with later on, packets can be captured and inspected for component parts. Together, let's annotate the following packet data. It may give a glimpse into what is happening on the network in question. 
 ![enter image description here](https://lh3.googleusercontent.com/BxWSReZ0wbBW3u0QZDZpWNkwOWfUkDL8ZQW9eVrZNPeYxp0ePfGhtLRd9bTG9i9hnIAwStrFV48)
-Thankfully, this packet printout is fairly straightforward. Reading from top down, we start to notice some of the packet components discussed above. For now, we'll focus on: IP addresses, ports, sequence numbers, acknowledgement numbers, flag, cheksum, and data. 
+As you can see, packet printouts are fairly straightforward. Reading from top down, we start to notice some of the packet components discussed above. For now, we'll focus on: IP addresses, ports, sequence numbers, acknowledgement numbers, flag, cheksum, and data. 
 ![enter image description here](https://lh3.googleusercontent.com/68F2hIAa_tmkDwtwggDtLc26B8JPjMco0TBe-l3gq0Q9DPRl4CbZ57why7G-A0nw39mmltbCUvc)
 - IP addresses aren't technically part of a TCP packet, but they are always sent in tandem. 
 - Port numbers tell us the end points of the connection. Here, 443 indicates that the user is connecting to a secure site via HTTPS, and 57880 indicates a private port on the user's end. Since 443 is listed as source, we know that this packet is traveling from the secure site, server, to the client. 
@@ -99,9 +97,9 @@ Using the example above as a guide, answer the following questions about this pa
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDM3OTcwOTYsODYxNjgxODcxLC0xNj
-g1MTE4Mzc0LDIxMDE1NDUyOTYsNTExODQxNTE5LC0xMTAyMjQ4
-MDcyLC0xNDAyMTE5OTc1LDEzNDI1NTY1MzcsMjA2NzI3NjAzLD
-M5OTAxNDg1Myw5MTM5NTE2MzAsMTY4NzUyMzY4NSwxMDQyMTQ0
-MjksNzIyNDI5MDYwXX0=
+eyJoaXN0b3J5IjpbLTE2OTE0Njg1OTEsLTEyMDM3OTcwOTYsOD
+YxNjgxODcxLC0xNjg1MTE4Mzc0LDIxMDE1NDUyOTYsNTExODQx
+NTE5LC0xMTAyMjQ4MDcyLC0xNDAyMTE5OTc1LDEzNDI1NTY1Mz
+csMjA2NzI3NjAzLDM5OTAxNDg1Myw5MTM5NTE2MzAsMTY4NzUy
+MzY4NSwxMDQyMTQ0MjksNzIyNDI5MDYwXX0=
 -->
