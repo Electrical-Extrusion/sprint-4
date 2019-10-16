@@ -66,15 +66,9 @@ Packet construction and transmission are dictated by TCP. TCP exists at both the
 
 
 ## We Do
-Hacker challenge: Can you figure out what Lambda School is up to? 
-
-Using tools like Wireshark, which we will use later, packets can be captured and inspected for component parts. The following screenshot contains all of the information we learned about above. It should give a glimpse into what is happening on the network in question. 
-![enter image description here](https://lh3.googleusercontent.com/WBAgxzQIOCKSgsCUKnTTEIeljxkSfePMsR-j36nsggBqqzYcmOk_OZPMPrpXPjutzHL__vZ7JjU)
+ Using tools like Wireshark, which we will work closely with later on, packets can be captured and inspected for component parts. Together, let's annotate the following packet data. It may give a glimpse into what is happening on the network in question. 
 
 
-![enter image description here](https://lh3.googleusercontent.com/A66Iq0E9_4XS1R4BVZ1se7brZXnkomzQpWL6H3VCdBvlT0hud_Axc0Bfgfqe0BTkjLhLfdXRy4k)
-
-As we've figured out, this was an unbeatable challenge - this TCP is connected securely through HTTPS, and data is encrypted. 
 
 ## You Do
 Using the example above as a guide, dissect the following intercepted packet: 
@@ -85,7 +79,7 @@ Using the example above as a guide, dissect the following intercepted packet:
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDIxMTk5NzUsMTM0MjU1NjUzNywyMD
-Y3Mjc2MDMsMzk5MDE0ODUzLDkxMzk1MTYzMCwxNjg3NTIzNjg1
-LDEwNDIxNDQyOSw3MjI0MjkwNjBdfQ==
+eyJoaXN0b3J5IjpbLTExMDIyNDgwNzIsLTE0MDIxMTk5NzUsMT
+M0MjU1NjUzNywyMDY3Mjc2MDMsMzk5MDE0ODUzLDkxMzk1MTYz
+MCwxNjg3NTIzNjg1LDEwNDIxNDQyOSw3MjI0MjkwNjBdfQ==
 -->
