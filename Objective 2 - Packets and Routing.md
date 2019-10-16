@@ -10,7 +10,7 @@ Understand and explain how packets are constructed and transmitted on a network.
 
 
 ## I Do
-Cybersecurity is concerned with the protection of data. Though they can occur anywhere, breeches most commonly occur when data is moving around from one place to another in the Transport layer of OSI. Data that isn't properly secured or broken up can be easily intercepted by hackers in a process that we'll learn later on. In order to understand what's going on under the hood with packet trannsportation, we need to understand the protocol governing this layer, which is Transmission Control Protocol (TCP). 
+Cybersecurity is concerned with the protection of data. Though they can occur anywhere, breeches most commonly occur when data is moving around from one place to another in the Transport layer of OSI. Data that is unencrypted can be easily intercepted using techniques we’ll learn about later on. In order to understand what's going on under the hood with packet trannsportation, we need to understand the protocol governing this layer, which is Transmission Control Protocol (TCP). 
 
 In addition, you'll need a strong understanding of the term "packets." In short, a packet is a chunk of data. When a user makes a request to send or receive information, it takes the form of data. In order to move from the client to the server, data must be placed (and sometimes broken apart) into packets. These packets may all take different routes through the world wide web, but eventually end up at the same destination and, when pieced back together, complete the user's request. Scanning through unencrypted packets is one-way hackers can obtain sensitive information: like usernames and passwords. 
 
@@ -26,6 +26,8 @@ Regardless of the type of security, or data included, packets always contain the
 | **Trailer**  | The trailer contains data to show that the interpreter has reached the end of the packet, or, throws an error when needed  |Signature at the end of the letter. |
 
 This whole thing is kind of like a big amazon order being broken into different packages. Each box contains different objects (the payload), but has the same shipping label (header) as the others, and all are united through an order number, tracked by Amazon to make sure you get your order on time (Trailer).  
+
+While the analogy is helpful for understanding on a conceptual level, as a cybersecurity professional, you may be tasked with inspecting specific packets - we'll spend the rest of this objective tackling those components. 
 
 An actual packet is configured like this. 
 ![enter image description here](https://lh3.googleusercontent.com/EGkPMWtfmCytOWdQPvofoHYAbiSv8-FL6fvAXm526xjmPQsZ7dLW7Y1QoRmFn8l8P0sL5ctVlAI)
@@ -87,8 +89,8 @@ Thankfully, this packet printout is fairly straightforward. Reading from top dow
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExODQxNTE5LC0xMTAyMjQ4MDcyLC0xND
-AyMTE5OTc1LDEzNDI1NTY1MzcsMjA2NzI3NjAzLDM5OTAxNDg1
-Myw5MTM5NTE2MzAsMTY4NzUyMzY4NSwxMDQyMTQ0MjksNzIyND
-I5MDYwXX0=
+eyJoaXN0b3J5IjpbNzc1MjU5NTg0LDUxMTg0MTUxOSwtMTEwMj
+I0ODA3MiwtMTQwMjExOTk3NSwxMzQyNTU2NTM3LDIwNjcyNzYw
+MywzOTkwMTQ4NTMsOTEzOTUxNjMwLDE2ODc1MjM2ODUsMTA0Mj
+E0NDI5LDcyMjQyOTA2MF19
 -->
