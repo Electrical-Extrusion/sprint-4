@@ -9,7 +9,6 @@ Identify and reconstruct packet streams in packet capture utility.
 
 
 ## We Do
-*First Attempt at a screen recording*
 
 1. Open Wireshark.
 2. Start packet capture by clicking on the blue fin. 
@@ -23,5 +22,6 @@ Identify and reconstruct packet streams in packet capture utility.
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDIzODEyOTddfQ==
+eyJoaXN0b3J5IjpbLTE0NzA1MjgyNTcsLTEzMDIzODEyOTddfQ
+==
 -->
