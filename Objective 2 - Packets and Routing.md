@@ -97,9 +97,5 @@ Using the example above as a guide, answer the following questions about this pa
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE0Njg1OTEsLTEyMDM3OTcwOTYsOD
-YxNjgxODcxLC0xNjg1MTE4Mzc0LDIxMDE1NDUyOTYsNTExODQx
-NTE5LC0xMTAyMjQ4MDcyLC0xNDAyMTE5OTc1LDEzNDI1NTY1Mz
-csMjA2NzI3NjAzLDM5OTAxNDg1Myw5MTM5NTE2MzAsMTY4NzUy
-MzY4NSwxMDQyMTQ0MjksNzIyNDI5MDYwXX0=
+eyJoaXN0b3J5IjpbLTE2OTE0Njg1OTFdfQ==
 -->
