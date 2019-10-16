@@ -12,7 +12,7 @@ Understand the Open Systems Interconnection (OSI) seven layer model for networks
 
  A common interview question for new software engineers is "what happens when you type in google.com to your web browser?". A seemingly simple exercize is actually hiding an incredibly complex process, most commonly explained by the **Open Systems Interconnection (OSI)** seven layer model for networks. In this conceptual framework, there are seven distinct layers working together to connect you (the user) to google.com. 
 
-Generally speaking, in this process, information is moving from a user (often referred to as a client), to a place with information (a server) and then returning new information back to the client. In order for this to happen, the client request has to be translated and transported, which happens, conceptually speaking, in seven steps. We call these steps layers, since lots of sub-protocols occur at each.  These sub-protocols are grouped into layers by the function preformed. Each layer has its own job, and passes information to the next layer, transmitting and receiving data in some form or another. The seven layers are pictured below. 
+Generally speaking, in this process, information is moving from a user (often referred to as a client), to a place with information (a server) and then returning new information back to the client. In order for this to happen, the client request has to be translated and transported, which happens, conceptually speaking, in seven steps. We call these steps 'layers', since lots of sub-protocols occur at each.  These sub-protocols are grouped, by the function preformed, into layers. Each layer has a unique job, and passes information along, transmitting and receiving the information as data in some form or another. The seven layers are pictured below. 
 
 ![source: [https://www.webopedia.com/quick_ref/OSI_Layers.asp](https://www.webopedia.com/quick_ref/OSI_Layers.asp)](https://lh3.googleusercontent.com/iMnsbSRP1rAS3MgO3u_A2BhOBz1OXgPNzhkd-Xi6awQnsktyU0Iulyark66HuXaHVOfWuSAj2G0) *need to make a lambda-approved graphic*
  
@@ -77,6 +77,6 @@ Using the German/Russian correspondence example as a guide, develop a new analog
  1 Physical - Data is converted to bits and sent through hardware, pins, volts, and cables through electricity. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTY4MDIyLC00NzExMjQyNTcsMTYzMz
+eyJoaXN0b3J5IjpbNDAwNDEyNjkyLC00NzExMjQyNTcsMTYzMz
 g1ODU0MCwxNzk2MzgzNjkxLDE0MDM2NTY2NTBdfQ==
 -->
