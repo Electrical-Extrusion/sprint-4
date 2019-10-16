@@ -81,21 +81,15 @@ This video and the next one in the series visually break down how TCP transmissi
 
 
 ## You Do
-
-Better idea: let's look at a real life TCP packet and figure out what's going on 
-
-
-Explain it like I'm five (ELI5). Your closest five year old friend asks you what you're learning at Lambda School - explain how packets are constructed and transmitted on a network. 
-
-ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.com/r/explainlikeimfive/)
-
+Using the example above as a guide, dissect the following intercepted packet: 
+![enter image description here](https://lh3.googleusercontent.com/srjjiF2cCXuAlljGSrp-F7-Gy5zg57BDmbtKhCI12DyKKv2BjkrHUbhzsAnHFpYOUNRvQN1n4CA)
 
 ## Additional Resources
 
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTUxOTg4MCwzOTkwMTQ4NTMsOTEzOT
-UxNjMwLDE2ODc1MjM2ODUsMTA0MjE0NDI5LDcyMjQyOTA2MF19
+eyJoaXN0b3J5IjpbMjA2NzI3NjAzLDM5OTAxNDg1Myw5MTM5NT
+E2MzAsMTY4NzUyMzY4NSwxMDQyMTQ0MjksNzIyNDI5MDYwXX0=
 
 -->
