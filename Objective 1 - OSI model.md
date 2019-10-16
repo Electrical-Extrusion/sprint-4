@@ -39,7 +39,7 @@ A real life analogy might look something like this:
  2. Letter is placed in Russian mailbox.  
  1 Recipient reads letter.  
 
-
+In this analogy, the user (presumably german-speaking), 
 
 ## We Do
 Okay, so that still doesn't answer the question - what actually happens when you type in google.com? Let's synthesize those steps with a whiteboarding activity, and this time, consider both the transmission, and reciept of data. Keep this drawing handy, because you'll need it again throughout the unit. 
@@ -60,5 +60,5 @@ The required video animates the process well:*[https://www.youtube.com/watch?v=I
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTQ0MjE2Ml19
+eyJoaXN0b3J5IjpbMTI4Mzc2NDE3MCwxNTUxNDQyMTYyXX0=
 -->
