@@ -5,7 +5,7 @@ Install a packet capture utility (wireshark) to capture and view packets on stud
 *Video for We Do is probably really important here*
 
 ## Required Resources
-- Software link: [Download Wireshark](https://www.wireshark.org/download.html)
+- Software Download: [Download Wireshark](https://www.wireshark.org/download.html)
 
 ## I Do
 One tool security professionals use to make sure data is being transmitted securely is called a packet analyzer. Packet analyzers intercept and log traffic over a network, functioning in many ways like a microscope, to allow users to see what's going on 'under the hood' of the internet. Today we will install a  popular and free packet analyzer called wireshark (linked in required resources above).
@@ -38,7 +38,7 @@ Let's download wireshark together and use it to finally figure out what happens 
 8. Analyze Data using the Statistics tool - the true power of wireshark comes in it's ability to breakdown and analyze massive amounts of packet data. For now, we'll just view the Capture File Properties. 
 ![enter image description here](https://lh3.googleusercontent.com/7qb_r25BQyrmXdICWNNGKf3KDVa4nK22Fb80Kuhxc4XDoaO0I2_tBFwMrXJmTKzodQK3VOeTBSo)
 ![enter image description here](https://lh3.googleusercontent.com/1Cdc5loX_z6dI1Qs0uHlQygK3M5lJp6d7s7P4fKN6AGgvZi35tttwxCE73KAEC9TxvyTLWAwkAg)
-File capture properties shows a nice summary of all the packets captured. This specific screenshot is from a relatively short capture, 5.939 seconds but still shows nic
+File capture properties shows a nice summary of all the packets captured. This specific screenshot is from a relatively short capture, 5.939 seconds but still shows nice data about drop rate (0%), packet size, and more. 
 
 ## You Do
 Use the statistcs tool to figure out the average packet size sent and recieved when trying to connect to different websites. Connect to at least 10 websites. Be prepared to come to class with your observations. 
@@ -49,6 +49,5 @@ Use the statistcs tool to figure out the average packet size sent and recieved w
 - Blog: [How to Use Wireshark](https://www.varonis.com/blog/how-to-use-wireshark/)
 - Blog: [What is Packet Sniffing](https://www.comparitech.com/blog/information-security/what-is-packet-sniffing/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTcxMzUyNCwtMTU2NTk4NjA2Nyw5ND
-g0NzI4OTddfQ==
+eyJoaXN0b3J5IjpbLTIwMzMwNTAxNDJdfQ==
 -->
