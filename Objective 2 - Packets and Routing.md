@@ -19,6 +19,8 @@ A packet is a chunk of data. When a user makes a request to send or receive info
 **Transmission Control Protocol**
 Packet construction and transmission are dictated by something called the Transmission Control Protocol (TCP). TCP exists at both the sending and receiving end of a process. Both TCP entities work together to ensure timely, accurate data transfer. They do this using something called the 3-way-handshake. 
 
+![enter image description here](https://lh3.googleusercontent.com/9sRO80ifa3IzSP4OPzDdcmH4zmVnMx7s71UYDmWMmQ-KcFOx22cL7eEA55PUOgWVWTi_621xrUo)
+*Need to make a Lambda graphic* 
 
 ![enter image description here](https://lh3.googleusercontent.com/TnoaLUVjrOHY8EjLbJpZauIFcKLfDyL5RkzqCn1qDGok5SxwwZ0b8FHKCeLqJ_iuC7pKYyTW6l4)
 
@@ -39,8 +41,7 @@ Packages, letters, and packets alike need a way to get from point A to point B. 
 
 On a more technical level, once a connection is established between two ports, one on the user (initiator) side and one on the reciever side, TCP sends a series if signals back and forth, hard coded with special codes (sequence and acknowledgement numbers), until a 'FIN' code is reached to end the process. 
 
-![enter image description here](https://lh3.googleusercontent.com/9sRO80ifa3IzSP4OPzDdcmH4zmVnMx7s71UYDmWMmQ-KcFOx22cL7eEA55PUOgWVWTi_621xrUo)
-*Need to make a Lambda graphic* 
+
 
 ## We Do
 This video and the next one in the series visually break down how TCP transmission works. Not sure exactly how to turn this into a we do (other than *another* whiteboarding activity) but I think something like this is useful to walk through. 
@@ -59,6 +60,6 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MzExMDcxMSwxMDQyMTQ0MjksNzIyND
+eyJoaXN0b3J5IjpbMTY4NzUyMzY4NSwxMDQyMTQ0MjksNzIyND
 I5MDYwXX0=
 -->
