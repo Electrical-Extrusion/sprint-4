@@ -27,6 +27,7 @@ Regardless of the type of security, or data included, packets always contain the
 
 This whole thing is kind of like a big amazon order being broken into different packages. Each box contains different objects (the payload), but has the same shipping label (header) as the others, and all are united through an order number, tracked by Amazon to make sure you get your order on time (Trailer).  
 
+An actual packet is co
 ![enter image description here](https://lh3.googleusercontent.com/EGkPMWtfmCytOWdQPvofoHYAbiSv8-FL6fvAXm526xjmPQsZ7dLW7Y1QoRmFn8l8P0sL5ctVlAI)
 
 **Packet Transmission**
@@ -65,6 +66,6 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzOTUxNjMwLDE2ODc1MjM2ODUsMTA0Mj
-E0NDI5LDcyMjQyOTA2MF19
+eyJoaXN0b3J5IjpbMTIxNzAzODEyMSw5MTM5NTE2MzAsMTY4Nz
+UyMzY4NSwxMDQyMTQ0MjksNzIyNDI5MDYwXX0=
 -->
