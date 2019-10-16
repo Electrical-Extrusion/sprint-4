@@ -27,8 +27,28 @@ Regardless of the type of security, or data included, packets always contain the
 
 This whole thing is kind of like a big amazon order being broken into different packages. Each box contains different objects (the payload), but has the same shipping label (header) as the others, and all are united through an order number, tracked by Amazon to make sure you get your order on time (Trailer).  
 
-An actual packet is co
+An actual packet is configured like this. 
 ![enter image description here](https://lh3.googleusercontent.com/EGkPMWtfmCytOWdQPvofoHYAbiSv8-FL6fvAXm526xjmPQsZ7dLW7Y1QoRmFn8l8P0sL5ctVlAI)
+
+The TCP packet format consists of these fields:  [from: [Tech Republic](https://www.techrepublic.com/article/exploring-the-anatomy-of-a-data-packet/)
+-   **Source Port**  and  **Destination Port fields**  (16 bits each) identify the end points of the connection.
+-   **Sequence Number field**  (32 bits) specifies the number assigned to the first byte of data in the current message. Under certain circumstances, it can also be used to identify an initial sequence number to be used in the upcoming transmission.
+-   **Acknowledgement  Number field**  (32 bits) contains the value of the next sequence number that the sender of the segment is expecting to receive, if the ACK control bit is set. Note that the sequence number refers to the stream flowing in the same direction as the segment, while the acknowledgement number refers to the stream flowing in the opposite direction from the segment.
+-   **Data Offset  (a.k.a. Header Length) field**  (variable length) tells how many 32-bit words are contained in the TCP header. This information is needed because the Options field has variable length, so the header length is variable too.
+-   **Reserved field**  (6 bits) must be zero. This is for future use.
+-   **Flags field**  (6 bits) contains the various flags:  
+    URG—Indicates that some urgent data has been placed.  
+    ACK—Indicates that acknowledgement number is valid.  
+    PSH—Indicates that data should be passed to the application as soon as possible.  
+    RST—Resets the connection.  
+    SYN—Synchronizes sequence numbers to initiate a connection.  
+    FIN—Means that the sender of the flag has finished sending data.
+-   **Window field**  (16 bits) specifies the size of the sender's receive window (that is, buffer space available for incoming data).
+-   **Checksum field**  (16 bits) indicates whether the header was damaged in transit.
+-   **Urgent pointer field**  (16 bits) points to the first urgent data byte in the packet.
+-   **Options field**  (variable length) specifies various TCP options.
+-   **Data field**  (variable length) contains upper-layer information.
+
 
 **Packet Transmission**
 Packages, letters, and packets alike need a way to get from point A to point B. In our analogy, UPS, USPS, and FedEx, all optimize routes and who physically move the packages. Packet transmission, works very similarly. As packets are built and labeled they travel through the network on **routers**. Routers are simply devices that forward along packets. Packets keep moving from router to router, following the lowest-traffic path they can find, until they reach the receiving end. Eventually, all of the packets should arrive, but they might be out of order, or delayed. That's where the other TCP comes into play, checking to make sure all of the packets have arrived, and moving to the next step in OSI, or returning an error message to the sender. 
@@ -66,6 +86,6 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzAzODEyMSw5MTM5NTE2MzAsMTY4Nz
+eyJoaXN0b3J5IjpbLTc4NDMxNTMyOSw5MTM5NTE2MzAsMTY4Nz
 UyMzY4NSwxMDQyMTQ0MjksNzIyNDI5MDYwXX0=
 -->
