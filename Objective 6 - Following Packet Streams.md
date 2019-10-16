@@ -6,7 +6,9 @@ Identify and reconstruct packet streams in packet capture utility.
 ## Required Resources
 
 ## I Do
-Packet data is really only useful when it can be combined with the other packets in a transmission, to give a fuller picture of 
+Packet data is really only useful when it can be combined with the other packets in a transmission, to give a full understanding of the data being transmitted. 
+
+Using a packet capture utility (Wireshark), you can easily  
 
 ## We Do
 
@@ -22,6 +24,6 @@ Packet data is really only useful when it can be combined with the other packets
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDU2NjMwNSwtMTQ3MDUyODI1NywtMT
-MwMjM4MTI5N119
+eyJoaXN0b3J5IjpbLTE5NjYyMDA2NjEsLTE0NzA1MjgyNTcsLT
+EzMDIzODEyOTddfQ==
 -->
