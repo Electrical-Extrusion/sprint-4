@@ -49,8 +49,9 @@ In the first objective, we talked about OSI on a conceptual level, without knowl
 
 
 *Whiteboarding should include this information!
+Ethernet happens on the physical layer
 Note that all of the protocols we're worried about are in the 'moving data around' layers* 
-
+![enter image description here](https://lh3.googleusercontent.com/VlhP4wEeA5VqVRrgEqmUoECuTq28G9UFdMcRQZuTwu0GJSJqaNHFYhWLR1-xOeIY9nxg5LAs63Y)
 
 ## You Do
 Summarize your current understanding of what happens when you type google.com into your internet browser. Be prepared to share in breakout rooms. 
@@ -64,5 +65,5 @@ Summarize your current understanding of what happens when you type google.com in
 - Reading (UDP vs TCP): [User Diagram Protocol](https://www.lifewire.com/user-datagram-protocol-817976)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTYxMTA1OTksMjYxOTk4MjJdfQ==
+eyJoaXN0b3J5IjpbMTQwODUxNDI5OSwyNjE5OTgyMl19
 -->
