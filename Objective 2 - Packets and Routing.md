@@ -14,8 +14,13 @@ Cybersecurity is concerned with the protection of data. Breeches most commonly o
 
 A packet is a chunk of data. When a user makes a request to send or receive information, it takes the form of data. This data is broken into packets, which may all take different routes, but eventually end up at the same destination to complete the request. Intercepting unencrypted packets is one-way hackers can obtain sensitive information: like usernames and passwords. 
 
+Packet construction and transmission are dictated by something called the Transmission Control Protocol (TCP). TCP exists at both the sending and receiving end of a process. Both TCP entities work together to ensure timely, 
+
+**Transmission Control Protocol**
+
+
 **Packet Construction**
-Packet construction is dictated by something called the Transmission Control Protocol (TCP). TCP exists at both the sending and receiving end of a process. When a user sends a request, the TCP on the user end breaks the data into payloads, and labels each with the needed header, creating a multitude of packets. 
+When a user sends a request, the TCP on the user end breaks the data into payloads, and labels each with the needed header, creating a multitude of packets. 
 
 Regardless of the type of security, or data included, packets always contain the following three parts. When learning this concept it can be helpful to use an analogy of literal packages, and consider how these find their way through a postal system. 
 |Packet Part|Definition| Analogy|
@@ -51,5 +56,6 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjE0NDI5LDcyMjQyOTA2MF19
+eyJoaXN0b3J5IjpbLTEyNjc5OTM4MTAsMTA0MjE0NDI5LDcyMj
+QyOTA2MF19
 -->
