@@ -48,7 +48,7 @@ Recall that our OSI modelcontains 7 layers, and looks like this:
 In the first objective, we talked about OSI on a conceptual level, without knowledge of protocols. Now, we can start to add on to that understanding, by placing protocols into specific layers. 
 
 
-*Instructor nots - copied from objective 1, contains all the protocols discussed here* 
+*Instructor note - this is copied from objective 1, contains all the protocols discussed here* 
 **Application-level layers:** 
 | Layer| Name | Explanation |Example|
 |--|--|--|--|
@@ -77,5 +77,5 @@ Summarize your current understanding of what happens when you type google.com in
 - Reading (UDP vs TCP): [User Diagram Protocol](https://www.lifewire.com/user-datagram-protocol-817976)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzk1Mzc5NCwyNjE5OTgyMl19
+eyJoaXN0b3J5IjpbMjEyNjA2ODQ4LDI2MTk5ODIyXX0=
 -->
