@@ -42,7 +42,7 @@ A real life analogy might look something like this:
 In this analogy, the user (presumably German-speaking), needs to communicate with a Russian-speaking friend. If they didn't translate the letter, it wouldn't make sense to them. If they didn't put the letter in an envolope, it would never get to them. If the letter got lost in the international postal service... you guessed it, it wouldn't get to them! In the same way, all 7 layers of the OSI model are crucial for data transmission. We'll learn more about the technecalities of each layer in upcoming objectives, but for now let's continue to focus on the overall theory in a common interview excercize: whiteboarding. 
 
 ## We Do
-Okay, so that still doesn't answer the question - what actually happens when you type in google.com? Let's synthesize those steps with a whiteboarding activity, and this time, consider both the transmission, and reciept of data. Keep this drawing handy, because you'll need it again throughout the unit. 
+Okay, so that still doesn't answer the question - what actually happens when you type in google.com? We will synthesize those steps with a whiteboarding activity, and this time, consider both the transmission, and reciept of data. Keep this drawing handy, because you'll need it again throughout the unit. 
 
   *Whiteboarding should walk through the 7 steps and visually display the transfer from application to device to routers to physical components and back again
 The required video animates the process well:*[https://www.youtube.com/watch?v=Ilk7UXzV_Qc&t=192s](https://www.youtube.com/watch?v=Ilk7UXzV_Qc&t=192s) *
@@ -61,5 +61,5 @@ Using the German/Russian correspondence example as a guide, develop a new analog
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTg0MTk2NiwxNDAzNjU2NjUwXX0=
+eyJoaXN0b3J5IjpbMTc5NjM4MzY5MSwxNDAzNjU2NjUwXX0=
 -->
