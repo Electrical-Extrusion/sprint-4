@@ -14,7 +14,7 @@ Cybersecurity becomes important when data is moving around from one place to ano
 
 
 **Packet Construction**
-A packet is a chunk of data. When a request is made by a user to send or receive information, it takes the form of data. This data is broken into packets, which may all take different routes, but eventually end up at the same destination to complete the request. Intercepting unencrypted packets is one-way hackers can obtain sensitive information: like usernames and passwords. Regardless of the type of security, or data included, packets always contain the following three parts. When learning this concept it can be helpful to use an analogy of literal packages, and consider how these find their way through a postal system. 
+A packet is a chunk of data. When a user makes a request to send or receive information, it takes the form of data. This data is broken into packets, which may all take different routes, but eventually end up at the same destination to complete the request. Intercepting unencrypted packets is one-way hackers can obtain sensitive information: like usernames and passwords. Regardless of the type of security, or data included, packets always contain the following three parts. When learning this concept it can be helpful to use an analogy of literal packages, and consider how these find their way through a postal system. 
 |Packet Part|Definition| Analogy|
 |--|--|--|
 | **Header** | The header contains instructions like the sender's IP address, receiver's IP address, Protocol, and Packer number |Front of an envelope - addresses, shipping label or stamp. |
@@ -50,5 +50,5 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDcyNjczMTJdfQ==
+eyJoaXN0b3J5IjpbNTgzODc0NzMzXX0=
 -->
