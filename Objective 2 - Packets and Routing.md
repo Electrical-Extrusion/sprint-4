@@ -12,10 +12,10 @@ Understand and explain how packets are constructed and transmitted on a network.
 ## I Do
 Cybersecurity is concerned with the protection of data. Though they can occur anywhere, breeches most commonly occur when data is moving around from one place to another in the Transport layer of OSI. Data that isn't properly secured or broken up can be easily intercepted by hackers in a process that we'll learn later on. In order to understand what's going on under the hood with packet trannsportation, we need to understand the protocol governing this layer, which is Transmission Control Protocol (TCP). 
 
-In addition, you'll need a strong understanding of the term "packets." In short, a packet is a chunk of data. When a user makes a request to send or receive information, it takes the form of data. In order to move from the client to the server, data must be placed (and sometimes broken apart) into packets. These packets may all take different routes through, but eventually end up at the same destination to complete the request. Intercepting unencrypted packets is one-way hackers can obtain sensitive information: like usernames and passwords. 
+In addition, you'll need a strong understanding of the term "packets." In short, a packet is a chunk of data. When a user makes a request to send or receive information, it takes the form of data. In order to move from the client to the server, data must be placed (and sometimes broken apart) into packets. These packets may all take different routes through the world wide web, but eventually end up at the same destination and, together, complete the user's request. Scanning through unencrypted packets is one-way hackers can obtain sensitive information: like usernames and passwords. 
 
 **Transmission Control Protocol**
-Packet construction and transmission are dictated by something called the Transmission Control Protocol (TCP). TCP exists at both the sending and receiving end of a process. Both TCP entities work together to ensure timely, accurate data transfer. They do this using something called the 3-way-handshake. 
+Packet construction and transmission are dictated by TCP. TCP exists at both the sending and receiving end of a process. Both TCP entities work together to ensure timely, accurate data transfer. They do this using something called the 3-way-handshake. 
 
 ![enter image description here](https://lh3.googleusercontent.com/9sRO80ifa3IzSP4OPzDdcmH4zmVnMx7s71UYDmWMmQ-KcFOx22cL7eEA55PUOgWVWTi_621xrUo)
 *Need to make a Lambda graphic* 
@@ -58,6 +58,6 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzk2MzMyOSwxNjg3NTIzNjg1LDEwND
-IxNDQyOSw3MjI0MjkwNjBdfQ==
+eyJoaXN0b3J5IjpbNzAyODMzNjIwLDE2ODc1MjM2ODUsMTA0Mj
+E0NDI5LDcyMjQyOTA2MF19
 -->
