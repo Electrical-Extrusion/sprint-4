@@ -30,7 +30,7 @@ Let's take a look at the layers, broken into the 'Application Level' layers (5-7
 |--|--|--|--|
 | 4 |Transport|Data moves from end to end, transfer is completed. Ditates how fast data is sent, where, and when. |TCP, UDP |
 | 3 |Network|Data moves through switching and routing pathways on a local network. | IP addresses |
-| 2 |Data Link| Data is chunked into packets, encoded and decoded at switches within the local network.  | |
+| 2 |Data Link| Data is chunked into packets, encoded and decoded at switches within the local network. | Email is directed at the correct computer on network. MAC, LLC |
 | 1 |Physical  |Data is converted to bits and sent through hardware, pins, volts, and cables through electricity.  | |
 
 
@@ -79,6 +79,6 @@ Using the German/Russian correspondence example as a guide, develop a new analog
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzgzODI2MywxNjMzODU4NTQwLDE3OT
-YzODM2OTEsMTQwMzY1NjY1MF19
+eyJoaXN0b3J5IjpbLTEzNjcwNjMxNzcsMTYzMzg1ODU0MCwxNz
+k2MzgzNjkxLDE0MDM2NTY2NTBdfQ==
 -->
