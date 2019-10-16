@@ -74,11 +74,7 @@ Using tools like Wireshark (we'll use this later), packets can be captured and i
 
 ![enter image description here](https://lh3.googleusercontent.com/A66Iq0E9_4XS1R4BVZ1se7brZXnkomzQpWL6H3VCdBvlT0hud_Axc0Bfgfqe0BTkjLhLfdXRy4k)
 
-As we've figured out, this was an unbeatable challenge - this TCP is connected securely through HTTPS, and data is encrypted. Now, 
-
-This video and the next one in the series visually break down how TCP transmission works. Not sure exactly how to turn this into a we do (other than *another* whiteboarding activity) but I think something like this is useful to walk through. 
-[https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
-
+As we've figured out, this was an unbeatable challenge - this TCP is connected securely through HTTPS, and data is encrypted. 
 
 ## You Do
 Using the example above as a guide, dissect the following intercepted packet: 
@@ -89,7 +85,7 @@ Using the example above as a guide, dissect the following intercepted packet:
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzI3NjAzLDM5OTAxNDg1Myw5MTM5NT
-E2MzAsMTY4NzUyMzY4NSwxMDQyMTQ0MjksNzIyNDI5MDYwXX0=
-
+eyJoaXN0b3J5IjpbMTM0MjU1NjUzNywyMDY3Mjc2MDMsMzk5MD
+E0ODUzLDkxMzk1MTYzMCwxNjg3NTIzNjg1LDEwNDIxNDQyOSw3
+MjI0MjkwNjBdfQ==
 -->
