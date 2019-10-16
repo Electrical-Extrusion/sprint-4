@@ -79,7 +79,7 @@ Thankfully, this packet printout is fairly straightforward. Reading from top dow
 * IP addresses aren't technically part of a TCP packet, but they are always sent in tandem. 
 * Port numbers tell us the end points of the connection. Here, 443 indicates that the user is connecting to a secure site via HTTPS, and 57880 indicates a private port on the user's end. Since 443 is listed as source, we know that this packet is traveling from the secure site, server, to the client. 
 * Sequence number is the number assigned to the first byte of data in the current message. It tells us where in the overall data flow this packet belongs. 
-* Acknowledgment number contains the next sequence number that the re
+* Acknowledgment number contains the next sequence number that the is expected in 
 
 
 ## You Do
@@ -96,9 +96,9 @@ Using the example above as a guide, answer the following questions about this pa
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxNjgxODcxLC0xNjg1MTE4Mzc0LDIxMD
-E1NDUyOTYsNTExODQxNTE5LC0xMTAyMjQ4MDcyLC0xNDAyMTE5
-OTc1LDEzNDI1NTY1MzcsMjA2NzI3NjAzLDM5OTAxNDg1Myw5MT
-M5NTE2MzAsMTY4NzUyMzY4NSwxMDQyMTQ0MjksNzIyNDI5MDYw
-XX0=
+eyJoaXN0b3J5IjpbMTEyOTg1NzQ0Myw4NjE2ODE4NzEsLTE2OD
+UxMTgzNzQsMjEwMTU0NTI5Niw1MTE4NDE1MTksLTExMDIyNDgw
+NzIsLTE0MDIxMTk5NzUsMTM0MjU1NjUzNywyMDY3Mjc2MDMsMz
+k5MDE0ODUzLDkxMzk1MTYzMCwxNjg3NTIzNjg1LDEwNDIxNDQy
+OSw3MjI0MjkwNjBdfQ==
 -->
