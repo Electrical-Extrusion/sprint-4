@@ -1,5 +1,4 @@
 # Objective
-# TEST
 Install a packet capture utility (wireshark) to capture and view packets on student's local computer.
 
 ## Instructor Notes
@@ -48,5 +47,5 @@ Use the statistcs tool to figure out the average packet size sent and recieved w
 - Official Documentation: [Wireshark User's Guide]([https://www.wireshark.org/docs/wsug_html_chunked/](https://www.wireshark.org/docs/wsug_html_chunked/))
 - Blog: [How to Use Wireshark](https://www.varonis.com/blog/how-to-use-wireshark/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzg0MzEzOF19
+eyJoaXN0b3J5IjpbOTQ4NDcyODk3XX0=
 -->
