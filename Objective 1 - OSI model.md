@@ -29,7 +29,7 @@ Let's take a look at the layers, broken into the 'Application Level' layers (5-7
 
 A real life analogy might look something like this: 
 **Application Level**
- 7. Write a letter in German for a Russian host. 
+ 7. Write a letter in German for a Russian friend. 
  6. Translate letter into a universal language. 
  5. Place letter in envelope and label sender/return address. 
 
@@ -39,7 +39,7 @@ A real life analogy might look something like this:
  2. Letter is placed in Russian mailbox.  
  1 Recipient reads letter.  
 
-In this analogy, the user (presumably german-speaking), 
+In this analogy, the user (presumably German-speaking), needs to communicate with a Russian-speaking friend. 
 
 ## We Do
 Okay, so that still doesn't answer the question - what actually happens when you type in google.com? Let's synthesize those steps with a whiteboarding activity, and this time, consider both the transmission, and reciept of data. Keep this drawing handy, because you'll need it again throughout the unit. 
@@ -60,5 +60,5 @@ The required video animates the process well:*[https://www.youtube.com/watch?v=I
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4Mzc2NDE3MCwxNTUxNDQyMTYyXX0=
+eyJoaXN0b3J5IjpbMTgwNzQzNjU4LDE1NTE0NDIxNjJdfQ==
 -->
