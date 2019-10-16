@@ -17,9 +17,9 @@ Understand the Open Systems Interconnection (OSI) seven layer model for networks
 Let's take a look at the layers, broken into the 'Application Level' layers (5-7) and the 'Moving Data around' layers (1-4). If you've ever used the internet you are familiar with layer 7, the application layer, because it is where you interact with data (think: sending an email, or preforming a google search) but, the rest are equally important. If any one layer was skipped or broken, information could not move between devices. As shown in the diagram, both devices (client and server) involved in the data transfer will go through these steps. For now, let's explore what happens on the user end when you type in 'google.com':
 
 **Application Level**
- 7. Application - the user (human) puts in a request for information.
- 6. Presentation - Transforms and translates request data so it can be read.
- 5. Session - connection between user and receiving server is o.
+ 7. Application - The user (human) puts in a request for information.
+ 6. Presentation - Data is transformed and translated so it can be read.
+ 5. Session - Connection between user and receiving server is opened and maintaned.
 
 **Moving Data Around**
  4. Transport - Data moves from end to end, transfer is completed. (TCP, UDP).
@@ -60,5 +60,5 @@ Okay, so that still doesn't answer the question - what actually happens when you
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NTgyNzQ0NiwtMTkxNDY3Nzc0OF19
+eyJoaXN0b3J5IjpbNzc0MzkwNDQyLC0xOTE0Njc3NzQ4XX0=
 -->
