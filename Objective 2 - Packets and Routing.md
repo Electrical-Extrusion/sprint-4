@@ -33,7 +33,7 @@ An actual packet is configured something like this. It contains 32 bits of data 
 
 ![enter image description here](https://lh3.googleusercontent.com/EGkPMWtfmCytOWdQPvofoHYAbiSv8-FL6fvAXm526xjmPQsZ7dLW7Y1QoRmFn8l8P0sL5ctVlAI)
 
-Before we begin inspecting real-life packets, 
+Before we begin inspecting real-life packets, we need a working definition of what each field represents. 
 *The following is borrowed from: [Tech Republic](https://www.techrepublic.com/article/exploring-the-anatomy-of-a-data-packet/)*
 -   **Source Port**  and  **Destination Port fields**  (16 bits each) identify the end points of the connection.
 -   **Sequence Number field**  (32 bits) specifies the number assigned to the first byte of data in the current message. Under certain circumstances, it can also be used to identify an initial sequence number to be used in the upcoming transmission.
@@ -90,8 +90,8 @@ Thankfully, this packet printout is fairly straightforward. Reading from top dow
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTU0NTI5Niw1MTE4NDE1MTksLTExMD
-IyNDgwNzIsLTE0MDIxMTk5NzUsMTM0MjU1NjUzNywyMDY3Mjc2
-MDMsMzk5MDE0ODUzLDkxMzk1MTYzMCwxNjg3NTIzNjg1LDEwND
-IxNDQyOSw3MjI0MjkwNjBdfQ==
+eyJoaXN0b3J5IjpbLTE1OTQzMzAwMjQsMjEwMTU0NTI5Niw1MT
+E4NDE1MTksLTExMDIyNDgwNzIsLTE0MDIxMTk5NzUsMTM0MjU1
+NjUzNywyMDY3Mjc2MDMsMzk5MDE0ODUzLDkxMzk1MTYzMCwxNj
+g3NTIzNjg1LDEwNDIxNDQyOSw3MjI0MjkwNjBdfQ==
 -->
