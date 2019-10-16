@@ -10,18 +10,19 @@ Understand and explain how packets are constructed and transmitted on a network.
 
 
 ## I Do
-Cybersecurity becomes important when data is moving around from one place to another. Data that isn't properly secured or broken up can be easily intercepted by hackers in a process that we'll learn later on. For now, we'll focus on defining the term "packets" and understanding how those are transmitted on a network. 
+Cybersecurity is concerned with the protection of data. Breeches most commonly occur when data is moving around from one place to another. Data that isn't properly secured or broken up can be easily intercepted by hackers in a process that we'll learn later on. For now, we'll focus on defining the term "packets" and understanding how those are transmitted on a network. 
 
+A packet is a chunk of data. When a user makes a request to send or receive information, it takes the form of data. This data is broken into packets, which may all take different routes, but eventually end up at the same destination to complete the request. Intercepting unencrypted packets is one-way hackers can obtain sensitive information: like usernames and passwords. 
 
 **Packet Construction**
-A packet is a chunk of data. When a user makes a request to send or receive information, it takes the form of data. This data is broken into packets, which may all take different routes, but eventually end up at the same destination to complete the request. Intercepting unencrypted packets is one-way hackers can obtain sensitive information: like usernames and passwords. Regardless of the type of security, or data included, packets always contain the following three parts. When learning this concept it can be helpful to use an analogy of literal packages, and consider how these find their way through a postal system. 
+Regardless of the type of security, or data included, packets always contain the following three parts. When learning this concept it can be helpful to use an analogy of literal packages, and consider how these find their way through a postal system. 
 |Packet Part|Definition| Analogy|
 |--|--|--|
 | **Header** | The header contains instructions like the sender's IP address, receiver's IP address, Protocol, and Packer number |Front of an envelope - addresses, shipping label or stamp. |
 |**Payload** | The payload is where the actual data is stored |The letter inside the envelope.|
 | **Trailer**  | The trailer contains data to show that the interpreter has reached the end of the packet, or, throws an error when needed  |Signature at the end of the letter. |
 
-Packet construction is dictated by something called the Transmission Control Protocol (TCP). TCP exists at both the sending and receiving end of a process. When someones sends a request, the TCP on the sender's end breaks the data into payloads, and labels each with the needed header, creating a multitude of packets. 
+
 
 This whole thing is kind of like a big amazon order being broken into different packages. Each box contains different objects (the payload), but has the same shipping label (header) as the others, and all are united through an order number, tracked by Amazon to make sure you get your order on time (Trailer).  
 
@@ -50,5 +51,5 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyNDI5MDYwXX0=
+eyJoaXN0b3J5IjpbLTE4NDA1OTU0NSw3MjI0MjkwNjBdfQ==
 -->
