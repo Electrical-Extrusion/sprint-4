@@ -19,10 +19,10 @@ Let's take a look at the layers, broken into the 'Application Level' layers (5-7
 **Application Level**
  7. Application - the user (human) puts in a request for information.
  6. Presentation - Transforms and translates request data so it can be read.
- 5. Session - Opens and maintains connection between user and receiving server.
+ 5. Session - connection between user and receiving server is o.
 
 **Moving Data Around**
- 4. Transport - Data move from end to end, transfer is completed. (TCP, UDP).
+ 4. Transport - Data moves from end to end, transfer is completed. (TCP, UDP).
  3. Network - Data moves through switching and routing pathways. (IP addresses).
  2. Data Link - Data is chunked into packets, encoded and decoded at switches within the local network.  
  1 Physical - Data is converted to bits and sent through hardware, pins, volts, and cables through electricity. 
@@ -60,5 +60,5 @@ Okay, so that still doesn't answer the question - what actually happens when you
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQ2Nzc3NDhdfQ==
+eyJoaXN0b3J5IjpbLTc0NTgyNzQ0NiwtMTkxNDY3Nzc0OF19
 -->
