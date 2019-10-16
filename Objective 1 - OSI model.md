@@ -18,14 +18,20 @@ Generally speaking, information is moving from a user (often reffered to as a cl
  
 Let's take a look at the layers, broken into the 'Application Level' layers (5-7) and the 'Moving Data around' layers (1-4). If you've ever used the internet you are familiar with layer 7, the application layer, because it is where you interact with data (think: sending an email, or preforming a google search) but, the rest are equally important. If any one layer was skipped or broken, information could not move between devices. As shown in the diagram, both devices (client and server) involved in the data transfer will go through these steps. For now, let's explore what happens on the user end when you type in 'google.com'. Information is moving down the layers, starting with Application. 
 
+First up, Application level layers. 
 | Layer| Name | Explanation |Example|
 |--|--|--|--|
-| 7 |  | | |
-|6|--|--|--|
-| 5 |  | | |
-| 4 |  | | |
-| 5 |  | | |
-| 5 |  | | |
+| 7 |Application | | |
+|6|Presentation|--|--|
+| 5 |Session| | |
+
+Next, let's look at the moving data around layers. 
+| Layer| Name | Explanation |Example|
+|--|--|--|--|
+| 4 |Transport| | |
+| 3 |Network| | |
+| 2 |Data Link| | |
+| 1 |Physical  | | |
 
 
 **Application Level**
@@ -73,6 +79,6 @@ Using the German/Russian correspondence example as a guide, develop a new analog
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTA4NjM1MjQsMTYzMzg1ODU0MCwxNz
-k2MzgzNjkxLDE0MDM2NTY2NTBdfQ==
+eyJoaXN0b3J5IjpbLTMzMTMyMjI2OCwxNjMzODU4NTQwLDE3OT
+YzODM2OTEsMTQwMzY1NjY1MF19
 -->
