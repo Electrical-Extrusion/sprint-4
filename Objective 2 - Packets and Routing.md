@@ -73,15 +73,18 @@ Packet construction and transmission are dictated by TCP. TCP exists at both the
 ## You Do
 Using the example above as a guide, dissect the following intercepted packet: 
 ![enter image description here](https://lh3.googleusercontent.com/BxWSReZ0wbBW3u0QZDZpWNkwOWfUkDL8ZQW9eVrZNPeYxp0ePfGhtLRd9bTG9i9hnIAwStrFV48)
-Thankfully, this packet printout is fairly straightforward. Reading from top down, we start to notice some of the 
+Thankfully, this packet printout is fairly straightforward. Reading from top down, we start to notice some of the packet components discussed above. For now, we'll focus on: IP addresses, ports, sequence numbers, acknowledgement numbers, flag, cheksum, and data. 
 ![enter image description here](https://lh3.googleusercontent.com/68F2hIAa_tmkDwtwggDtLc26B8JPjMco0TBe-l3gq0Q9DPRl4CbZ57why7G-A0nw39mmltbCUvc)
+IP addresses aren't technically part of a TCP packet, but they are always sent in tandem. 
+
+
 
 ## Additional Resources
 
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODI2MDc1NywtMTEwMjI0ODA3MiwtMT
+eyJoaXN0b3J5IjpbLTMxOTI5MDc2OSwtMTEwMjI0ODA3MiwtMT
 QwMjExOTk3NSwxMzQyNTU2NTM3LDIwNjcyNzYwMywzOTkwMTQ4
 NTMsOTEzOTUxNjMwLDE2ODc1MjM2ODUsMTA0MjE0NDI5LDcyMj
 QyOTA2MF19
