@@ -54,12 +54,13 @@ The required video animates the process well:*[https://www.youtube.com/watch?v=I
   
 
 ## Additional Resources
+- Blog: [You won't Believe what the OSI Model and Pizza Have in Common](https://www.versatek.com/blog/you-wont-believe-what-the-osi-model-and-pizza-have-in-common/)
 - Blog: [OSI Model Layers - "Explained"](https://medium.com/learn-with-the-lean-programmer/osi-model-layers-explained-ee1d43058c1f)
 
   
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTkzMDg1MSwxODA3NDM2NTgsMTU1MT
-Q0MjE2Ml19
+eyJoaXN0b3J5IjpbLTE4NjAwNzgzMTQsMTgwNzQzNjU4LDE1NT
+E0NDIxNjJdfQ==
 -->
