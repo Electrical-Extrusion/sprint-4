@@ -16,7 +16,7 @@ Generally speaking, in this process, information is moving from a user (often re
 
 ![source: [https://www.webopedia.com/quick_ref/OSI_Layers.asp](https://www.webopedia.com/quick_ref/OSI_Layers.asp)](https://lh3.googleusercontent.com/iMnsbSRP1rAS3MgO3u_A2BhOBz1OXgPNzhkd-Xi6awQnsktyU0Iulyark66HuXaHVOfWuSAj2G0) *need to make a lambda-approved graphic*
  
-Let's take a look at the layers, broken into the 'Application Level' layers (5-7) and the 'Moving Data around' layers (1-4). If you've ever used the internet you are familiar with layer 7, the application layer, because it is where you interact with data (think: sending an email, or preforming a google search) but, the rest are equally important. If any one layer was skipped or broken, information could not move between devices. As shown in the diagram, both devices (client and server) involved in the data transfer will go through these steps. For now, let's explore what happens on the user end when you type in 'google.com'. Information is moving down the layers, starting with Application.  Some of the examples will make more sense later on in this module. 
+Let's take a look at the layers, broken into the 'Application Level' layers (5-7) and the 'Moving Data around' layers (1-4). If you've ever used the internet you are familiar with layer 7, the application layer, because it is where you interact with data (think: sending an email, or preforming a google search) but, the rest are equally important. If any one layer was skipped or broken, information could not move between devices. As shown in the diagram, both devices (client and server) involved in the data transfer will go through these steps. For now, let's explore what happens on the user end when you make a request. Information is moving down the layers, starting with Application.  Some of the examples may not make sense until later on in this module. 
 
 **Application level layers:** 
 | Layer| Name | Explanation |Example|
@@ -77,6 +77,6 @@ Using the German/Russian correspondence example as a guide, develop a new analog
  1 Physical - Data is converted to bits and sent through hardware, pins, volts, and cables through electricity. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwNDEyNjkyLC00NzExMjQyNTcsMTYzMz
+eyJoaXN0b3J5IjpbNzI5MDUxMTQwLC00NzExMjQyNTcsMTYzMz
 g1ODU0MCwxNzk2MzgzNjkxLDE0MDM2NTY2NTBdfQ==
 -->
