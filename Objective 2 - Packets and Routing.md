@@ -29,10 +29,11 @@ This whole thing is kind of like a big amazon order being broken into different 
 
 While the analogy is helpful for understanding on a conceptual level, as a cybersecurity professional, you may be tasked with inspecting specific packets - we'll spend the rest of this objective tackling those components. 
 
-An actual packet is configured like this. 
+An actual packet is configured something like this. It contains 32 bits of data and always has the following information. With the exception of the Data field, all are helping get the information from the client to the server. 
+
 ![enter image description here](https://lh3.googleusercontent.com/EGkPMWtfmCytOWdQPvofoHYAbiSv8-FL6fvAXm526xjmPQsZ7dLW7Y1QoRmFn8l8P0sL5ctVlAI)
 
-The TCP packet format consists of these fields. With the exception of the Data field, all are helping get the information from the client to the server. 
+Before we begin inspecting real-life packets, 
 *The following is borrowed from: [Tech Republic](https://www.techrepublic.com/article/exploring-the-anatomy-of-a-data-packet/)*
 -   **Source Port**  and  **Destination Port fields**  (16 bits each) identify the end points of the connection.
 -   **Sequence Number field**  (32 bits) specifies the number assigned to the first byte of data in the current message. Under certain circumstances, it can also be used to identify an initial sequence number to be used in the upcoming transmission.
@@ -89,8 +90,8 @@ Thankfully, this packet printout is fairly straightforward. Reading from top dow
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1MjU5NTg0LDUxMTg0MTUxOSwtMTEwMj
-I0ODA3MiwtMTQwMjExOTk3NSwxMzQyNTU2NTM3LDIwNjcyNzYw
-MywzOTkwMTQ4NTMsOTEzOTUxNjMwLDE2ODc1MjM2ODUsMTA0Mj
-E0NDI5LDcyMjQyOTA2MF19
+eyJoaXN0b3J5IjpbMjEwMTU0NTI5Niw1MTE4NDE1MTksLTExMD
+IyNDgwNzIsLTE0MDIxMTk5NzUsMTM0MjU1NjUzNywyMDY3Mjc2
+MDMsMzk5MDE0ODUzLDkxMzk1MTYzMCwxNjg3NTIzNjg1LDEwND
+IxNDQyOSw3MjI0MjkwNjBdfQ==
 -->
