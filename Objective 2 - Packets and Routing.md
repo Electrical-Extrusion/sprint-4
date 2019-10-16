@@ -77,7 +77,8 @@ Thankfully, this packet printout is fairly straightforward. Reading from top dow
 ![enter image description here](https://lh3.googleusercontent.com/68F2hIAa_tmkDwtwggDtLc26B8JPjMco0TBe-l3gq0Q9DPRl4CbZ57why7G-A0nw39mmltbCUvc)
 * IP addresses aren't technically part of a TCP packet, but they are always sent in tandem. 
 * Port numbers tell us the end points of the connection. Here, 443 indicates that the user is connecting to a secure site via HTTPS, and 57880 indicates a private port on the user's end. 
-* Sequence number is the number assigned to the first byte of data in the current message. Here, a sequence number of 200 
+* Sequence number is the number assigned to the first byte of data in the current message. It tells us where in the overall data flow this packet belongs. 
+* Acknowledgment number 
 
 
 
@@ -86,8 +87,8 @@ Thankfully, this packet printout is fairly straightforward. Reading from top dow
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjY5NjIwOCwtMTEwMjI0ODA3MiwtMT
-QwMjExOTk3NSwxMzQyNTU2NTM3LDIwNjcyNzYwMywzOTkwMTQ4
-NTMsOTEzOTUxNjMwLDE2ODc1MjM2ODUsMTA0MjE0NDI5LDcyMj
-QyOTA2MF19
+eyJoaXN0b3J5IjpbLTEzMzUxMDY3NzMsLTExMDIyNDgwNzIsLT
+E0MDIxMTk5NzUsMTM0MjU1NjUzNywyMDY3Mjc2MDMsMzk5MDE0
+ODUzLDkxMzk1MTYzMCwxNjg3NTIzNjg1LDEwNDIxNDQyOSw3Mj
+I0MjkwNjBdfQ==
 -->
