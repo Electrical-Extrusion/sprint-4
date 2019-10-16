@@ -81,7 +81,8 @@ Thankfully, this packet printout is fairly straightforward. Reading from top dow
 - Sequence number is the number assigned to the first byte of data in the current message. It tells us where in the overall data flow this packet belongs. 
 - Acknowledgment number contains the next sequence number that the is expected in flow of data. In and of itself it doesn't tell us much, but combined with packets around it, might be helpful. 
 - Flag tells us what type of packet this is - here, an ACK packet, designates that this packet is acknowledging reciept of some information. Maybe an email was sent? 
-- A checksum of 0 indicates that the data was not damaged in transit it is unverfied 
+- A checksum of 0 indicates that the data was not damaged in transit. The fact that it is unverfied only means that the software used for packet sniffing has not completed the data transfer, and that damage can't be confirmed. 
+- Finally, our packet contains the encrypted data, not much for us to see, but the Data Link and Physical layers will make use of that later on. 
 
 
 ## You Do
@@ -98,9 +99,9 @@ Using the example above as a guide, answer the following questions about this pa
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2MjUxODk2LDg2MTY4MTg3MSwtMTY4NT
-ExODM3NCwyMTAxNTQ1Mjk2LDUxMTg0MTUxOSwtMTEwMjI0ODA3
-MiwtMTQwMjExOTk3NSwxMzQyNTU2NTM3LDIwNjcyNzYwMywzOT
-kwMTQ4NTMsOTEzOTUxNjMwLDE2ODc1MjM2ODUsMTA0MjE0NDI5
-LDcyMjQyOTA2MF19
+eyJoaXN0b3J5IjpbLTEyMDM3OTcwOTYsODYxNjgxODcxLC0xNj
+g1MTE4Mzc0LDIxMDE1NDUyOTYsNTExODQxNTE5LC0xMTAyMjQ4
+MDcyLC0xNDAyMTE5OTc1LDEzNDI1NTY1MzcsMjA2NzI3NjAzLD
+M5OTAxNDg1Myw5MTM5NTE2MzAsMTY4NzUyMzY4NSwxMDQyMTQ0
+MjksNzIyNDI5MDYwXX0=
 -->
