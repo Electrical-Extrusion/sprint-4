@@ -33,7 +33,7 @@ Let's take a look at the layers, broken into the 'Application Level' layers (5-7
 | 2 |Data Link| Data is chunked into packets, encoded and decoded at switches within a single local network. | Email is directed at the correct computer on network, MAC, LLC |
 | 1 |Physical  |Data is converted to bits and sent through hardware, pins, volts, and cables through electricity.  | Electricity travelling through ethernet cord, power cord.  |
 
-A real life analogy might look something like this: 
+A real-life analogy might look something like this: 
 **Application Level**
  7. Write a letter in German for a Russian friend. 
  6. Translate letter into a universal language. 
@@ -77,6 +77,6 @@ Using the German/Russian correspondence example as a guide, develop a new analog
  1 Physical - Data is converted to bits and sent through hardware, pins, volts, and cables through electricity. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5MDUxMTQwLC00NzExMjQyNTcsMTYzMz
-g1ODU0MCwxNzk2MzgzNjkxLDE0MDM2NTY2NTBdfQ==
+eyJoaXN0b3J5IjpbLTEyNTc4NzcyMjUsLTQ3MTEyNDI1NywxNj
+MzODU4NTQwLDE3OTYzODM2OTEsMTQwMzY1NjY1MF19
 -->
