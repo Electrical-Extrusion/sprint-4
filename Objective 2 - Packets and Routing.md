@@ -76,10 +76,12 @@ Technically, looks more like this:
 ![enter image description here](https://lh3.googleusercontent.com/BxWSReZ0wbBW3u0QZDZpWNkwOWfUkDL8ZQW9eVrZNPeYxp0ePfGhtLRd9bTG9i9hnIAwStrFV48)
 Thankfully, this packet printout is fairly straightforward. Reading from top down, we start to notice some of the packet components discussed above. For now, we'll focus on: IP addresses, ports, sequence numbers, acknowledgement numbers, flag, cheksum, and data. 
 ![enter image description here](https://lh3.googleusercontent.com/68F2hIAa_tmkDwtwggDtLc26B8JPjMco0TBe-l3gq0Q9DPRl4CbZ57why7G-A0nw39mmltbCUvc)
-* IP addresses aren't technically part of a TCP packet, but they are always sent in tandem. 
-* Port numbers tell us the end points of the connection. Here, 443 indicates that the user is connecting to a secure site via HTTPS, and 57880 indicates a private port on the user's end. Since 443 is listed as source, we know that this packet is traveling from the secure site, server, to the client. 
+- IP addresses aren't technically part of a TCP packet, but they are always sent in tandem. 
+- Port numbers tell us the end points of the connection. Here, 443 indicates that the user is connecting to a secure site via HTTPS, and 57880 indicates a private port on the user's end. Since 443 is listed as source, we know that this packet is traveling from the secure site, server, to the client. 
 * Sequence number is the number assigned to the first byte of data in the current message. It tells us where in the overall data flow this packet belongs. 
-* Acknowledgment number contains the next sequence number that the is expected in 
+* Acknowledgment number contains the next sequence number that the is expected in flow of data. In and of itself it doesn't tell us much, but combined with packets around it, might be helpful. 
+* Flag tells us what type of packet this is - here, an ACK packet, designates that this packet is acknowledging reciept of some information. Maybe an email was sent? 
+* 
 
 
 ## You Do
@@ -96,7 +98,7 @@ Using the example above as a guide, answer the following questions about this pa
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTg1NzQ0Myw4NjE2ODE4NzEsLTE2OD
+eyJoaXN0b3J5IjpbMTU0NjcwODU2MSw4NjE2ODE4NzEsLTE2OD
 UxMTgzNzQsMjEwMTU0NTI5Niw1MTE4NDE1MTksLTExMDIyNDgw
 NzIsLTE0MDIxMTk5NzUsMTM0MjU1NjUzNywyMDY3Mjc2MDMsMz
 k5MDE0ODUzLDkxMzk1MTYzMCwxNjg3NTIzNjg1LDEwNDIxNDQy
