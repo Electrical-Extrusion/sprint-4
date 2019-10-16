@@ -45,7 +45,7 @@ A real life analogy might look something like this:
 Okay, so that still doesn't answer the question - what actually happens when you type in google.com? Let's synthesize those steps with a whiteboarding activity, and this time, consider both the transmission, and reciept of data. Keep this drawing handy, because you'll need it again throughout the unit. 
 
   *Whiteboarding should walk through the 7 steps and visually display the transfer from application to device to routers to physical components and back again
-This video animates the process well:*[https://www.youtube.com/watch?v=Ilk7UXzV_Qc&t=192s](https://www.youtube.com/watch?v=Ilk7UXzV_Qc&t=192s) *
+The required video animates the process well:*[https://www.youtube.com/watch?v=Ilk7UXzV_Qc&t=192s](https://www.youtube.com/watch?v=Ilk7UXzV_Qc&t=192s) *
 
 ## You Do
 
@@ -60,5 +60,5 @@ This video animates the process well:*[https://www.youtube.com/watch?v=Ilk7UXzV_
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTQ1MTI5OCw3NzQzOTA0NDJdfQ==
+eyJoaXN0b3J5IjpbMTU1MTQ0MjE2Ml19
 -->
