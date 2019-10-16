@@ -67,18 +67,12 @@ Conceptually, looks like this:
 
 Technically, looks more like this: 
 ![enter image description here](https://lh3.googleusercontent.com/9sRO80ifa3IzSP4OPzDdcmH4zmVnMx7s71UYDmWMmQ-KcFOx22cL7eEA55PUOgWVWTi_621xrUo)
-*Need to make a Lambda graphic* 
 
 
 
 
 ## We Do
  Using tools like Wireshark, which we will work closely with later on, packets can be captured and inspected for component parts. Together, let's annotate the following packet data. It may give a glimpse into what is happening on the network in question. 
-
-
-
-## You Do
-Using the example above as a guide, dissect the following intercepted packet: 
 ![enter image description here](https://lh3.googleusercontent.com/BxWSReZ0wbBW3u0QZDZpWNkwOWfUkDL8ZQW9eVrZNPeYxp0ePfGhtLRd9bTG9i9hnIAwStrFV48)
 Thankfully, this packet printout is fairly straightforward. Reading from top down, we start to notice some of the packet components discussed above. For now, we'll focus on: IP addresses, ports, sequence numbers, acknowledgement numbers, flag, cheksum, and data. 
 ![enter image description here](https://lh3.googleusercontent.com/68F2hIAa_tmkDwtwggDtLc26B8JPjMco0TBe-l3gq0Q9DPRl4CbZ57why7G-A0nw39mmltbCUvc)
@@ -88,13 +82,17 @@ Thankfully, this packet printout is fairly straightforward. Reading from top dow
 * Acknowledgment number contains the next sequence number that the re
 
 
+## You Do
+Using the example above as a guide, dissect the following intercepted packet: 
+
+
 
 ## Additional Resources
 
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzMwMDg3MTQsLTE2ODUxMTgzNzQsMj
+eyJoaXN0b3J5IjpbLTE4MTI2NTA1NDcsLTE2ODUxMTgzNzQsMj
 EwMTU0NTI5Niw1MTE4NDE1MTksLTExMDIyNDgwNzIsLTE0MDIx
 MTk5NzUsMTM0MjU1NjUzNywyMDY3Mjc2MDMsMzk5MDE0ODUzLD
 kxMzk1MTYzMCwxNjg3NTIzNjg1LDEwNDIxNDQyOSw3MjI0Mjkw
