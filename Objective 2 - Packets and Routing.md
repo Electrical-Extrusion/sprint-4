@@ -55,7 +55,7 @@ Before we begin inspecting real-life packets, we need a working definition of wh
 
 
 **Packet Transmission**
-Packages, letters, and packets alike need a way to get from point A to point B. In our analogy, UPS, USPS, and FedEx, all optimize routes and who physically move the packages. Packet transmission, works very similarly. As packets are built and labeled they travel through the network on **routers**. Routers are simply devices that forward along packets. Packets keep moving from router to router, following the lowest-traffic path they can find, until they reach the receiving end. Eventually, all of the packets should arrive, but they might be out of order, or delayed. That's where the other TCP comes into play, checking to make sure all of the packets have arrived, and moving to the next step in OSI, or returning an error message to the sender. 
+Packages, letters, and packets alike need a way to get from point A to point B. In our mail analogy, UPS, USPS, and FedEx optimize routes and who physically move the packages. Packet transmission, works very similarly. As packets are built and labeled they travel through the network on **routers**. Routers are simply devices that forward along packets. Packets keep moving from router to router, following the lowest-traffic path they can find, until they reach the receiving end. Eventually, all of the packets should arrive, but they might be out of order, or delayed. That's where the other TCP comes into play, checking to make sure all of the packets have arrived, and moving to the next step in OSI, or returning an error message to the sender. 
 
 On a more technical level, once a connection is established between two ports, one on the user (initiator) side and one on the reciever side, TCP sends a series if signals back and forth, hard coded with special codes (sequence and acknowledgement numbers), until a 'FIN' code is reached to end the process. 
 
@@ -90,8 +90,8 @@ Thankfully, this packet printout is fairly straightforward. Reading from top dow
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQzMzAwMjQsMjEwMTU0NTI5Niw1MT
-E4NDE1MTksLTExMDIyNDgwNzIsLTE0MDIxMTk5NzUsMTM0MjU1
-NjUzNywyMDY3Mjc2MDMsMzk5MDE0ODUzLDkxMzk1MTYzMCwxNj
-g3NTIzNjg1LDEwNDIxNDQyOSw3MjI0MjkwNjBdfQ==
+eyJoaXN0b3J5IjpbODA2MzQ0NDQwLDIxMDE1NDUyOTYsNTExOD
+QxNTE5LC0xMTAyMjQ4MDcyLC0xNDAyMTE5OTc1LDEzNDI1NTY1
+MzcsMjA2NzI3NjAzLDM5OTAxNDg1Myw5MTM5NTE2MzAsMTY4Nz
+UyMzY4NSwxMDQyMTQ0MjksNzIyNDI5MDYwXX0=
 -->
