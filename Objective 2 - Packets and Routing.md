@@ -15,7 +15,7 @@ Cybersecurity is concerned with the protection of data. Though they can occur an
 In addition, you'll need a strong understanding of the term "packets." In short, a packet is a chunk of data. When a user makes a request to send or receive information, it takes the form of data. In order to move from the client to the server, data must be placed (and sometimes broken apart) into packets. These packets may all take different routes through the world wide web, but eventually end up at the same destination and, when pieced back together, complete the user's request. Scanning through unencrypted packets is one-way hackers can obtain sensitive information: like usernames and passwords. 
 
 **Transmission Control Protocol**
-Packet construction and transmission are dictated by TCP. TCP exists at both the sending and receiving end of a process. Both TCP entities work together to ensure timely, accurate data transfer. They do this using something called the 3-way-handshake. 
+Packet construction and transmission are dictated by TCP. TCP exists at both the sending and receiving end of a process. Both TCP entities work together to ensure timely, accurate data transfer using something called the 3-way-handshake. In the 3-way handshake, the client sends a packet "SYN", indicating a desire to open communication with the recieving server. If the recieving server accepts, it sends back another "SYN" followed by an "ACK." The client sends another "ACK" to aknowledge 
 
 ![enter image description here](https://lh3.googleusercontent.com/9sRO80ifa3IzSP4OPzDdcmH4zmVnMx7s71UYDmWMmQ-KcFOx22cL7eEA55PUOgWVWTi_621xrUo)
 *Need to make a Lambda graphic* 
@@ -58,6 +58,6 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzY2NjgzMywxNjg3NTIzNjg1LDEwND
-IxNDQyOSw3MjI0MjkwNjBdfQ==
+eyJoaXN0b3J5IjpbLTEzNDQyNjYzNDgsMTY4NzUyMzY4NSwxMD
+QyMTQ0MjksNzIyNDI5MDYwXX0=
 -->
