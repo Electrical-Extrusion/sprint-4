@@ -48,6 +48,21 @@ Recall that our OSI modelcontains 7 layers, and looks like this:
 In the first objective, we talked about OSI on a conceptual level, without knowledge of protocols. Now, we can start to add on to that understanding, by placing protocols into specific layers. 
 
 
+*Instructor nots - copied from objective 1, contains all the protocols discussed here* 
+**Application-level layers:** 
+| Layer| Name | Explanation |Example|
+|--|--|--|--|
+| 7 |Application |The user (human) puts in a request for information. | Chrome, Outlook, Skype, any HTTP request |
+|6|Presentation|Data is transformed and translated so it can be read. Encryption also happens here. |"Send Email" -> 11001001 -> !@&sh12#!@|
+| 5 |Session|Connection between user and receiving server is opened and maintained. Authentication happens here. | Streaming channel is opened. |
+
+**Moving data around layers:** 
+| Layer| Name | Explanation |Example|
+|--|--|--|--|
+| 4 |Transport|Data moves from end to end, transfer is completed. Dictates how fast data is sent, where, and when. |TCP, UDP |
+| 3 |Network|Data moves through switching and routing pathways on multiple local networks. | Email is directed to the correct wi-fi network, IP addresses |
+| 2 |Data Link| Data is chunked into packets, encoded and decoded at switches within a single local network. | Email is directed at the correct computer on the network, MAC, LLC |
+| 1 |Physical  |Data is converted to bits and sent through hardware, pins, volts, and cables through electricity.  | Electricity traveling through ethernet cord, power cord.  |
 
 
 ## You Do
@@ -62,5 +77,5 @@ Summarize your current understanding of what happens when you type google.com in
 - Reading (UDP vs TCP): [User Diagram Protocol](https://www.lifewire.com/user-datagram-protocol-817976)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzMDE1MzEsMjYxOTk4MjJdfQ==
+eyJoaXN0b3J5IjpbLTMzNzk1Mzc5NCwyNjE5OTgyMl19
 -->
