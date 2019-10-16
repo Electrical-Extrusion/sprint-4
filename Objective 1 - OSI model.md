@@ -59,7 +59,7 @@ Using the German/Russian correspondence example as a guide, develop a new analog
 ## Additional Resources
 - Blog: [You won't Believe what the OSI Model and Pizza Have in Common](https://www.versatek.com/blog/you-wont-believe-what-the-osi-model-and-pizza-have-in-common/)
 - Blog: [OSI Model Layers - "Explained"](https://medium.com/learn-with-the-lean-programmer/osi-model-layers-explained-ee1d43058c1f)
-
+- Tricks to Memorize OSI Layers: [The OSI model explained: How to understand (and remember) the 7 layer network model](https://www.networkworld.com/article/3239677/the-osi-model-explained-how-to-understand-and-remember-the-7-layer-network-model.html)
   
 
 
@@ -77,7 +77,7 @@ Using the German/Russian correspondence example as a guide, develop a new analog
  1 Physical - Data is converted to bits and sent through hardware, pins, volts, and cables through electricity. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTAxMDMwMCwtMTI1Nzg3NzIyNSwtND
-cxMTI0MjU3LDE2MzM4NTg1NDAsMTc5NjM4MzY5MSwxNDAzNjU2
-NjUwXX0=
+eyJoaXN0b3J5IjpbMjEwMzgwMjI2LC02MDUwMTAzMDAsLTEyNT
+c4NzcyMjUsLTQ3MTEyNDI1NywxNjMzODU4NTQwLDE3OTYzODM2
+OTEsMTQwMzY1NjY1MF19
 -->
