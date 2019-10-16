@@ -41,10 +41,11 @@ Slightly more technical definitions might be easier to digest with that backgrou
 
 ## We Do
 Let's expand on our OSI model whiteboarding activity by placing each protocol into an OSI layer. 
-*need to write instructor notes*
-**Video?** 
 
-
+Recall that our OSI modelcontains 7 layers, and looks like this:
+![source: [https://www.webopedia.com/quick_ref/OSI_Layers.asp](https://www.webopedia.com/quick_ref/OSI_Layers.asp)](https://lh3.googleusercontent.com/iMnsbSRP1rAS3MgO3u_A2BhOBz1OXgPNzhkd-Xi6awQnsktyU0Iulyark66HuXaHVOfWuSAj2G0) *need to make a lambda-approved graphic*
+ 
+In the first objective, we talked about OSI on a conceptual level, without knowledge of protocols. Now, we can start to add on to that understanding, by placing protocols into specific layers. 
 
 ## You Do
 Summarize your current understanding of what happens when you type google.com into your internet browser. Be prepared to share in breakout rooms. 
@@ -58,5 +59,5 @@ Summarize your current understanding of what happens when you type google.com in
 - Reading (UDP vs TCP): [User Diagram Protocol](https://www.lifewire.com/user-datagram-protocol-817976)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxOTk4MjJdfQ==
+eyJoaXN0b3J5IjpbLTExMzQ0MDQ4MjcsMjYxOTk4MjJdfQ==
 -->
