@@ -27,6 +27,8 @@ Regardless of the type of security, or data included, packets always contain the
 
 This whole thing is kind of like a big amazon order being broken into different packages. Each box contains different objects (the payload), but has the same shipping label (header) as the others, and all are united through an order number, tracked by Amazon to make sure you get your order on time (Trailer).  
 
+
+
 **Packet Transmission**
 Packages, letters, and packets alike need a way to get from point A to point B. In our analogy, UPS, USPS, and FedEx, all optimize routes and who physically move the packages. Packet transmission, works very similarly. As packets are built and labeled they travel through the network on **routers**. Routers are simply devices that forward along packets. Packets keep moving from router to router, following the lowest-traffic path they can find, until they reach the receiving end. Eventually, all of the packets should arrive, but they might be out of order, or delayed. That's where the other TCP comes into play, checking to make sure all of the packets have arrived, and moving to the next step in OSI, or returning an error message to the sender. 
 
@@ -60,6 +62,6 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI4NTc0NTEsMTY4NzUyMzY4NSwxMD
-QyMTQ0MjksNzIyNDI5MDYwXX0=
+eyJoaXN0b3J5IjpbMTAyMzI0OTk3NywxNjg3NTIzNjg1LDEwND
+IxNDQyOSw3MjI0MjkwNjBdfQ==
 -->
