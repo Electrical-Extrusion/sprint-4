@@ -20,7 +20,12 @@ Let's take a look at the layers, broken into the 'Application Level' layers (5-7
 
 | Layer| Name | Explanation |Example|
 |--|--|--|--|
-|  |  | |
+| 7 |  | | |
+|6|--|--|--|
+| 5 |  | | |
+| 4 |  | | |
+| 5 |  | | |
+| 5 |  | | |
 
 
 **Application Level**
@@ -68,6 +73,6 @@ Using the German/Russian correspondence example as a guide, develop a new analog
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDE4NTAwNCwxNjMzODU4NTQwLDE3OT
-YzODM2OTEsMTQwMzY1NjY1MF19
+eyJoaXN0b3J5IjpbLTE1MTA4NjM1MjQsMTYzMzg1ODU0MCwxNz
+k2MzgzNjkxLDE0MDM2NTY2NTBdfQ==
 -->
