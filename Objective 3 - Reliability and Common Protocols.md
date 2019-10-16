@@ -20,11 +20,12 @@ This objective deals with 6 important protocols involved in data transmission. H
 |TCP|Transmission Control Protocol |Transport Layer | Ensures accurate communication between devices.  |
 |UDP|User Datagram Protocol|Transport Layer|Ensures accurate communication between devices when TCP cannot be used. |
 
-You've heard of IP, and at the very least know that every device in the world has a unique IP address. In a broader context, IP is a set of rules that govern and standardize how packets move from one router to another. IP is great, but IP isn't perfect, and sometimes, packets can get lost. This is where TCP comes in. TCP works with IP to ensure that 1) no packets get lost or duplicated, 2) packets are assembled correctly, and 3) delays aren't significant. In cases where delays are significant, a less sophisticated protocol called UDP can be used to ensure similar packet delivery promises are kept. Sometimes, UDP is used instead of TCP where massive amounts of data need to be sent and reliability isn't as important. 
+You've heard of IP, and at the very least know that every device in the world has a unique IP address. In a broader context, IP is a set of rules that govern and standardize how packets move from one router to another. IP is great, but IP isn't perfect, and sometimes, packets can get lost. This is where TCP comes in. TCP works with IP to ensure that 1) no packets get lost or duplicated, 2) packets are assembled correctly, and 3) delays aren't significant. In cases where delays are significant, a less sophisticated protocol called UDP can be used to ensure similar packet delivery promises are kept. Sometimes, UDP is intentionally used instead of TCP where massive amounts of data need to be sent and reliability isn't as important. 
+
 
 ### Local Network Protocol
-|Acronym| Meaning | Layer |Definition  |
-|--|--|--|--|
+|Acronym| Meaning |Definition  |
+|--|--|--|
 |ICMP|Internet Control Message Protocol |Transport Layer| Blocks inaccurate communication between devices when TCP and UDP fail. |
 |ARP|Address Resolution Protocol|Physical Network Layer| Makes sure communication goes to the correct device on a network.|
 |Ethernet|Ethernet|Physical Network Layer| Connects all the devices on a network (computers and routers). |
@@ -35,7 +36,7 @@ Finally, we need to consider ARP and ethernet. Both are working on the physical,
 
 *Ethernet and wifi are _not_ the same thing, but they accomplish the same goal in the communication process. Namely, communicating between all devices on the same network. 
 
-
+### Technical Definitions
 Slightly more technical definitions might be easier to digest with that background: 
 
 |Acronym| Meaning | Definition  |
@@ -73,6 +74,6 @@ Summarize your current understanding of what happens when you type google.com in
 - Reading (UDP vs TCP): [User Diagram Protocol](https://www.lifewire.com/user-datagram-protocol-817976)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDcyMzM4NSwxMTAxNzM0NDU5LC05NT
-gzMDczNjIsLTI3MDA4ODI4MF19
+eyJoaXN0b3J5IjpbLTIwNzY4Mzc2NzYsMTEwMTczNDQ1OSwtOT
+U4MzA3MzYyLC0yNzAwODgyODBdfQ==
 -->
