@@ -30,8 +30,8 @@ This whole thing is kind of like a big amazon order being broken into different 
 An actual packet is configured like this. 
 ![enter image description here](https://lh3.googleusercontent.com/EGkPMWtfmCytOWdQPvofoHYAbiSv8-FL6fvAXm526xjmPQsZ7dLW7Y1QoRmFn8l8P0sL5ctVlAI)
 
-The TCP packet format consists of these fields:  
-*from: [Tech Republic](https://www.techrepublic.com/article/exploring-the-anatomy-of-a-data-packet/)*
+The TCP packet format consists of these fields. With the exception of the Data field, all are helping get the information from the client to the server. 
+*The following is taken: [Tech Republic](https://www.techrepublic.com/article/exploring-the-anatomy-of-a-data-packet/)*
 -   **Source Port**  and  **Destination Port fields**  (16 bits each) identify the end points of the connection.
 -   **Sequence Number field**  (32 bits) specifies the number assigned to the first byte of data in the current message. Under certain circumstances, it can also be used to identify an initial sequence number to be used in the upcoming transmission.
 -   **Acknowledgement  Number field**  (32 bits) contains the value of the next sequence number that the sender of the segment is expecting to receive, if the ACK control bit is set. Note that the sequence number refers to the stream flowing in the same direction as the segment, while the acknowledgement number refers to the stream flowing in the opposite direction from the segment.
@@ -88,6 +88,6 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4Nzc0NTEwLDkxMzk1MTYzMCwxNjg3NT
-IzNjg1LDEwNDIxNDQyOSw3MjI0MjkwNjBdfQ==
+eyJoaXN0b3J5IjpbMTcyMjY1MDM0NSw5MTM5NTE2MzAsMTY4Nz
+UyMzY4NSwxMDQyMTQ0MjksNzIyNDI5MDYwXX0=
 -->
