@@ -47,6 +47,9 @@ Recall that our OSI modelcontains 7 layers, and looks like this:
  
 In the first objective, we talked about OSI on a conceptual level, without knowledge of protocols. Now, we can start to add on to that understanding, by placing protocols into specific layers. 
 
+
+
+
 ## You Do
 Summarize your current understanding of what happens when you type google.com into your internet browser. Be prepared to share in breakout rooms. 
 
@@ -59,5 +62,5 @@ Summarize your current understanding of what happens when you type google.com in
 - Reading (UDP vs TCP): [User Diagram Protocol](https://www.lifewire.com/user-datagram-protocol-817976)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQ0MDQ4MjcsMjYxOTk4MjJdfQ==
+eyJoaXN0b3J5IjpbNTAzMDE1MzEsMjYxOTk4MjJdfQ==
 -->
