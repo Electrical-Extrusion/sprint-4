@@ -66,7 +66,7 @@ Packet construction and transmission are dictated by TCP. TCP exists at both the
 
 
 ## We Do
-Using tools like 
+Hacker challenge: Can you figure out what Using tools like Wireshark (we'll use this later), packets can be captured and inspected for component parts. The following screenshot comes live from the Lambda School office and contains all of the information we learned about above. It should give a glimpse into what is happening on the computer in question. 
 ![enter image description here](https://lh3.googleusercontent.com/WBAgxzQIOCKSgsCUKnTTEIeljxkSfePMsR-j36nsggBqqzYcmOk_OZPMPrpXPjutzHL__vZ7JjU)
 
 
@@ -90,7 +90,7 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODA1MDQ5LDM5OTAxNDg1Myw5MTM5NT
+eyJoaXN0b3J5IjpbNTAzNjgyMjQyLDM5OTAxNDg1Myw5MTM5NT
 E2MzAsMTY4NzUyMzY4NSwxMDQyMTQ0MjksNzIyNDI5MDYwXX0=
 
 -->
