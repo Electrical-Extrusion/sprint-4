@@ -6,7 +6,7 @@ Identify and reconstruct packet streams in packet capture utility.
 ## Required Resources
 
 ## I Do
-
+Packet data is really only useful when it can be combined with the other packets in a transmission, to give a fuller picture of 
 
 ## We Do
 
@@ -22,6 +22,6 @@ Identify and reconstruct packet streams in packet capture utility.
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzA1MjgyNTcsLTEzMDIzODEyOTddfQ
-==
+eyJoaXN0b3J5IjpbLTEzNDU2NjMwNSwtMTQ3MDUyODI1NywtMT
+MwMjM4MTI5N119
 -->
