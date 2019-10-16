@@ -68,7 +68,7 @@ Packet construction and transmission are dictated by TCP. TCP exists at both the
 ## We Do
 Hacker challenge: Can you figure out what Lambda School is up to? 
 
-Using tools like Wireshark (we'll use this later), packets can be captured and inspected for component parts. The following screenshot comes live from the Lambda School office and contains all of the information we learned about above. It should give a glimpse into what is happening on the computer in question. 
+Using tools like Wireshark, which we will use later, packets can be captured and inspected for component parts. The following screenshot contains all of the information we learned about above. It should give a glimpse into what is happening on the network in question. 
 ![enter image description here](https://lh3.googleusercontent.com/WBAgxzQIOCKSgsCUKnTTEIeljxkSfePMsR-j36nsggBqqzYcmOk_OZPMPrpXPjutzHL__vZ7JjU)
 
 
@@ -85,7 +85,7 @@ Using the example above as a guide, dissect the following intercepted packet:
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MjU1NjUzNywyMDY3Mjc2MDMsMzk5MD
-E0ODUzLDkxMzk1MTYzMCwxNjg3NTIzNjg1LDEwNDIxNDQyOSw3
-MjI0MjkwNjBdfQ==
+eyJoaXN0b3J5IjpbLTE0MDIxMTk5NzUsMTM0MjU1NjUzNywyMD
+Y3Mjc2MDMsMzk5MDE0ODUzLDkxMzk1MTYzMCwxNjg3NTIzNjg1
+LDEwNDIxNDQyOSw3MjI0MjkwNjBdfQ==
 -->
