@@ -22,13 +22,13 @@ Let's take a look at the layers, broken into the 'Application Level' layers (5-7
 | Layer| Name | Explanation |Example|
 |--|--|--|--|
 | 7 |Application |The user (human) puts in a request for information. | Chrome, Outlook, Skype, any HTTP request |
-|6|Presentation|Data is transformed and translated so it can be read. Encryption also happens here. |"Send Email" -> 11001001 -> !@&*()|
-| 5 |Session|Connection between user and receiving server is opened and maintaned. | |
+|6|Presentation|Data is transformed and translated so it can be read. Encryption also happens here. |"Send Email" -> 11001001 -> !@&sh12#!@|
+| 5 |Session|Connection between user and receiving server is opened and maintaned. Authentication happens here. | Streaming channel is opened. |
 
 **Moving data around layers:** 
 | Layer| Name | Explanation |Example|
 |--|--|--|--|
-| 4 |Transport|Data moves from end to end, transfer is completed. (TCP, UDP). | |
+| 4 |Transport|Data moves from end to end, transfer is completed. Ditates how fast data is sent, where, and when. |TCP, UDP |
 | 3 |Network|Data moves through switching and routing pathways. (IP addresses). | |
 | 2 |Data Link| Data is chunked into packets, encoded and decoded at switches within the local network.  | |
 | 1 |Physical  |Data is converted to bits and sent through hardware, pins, volts, and cables through electricity.  | |
@@ -79,6 +79,6 @@ Using the German/Russian correspondence example as a guide, develop a new analog
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTY0NTQ3MiwxNjMzODU4NTQwLDE3OT
-YzODM2OTEsMTQwMzY1NjY1MF19
+eyJoaXN0b3J5IjpbLTEyNTAzMDA4NjEsMTYzMzg1ODU0MCwxNz
+k2MzgzNjkxLDE0MDM2NTY2NTBdfQ==
 -->
