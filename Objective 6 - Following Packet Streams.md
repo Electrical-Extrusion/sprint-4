@@ -20,10 +20,11 @@ Using a packet capture utility (Wireshark), you can easily easily track a stream
 6. Ta-da!
 
 ## You Do
+Trace a packet stream 
 
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjUzMDA1ODMsLTE0NzA1MjgyNTcsLT
-EzMDIzODEyOTddfQ==
+eyJoaXN0b3J5IjpbMTgxNjAwMjM3LC0xMDY1MzAwNTgzLC0xND
+cwNTI4MjU3LC0xMzAyMzgxMjk3XX0=
 -->
