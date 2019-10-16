@@ -83,7 +83,11 @@ Thankfully, this packet printout is fairly straightforward. Reading from top dow
 
 
 ## You Do
-Using the example above as a guide, answer the following questions about thi
+Using the example above as a guide, answer the following questions about this packet: 
+1. Where is it coming from? 
+2. Where is it going to? 
+3. What type of packet is it? 
+
 ![enter image description here](https://lh3.googleusercontent.com/KVm2qjJeQBYaPaf30ybA1BdpwlWM_GeCpoFM7EkJ7Q7ZYnTYAHnT9xGi9MtE7D2vykPzHWgkJ14)
 
 
@@ -92,7 +96,7 @@ Using the example above as a guide, answer the following questions about thi
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3NDg1ODE5LC0xNjg1MTE4Mzc0LDIxMD
+eyJoaXN0b3J5IjpbODYxNjgxODcxLC0xNjg1MTE4Mzc0LDIxMD
 E1NDUyOTYsNTExODQxNTE5LC0xMTAyMjQ4MDcyLC0xNDAyMTE5
 OTc1LDEzNDI1NTY1MzcsMjA2NzI3NjAzLDM5OTAxNDg1Myw5MT
 M5NTE2MzAsMTY4NzUyMzY4NSwxMDQyMTQ0MjksNzIyNDI5MDYw
