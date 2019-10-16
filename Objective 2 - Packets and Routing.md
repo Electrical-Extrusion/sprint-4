@@ -42,6 +42,8 @@ Packet construction and transmission are dictated by TCP. TCP exists at both the
 
 
 ## We Do
+
+
 This video and the next one in the series visually break down how TCP transmission works. Not sure exactly how to turn this into a we do (other than *another* whiteboarding activity) but I think something like this is useful to walk through. 
 [https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 
@@ -58,6 +60,6 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODU5ODg0MjMsMTY4NzUyMzY4NSwxMD
+eyJoaXN0b3J5IjpbLTEzNDI4NTc0NTEsMTY4NzUyMzY4NSwxMD
 QyMTQ0MjksNzIyNDI5MDYwXX0=
 -->
