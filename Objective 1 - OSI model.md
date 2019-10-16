@@ -77,7 +77,5 @@ Using the German/Russian correspondence example as a guide, develop a new analog
  1 Physical - Data is converted to bits and sent through hardware, pins, volts, and cables through electricity. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzgwMjI2LC02MDUwMTAzMDAsLTEyNT
-c4NzcyMjUsLTQ3MTEyNDI1NywxNjMzODU4NTQwLDE3OTYzODM2
-OTEsMTQwMzY1NjY1MF19
+eyJoaXN0b3J5IjpbMjEwMzgwMjI2XX0=
 -->
