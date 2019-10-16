@@ -10,7 +10,9 @@ Understand and explain how packets are constructed and transmitted on a network.
 
 
 ## I Do
-Cybersecurity is concerned with the protection of data. Breeches most commonly occur when data is moving around from one place to another. Data that isn't properly secured or broken up can be easily intercepted by hackers in a process that we'll learn later on. For now, we'll focus on defining the term "packets" and understanding how those are transmitted on a network. 
+Cybersecurity is concerned with the protection of data. Though they can occur anywhere, breeches most commonly occur when data is moving around from one place to another in the Transport layer of OSI. Data that isn't properly secured or broken up can be easily intercepted by hackers in a process that we'll learn later on. In order to understand what's going on under the hood with packet trannsportation, we need 
+
+For now, we'll focus on defining the term "packets" and understanding how those are transmitted on a network. 
 
 A packet is a chunk of data. When a user makes a request to send or receive information, it takes the form of data. This data is broken into packets, which may all take different routes, but eventually end up at the same destination to complete the request. Intercepting unencrypted packets is one-way hackers can obtain sensitive information: like usernames and passwords. 
 
@@ -57,6 +59,6 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQ1MDk3NTEsMTA0MjE0NDI5LDcyMj
-QyOTA2MF19
+eyJoaXN0b3J5IjpbMTA4MzExMDcxMSwxMDQyMTQ0MjksNzIyND
+I5MDYwXX0=
 -->
