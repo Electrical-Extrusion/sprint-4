@@ -9,7 +9,7 @@ Understand the basic mechanics of ethernet, IP, TCP, UDP, ICMP, and ARP
 
 ## I Do
 
-Before computers, important information was transmitted in all sorts of ways: word of mouth, song, dance, cave drawings, railroads, postmen on horses, even carrier pigeons. Each of these prior methods of data transmission required some element of human interaction - a postman needed to sort letters by zip code, an orator needed to use the correct inflection and tone, a pigeon handler needed to you get the idea. The invention of computers and the internet meant that tons of data could be quickly transported, without the need for human intervention! This was huge! But it meant that very specific rules needed to be developed. We call these rules 'protocols' and they dictate exactly how your computer connects to google.com, how it sends an email to your boss, and how humans were able to finally step back from the business of information transmission. 
+Before computers, important information was transmitted in all sorts of ways: word of mouth, song, dance, cave drawings, railroads, postmen on horses, even carrier pigeons. Each of these prior methods of data transmission required some element of human interaction - a postman needed to sort letters by zip code, an orator needed to use the correct inflection and tone, a pigeon handler needed to tie the note to the bird's leg, you get the idea. The invention of computers and the internet meant that tons of data could be quickly transported, without the need for human intervention! This was huge! But it meant that very specific rules needed to be developed. We call these rules 'protocols' and they dictate exactly how your computer connects to google.com, how it sends an email to your boss, and how humans were able to finally step back from the business of information transmission. 
 
 This objective deals with 6 important protocols involved in data transmission. Like OSI, these protocols can be organized into layers. Here, we'll focus on the Physical Network Layer, Internet Layer, and Transport Layer. In this framework, the Application Layer also exists but isn't the focus of today's objective. Each protocol is connected to another, and all work together to get data from point A to point B. Simple definitions are below: 
 |Acronym| Meaning | Layer |Definition  |
@@ -65,5 +65,5 @@ Summarize your current understanding of what happens when you type google.com in
 - Reading (UDP vs TCP): [User Diagram Protocol](https://www.lifewire.com/user-datagram-protocol-817976)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODQ2MzcwMiwtMjcwMDg4MjgwXX0=
+eyJoaXN0b3J5IjpbLTk1ODMwNzM2MiwtMjcwMDg4MjgwXX0=
 -->
