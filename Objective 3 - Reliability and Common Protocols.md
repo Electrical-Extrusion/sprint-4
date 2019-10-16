@@ -11,24 +11,26 @@ Understand the basic mechanics of ethernet, IP, TCP, UDP, ICMP, and ARP
 
 Before computers, important information was transmitted in all sorts of ways: word of mouth, song, dance, cave drawings, railroads, postmen on horses, even carrier pigeons. Each of these prior methods of data transmission required some element of human interaction - a postman needed to sort letters by zip code, an orator needed to use the correct inflection and tone, a pigeon handler needed to tie the note to the bird's leg, you get the idea. The invention of computers and the internet meant that tons of data could be quickly transported, without the need for human intervention! This was huge! But it meant that very specific rules needed to be developed. We call these rules 'protocols' and they dictate exactly how your computer connects to google.com, how it sends an email to your boss, and how humans were able to finally step back from the business of information transmission. 
 
-This objective deals with 6 important protocols involved in data transmission. Here, we'll draw a distinction between protocol by grouping the ones directly involved in packet transmission and production and those involved on the local level.  Though they can be grouped for learning, each protocol is connected to another, and all work together to get data from point A to point B. 
+This objective deals with 6 important protocols involved in data transmission. Here, we'll draw a distinction between protocol by grouping the ones globally involved in packet transmission and those involved on the local level.  Though they can be grouped for learning, each protocol is connected to another, and all work together to get data from point A to point B. 
 
-### Packet Transmission Protocol
-|Acronym| Meaning | Layer |Definition  |
-|--|--|--|--|
-|IP|Internet Protocol| Internet Layer | Basis for communication between devices.  |
-|TCP|Transmission Control Protocol |Transport Layer | Ensures accurate communication between devices.  |
-|UDP|User Datagram Protocol|Transport Layer|Ensures accurate communication between devices when TCP cannot be used. |
+### Global Transmission Protocol
+|Acronym| Meaning | Definition  |
+|--|--|--|
+|IP|Internet Protocol| Basis for communication between devices.  |
+|TCP|Transmission Control Protocol |Ensures accurate communication between devices.  |
+|UDP|User Datagram Protocol|Ensures accurate communication between devices when TCP cannot be used. |
 
-You've heard of IP, and at the very least know that every device in the world has a unique IP address. In a broader context, IP is a set of rules that govern and standardize how packets move from one router to another. IP is great, but IP isn't perfect, and sometimes, packets can get lost. This is where TCP comes in. TCP works with IP to ensure that 1) no packets get lost or duplicated, 2) packets are assembled correctly, and 3) delays aren't significant. In cases where delays are significant, a less sophisticated protocol called UDP can be used to ensure similar packet delivery promises are kept. Sometimes, UDP is intentionally used instead of TCP where massive amounts of data need to be sent and reliability isn't as important. 
+You've heard of IP, and at the very least know that every device in the world has a unique IP address. In a broader context, IP is a set of rules that govern and standardize how packets move from one router to another. IP is great, but IP isn't perfect, and sometimes, packets can get lost. This is where TCP comes in. 
+
+TCP works with IP to ensure that 1) no packets get lost or duplicated, 2) packets are assembled correctly, and 3) delays aren't significant. In cases where delays are significant, a less sophisticated protocol called UDP can be used to ensure similar packet delivery promises are kept. Sometimes, UDP is intentionally used instead of TCP where massive amounts of data need to be sent and reliability isn't as important. 
 
 
 ### Local Network Protocol
 |Acronym| Meaning |Definition  |
 |--|--|--|
-|ICMP|Internet Control Message Protocol |Transport Layer| Blocks inaccurate communication between devices when TCP and UDP fail. |
-|ARP|Address Resolution Protocol|Physical Network Layer| Makes sure communication goes to the correct device on a network.|
-|Ethernet|Ethernet|Physical Network Layer| Connects all the devices on a network (computers and routers). |
+|ICMP|Internet Control Message Protocol | Blocks inaccurate communication between devices when TCP and UDP fail. |
+|ARP|Address Resolution Protocol| Makes sure communication goes to the correct device on a network.|
+|Ethernet|Ethernet| Connects all the devices on a network (computers and routers). |
 
 The ICMP is triggered when UDP or TCP fails and offers suggestions (never seen by the user) to fix the issues, often when ICMP is triggered, the user doesn't know, and TCP/UDP finds another way to get the packets to their destination. 
 
@@ -74,6 +76,6 @@ Summarize your current understanding of what happens when you type google.com in
 - Reading (UDP vs TCP): [User Diagram Protocol](https://www.lifewire.com/user-datagram-protocol-817976)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzY4Mzc2NzYsMTEwMTczNDQ1OSwtOT
-U4MzA3MzYyLC0yNzAwODgyODBdfQ==
+eyJoaXN0b3J5IjpbMjA2MjUzMTIzMCwxMTAxNzM0NDU5LC05NT
+gzMDczNjIsLTI3MDA4ODI4MF19
 -->
