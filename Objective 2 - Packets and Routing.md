@@ -27,7 +27,6 @@ Regardless of the type of security, or data included, packets always contain the
 
 This whole thing is kind of like a big amazon order being broken into different packages. Each box contains different objects (the payload), but has the same shipping label (header) as the others, and all are united through an order number, tracked by Amazon to make sure you get your order on time (Trailer).  
 
-
 ![enter image description here](https://lh3.googleusercontent.com/EGkPMWtfmCytOWdQPvofoHYAbiSv8-FL6fvAXm526xjmPQsZ7dLW7Y1QoRmFn8l8P0sL5ctVlAI)
 
 **Packet Transmission**
@@ -45,13 +44,16 @@ Packet construction and transmission are dictated by TCP. TCP exists at both the
 
 
 ## We Do
-
+Better idea: let's look at a real life TCP packet and figure out what's going on 
 
 This video and the next one in the series visually break down how TCP transmission works. Not sure exactly how to turn this into a we do (other than *another* whiteboarding activity) but I think something like this is useful to walk through. 
 [https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 
 
 ## You Do
+
+Better idea: let's look at a real life TCP packet and figure out what's going on 
+
 
 Explain it like I'm five (ELI5). Your closest five year old friend asks you what you're learning at Lambda School - explain how packets are constructed and transmitted on a network. 
 
@@ -63,6 +65,6 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDE2NzgyMiwxNjg3NTIzNjg1LDEwND
-IxNDQyOSw3MjI0MjkwNjBdfQ==
+eyJoaXN0b3J5IjpbOTEzOTUxNjMwLDE2ODc1MjM2ODUsMTA0Mj
+E0NDI5LDcyMjQyOTA2MF19
 -->
