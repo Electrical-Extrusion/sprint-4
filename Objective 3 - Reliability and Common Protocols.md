@@ -32,7 +32,7 @@ TCP works with IP to ensure that 1) no packets get lost or duplicated, 2) packet
 |ARP|Address Resolution Protocol| Makes sure communication goes to the correct device on a network.|
 |Ethernet|Ethernet| Connects all the devices on a network (computers and routers). |
 
-The ICMP is triggered when UDP or TCP fails and offers suggestions (never seen by the user) to fix the issues, often when ICMP is triggered, the user doesn't know, and TCP/UDP finds another way to get the packets to their destination. 
+ICMP is triggered when UDP or TCP fails and offers suggestions (never seen by the user) to fix the issues, often when ICMP is triggered, the user doesn't know, and TCP/UDP finds another way to get the packets to their destination. 
 
 Finally, we need to consider ARP and ethernet. Both are working on the physical, network layer level. That means in your home, at the coffee shop, wherever connectivity exists. When data gets to its final network, it needs the ARP to find the specific device (computer, phone, tablet) that it should arrive at. It moves through the ethernet (more commonly, wifi*) until the message is finally received. 
 
@@ -76,6 +76,6 @@ Summarize your current understanding of what happens when you type google.com in
 - Reading (UDP vs TCP): [User Diagram Protocol](https://www.lifewire.com/user-datagram-protocol-817976)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjUzMTIzMCwxMTAxNzM0NDU5LC05NT
-gzMDczNjIsLTI3MDA4ODI4MF19
+eyJoaXN0b3J5IjpbNjE2ODA5ODM5LDExMDE3MzQ0NTksLTk1OD
+MwNzM2MiwtMjcwMDg4MjgwXX0=
 -->
