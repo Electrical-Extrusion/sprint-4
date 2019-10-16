@@ -50,7 +50,6 @@ In the first objective, we talked about OSI on a conceptual level, without knowl
 
 *Whiteboarding should include this information!
 Note that all of the protocols we're worried about are in the 'moving data around' layers* 
-![enter image description here](https://lh3.googleusercontent.com/lB2OSDFsHJyC3Hycn2DXDi9Qw-kV3C14UedeGGvP_hLwEvbM8zaisTDX6zPAMx_WlEiIsCDSIZs)
 
 
 ## You Do
@@ -65,5 +64,5 @@ Summarize your current understanding of what happens when you type google.com in
 - Reading (UDP vs TCP): [User Diagram Protocol](https://www.lifewire.com/user-datagram-protocol-817976)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyOTAwMjQ0LDI2MTk5ODIyXX0=
+eyJoaXN0b3J5IjpbLTEzNTYxMTA1OTksMjYxOTk4MjJdfQ==
 -->
