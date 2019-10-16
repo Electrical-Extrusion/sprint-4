@@ -21,8 +21,8 @@ Let's take a look at the layers, broken into the 'Application Level' layers (5-7
 **Application level layers:** 
 | Layer| Name | Explanation |Example|
 |--|--|--|--|
-| 7 |Application |The user (human) puts in a request for information. | |
-|6|Presentation|Data is transformed and translated so it can be read.|--|
+| 7 |Application |The user (human) puts in a request for information. | Chrome, Outlook, Skype, any HTTP request |
+|6|Presentation|Data is transformed and translated so it can be read. Encryption also happens here. |"Send Email" -> 11001001 -> !@&*()|
 | 5 |Session|Connection between user and receiving server is opened and maintaned. | |
 
 **Moving data around layers:** 
@@ -79,6 +79,6 @@ Using the German/Russian correspondence example as a guide, develop a new analog
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjE4MTQ0OSwxNjMzODU4NTQwLDE3OT
+eyJoaXN0b3J5IjpbLTY0NTY0NTQ3MiwxNjMzODU4NTQwLDE3OT
 YzODM2OTEsMTQwMzY1NjY1MF19
 -->
