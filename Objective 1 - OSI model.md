@@ -39,7 +39,7 @@ A real life analogy might look something like this:
  2. Letter is placed in Russian mailbox.  
  1 Recipient reads letter.  
 
-In this analogy, the user (presumably German-speaking), needs to communicate with a Russian-speaking friend. 
+In this analogy, the user (presumably German-speaking), needs to communicate with a Russian-speaking friend. If they didn't translate the letter, it wouldn't make sense to them. If they didn't put the letter in an envolope, it would never get to them. If the letter got lost in the international postal service... you guessed it, it wouldn't get to them! In the same way, all 7 layers of the OSI model are crucial for data transmission. We'll learn more about the techn
 
 ## We Do
 Okay, so that still doesn't answer the question - what actually happens when you type in google.com? Let's synthesize those steps with a whiteboarding activity, and this time, consider both the transmission, and reciept of data. Keep this drawing handy, because you'll need it again throughout the unit. 
@@ -60,5 +60,6 @@ The required video animates the process well:*[https://www.youtube.com/watch?v=I
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzQzNjU4LDE1NTE0NDIxNjJdfQ==
+eyJoaXN0b3J5IjpbMTk5OTc0NDcxMCwxODA3NDM2NTgsMTU1MT
+Q0MjE2Ml19
 -->
