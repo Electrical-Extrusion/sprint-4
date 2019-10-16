@@ -66,11 +66,11 @@ Packet construction and transmission are dictated by TCP. TCP exists at both the
 
 
 ## We Do
-Better idea: let's look at a real life TCP packet and figure out what's going on 
-Identify: Source Port, Source IP, Destination Port, Destination IP, Flag type. What is the purpose of this packet? Sending? Reiceving? 
-
+Using tools like 
 ![enter image description here](https://lh3.googleusercontent.com/WBAgxzQIOCKSgsCUKnTTEIeljxkSfePMsR-j36nsggBqqzYcmOk_OZPMPrpXPjutzHL__vZ7JjU)
 
+
+![enter image description here](https://lh3.googleusercontent.com/A66Iq0E9_4XS1R4BVZ1se7brZXnkomzQpWL6H3VCdBvlT0hud_Axc0Bfgfqe0BTkjLhLfdXRy4k)
 This video and the next one in the series visually break down how TCP transmission works. Not sure exactly how to turn this into a we do (other than *another* whiteboarding activity) but I think something like this is useful to walk through. 
 [https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 
@@ -90,6 +90,7 @@ ELI5 examples: [https://www.reddit.com/r/explainlikeimfive/](https://www.reddit.
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5MDE0ODUzLDkxMzk1MTYzMCwxNjg3NT
-IzNjg1LDEwNDIxNDQyOSw3MjI0MjkwNjBdfQ==
+eyJoaXN0b3J5IjpbMTU1ODA1MDQ5LDM5OTAxNDg1Myw5MTM5NT
+E2MzAsMTY4NzUyMzY4NSwxMDQyMTQ0MjksNzIyNDI5MDYwXX0=
+
 -->
