@@ -8,7 +8,7 @@ Identify and reconstruct packet streams in packet capture utility.
 ## I Do
 Packet data is really only useful when it can be combined with the other packets in a transmission, to give a full understanding of the data being transmitted. 
 
-Using a packet capture utility (Wireshark), you can easily easily track a stream from inititiation to close. 
+Using a packet capture utility (Wireshark), you can easily easily track a stream from inititiation to close and aggregate the data within. Of course, this data will be encrypted
 
 ## We Do
 
@@ -24,6 +24,6 @@ Using a packet capture utility (Wireshark), you can easily easily track a stream
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzc4NzYyLC0xNDcwNTI4MjU3LC0xMz
-AyMzgxMjk3XX0=
+eyJoaXN0b3J5IjpbLTEwNjUzMDA1ODMsLTE0NzA1MjgyNTcsLT
+EzMDIzODEyOTddfQ==
 -->
