@@ -62,10 +62,14 @@ On a more technical level, once a connection is established between two ports, o
 **Transmission Control Protocol**
 Packet construction and transmission are dictated by TCP. TCP exists at both the sending and receiving end of a process. Both TCP entities work together to ensure timely, accurate data transfer using something called the 3-way-handshake. In the 3-way handshake, the client sends a packet "SYN", indicating a desire to open communication with the recieving server. If the recieving server accepts, it sends back another "SYN" followed by an "ACK." The client sends another "ACK" to aknowledge that the connection has opened, and packets containing real information can start to flow back and forth. 
 
+Conceptually, looks like this: 
+![enter image description here](https://lh3.googleusercontent.com/TnoaLUVjrOHY8EjLbJpZauIFcKLfDyL5RkzqCn1qDGok5SxwwZ0b8FHKCeLqJ_iuC7pKYyTW6l4)
+
+Technically, looks more like this: 
 ![enter image description here](https://lh3.googleusercontent.com/9sRO80ifa3IzSP4OPzDdcmH4zmVnMx7s71UYDmWMmQ-KcFOx22cL7eEA55PUOgWVWTi_621xrUo)
 *Need to make a Lambda graphic* 
 
-![enter image description here](https://lh3.googleusercontent.com/TnoaLUVjrOHY8EjLbJpZauIFcKLfDyL5RkzqCn1qDGok5SxwwZ0b8FHKCeLqJ_iuC7pKYyTW6l4)
+
 
 
 ## We Do
@@ -90,8 +94,9 @@ Thankfully, this packet printout is fairly straightforward. Reading from top dow
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODUxMTgzNzQsMjEwMTU0NTI5Niw1MT
-E4NDE1MTksLTExMDIyNDgwNzIsLTE0MDIxMTk5NzUsMTM0MjU1
-NjUzNywyMDY3Mjc2MDMsMzk5MDE0ODUzLDkxMzk1MTYzMCwxNj
-g3NTIzNjg1LDEwNDIxNDQyOSw3MjI0MjkwNjBdfQ==
+eyJoaXN0b3J5IjpbLTE2NzMwMDg3MTQsLTE2ODUxMTgzNzQsMj
+EwMTU0NTI5Niw1MTE4NDE1MTksLTExMDIyNDgwNzIsLTE0MDIx
+MTk5NzUsMTM0MjU1NjUzNywyMDY3Mjc2MDMsMzk5MDE0ODUzLD
+kxMzk1MTYzMCwxNjg3NTIzNjg1LDEwNDIxNDQyOSw3MjI0Mjkw
+NjBdfQ==
 -->
