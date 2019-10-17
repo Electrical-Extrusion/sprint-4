@@ -7,9 +7,9 @@ Know the port numbers for common application-layer protocols (HTTP/S, FTP, SSH, 
 
 ## I Do
 
-A port is a destination endpoint for data being transported by TCP or UDP. Under the hood of a URL is an IP address. For example, if you type 74.125.127.147 into your web browser, you'll be directed to google.com. Under the hood of an IP address is a port number. 
+A port is a destination endpoint for data being transported by TCP or UDP. At any one time, a device will be running many different tasks. That's why an IP address alone is not sufficient to direct packets where they need to go. 
 
-At any one time, a device will be running many different tasks. That's why an IP address alone is not sufficient to direct packets where they need to go. Here, we're diving into the data link layer by directing packets on the local network level. 
+Later on, we'll test this ourselves. For now, know that under the hood of a URL is both an IP address and a port exist. Here, we're diving into the data link layer by directing packets on the local network level. 
 
 The IP/port relationship is best explained with an anaology. If an IP address represents the street name and city, a port represents the actual house number. Using the wrong port number is like trying to visit your parent's house, by ringing your childhood best friends' doorbell. You'd be close to where you needed to be, but your parents would never know you were looking for them! (Unless your childhood best friend called them, but computers don't do that!). 
 
@@ -47,6 +47,6 @@ To demonstrate, lets use what we learned above to try to connect to 'google.com'
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTE0MzEyMDMsNDgzODU4NzEsLTE1OD
-U1NzMxOTUsLTU2MTc2NDY0Nl19
+eyJoaXN0b3J5IjpbMjA0MTgxMDU2NSw0ODM4NTg3MSwtMTU4NT
+U3MzE5NSwtNTYxNzY0NjQ2XX0=
 -->
