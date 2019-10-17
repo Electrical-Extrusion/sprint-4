@@ -7,7 +7,9 @@ Know the port numbers for common application-layer protocols (HTTP/S, FTP, SSH, 
 
 ## I Do
 
-A port is a destination endpoint for data being transported by TCP or UDP. Here, we're diving into the data link layer by directing packets on the local network level. At any one time, a device will be running many different tasks. That's why an IP address alone is not sufficient to direct packets where they need to go. 
+A port is a destination endpoint for data being transported by TCP or UDP. Under the hood of a URL is an IP address. For example, 
+
+ already know that an URL (like 'google.com') is just shorthand for an IP address. What you may not know, is that the IP address also has a corresponding port. Here, we're diving into the data link layer by directing packets on the local network level. At any one time, a device will be running many different tasks. That's why an IP address alone is not sufficient to direct packets where they need to go. 
 
 The IP/port relationship is best explained with an anaology. If an IP address represents the street name and city, a port represents the actual house number. Using the wrong port number is like trying to visit your parent's house, by ringing your childhood best friends' doorbell. You'd be close to where you needed to be, but your parents would never know you were looking for them! (Unless your childhood best friend called them, but computers don't do that!). 
 
@@ -25,7 +27,7 @@ Well known ports include:
 
 ## We Do
 ### Example #1
-We can access port numbers right in your internet browser. You already know that an URL (like 'google.com') is just shorthand for an IP address. What you may not know, is that the IP address also has a corresponding port. To demonstrate, lets use what we learned above to try to connect to 'google.com' 
+To demonstrate, lets use what we learned above to try to connect to 'google.com' 
 1. In your web browser type 'google.com:80', this indicates that you are trying to access google.com's server, at port #80, designated for web pages. Since google.com is indeed a webpage, this should load the google homepage. 
 ![enter image description here](https://lh3.googleusercontent.com/EAMuSfgyh0YgEerTK7ja2fNMI34RDT6jVZ1VrhXnMO_Rs_APnlwBQBOuHwX0CvWZ2JX0saluozzG)
 2. Now try typing 'google.com:443'. This indicates you  are trying to access google.com's server at port #443, designated for *secure* web pages. Should still work, since google.com is a secure webpage. 
@@ -45,5 +47,6 @@ We can access port numbers right in your internet browser. You already know that
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU1NzMxOTUsLTU2MTc2NDY0Nl19
+eyJoaXN0b3J5IjpbNDgzODU4NzEsLTE1ODU1NzMxOTUsLTU2MT
+c2NDY0Nl19
 -->
