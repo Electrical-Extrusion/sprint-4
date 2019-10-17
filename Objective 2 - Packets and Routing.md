@@ -12,7 +12,7 @@ Understand and explain how packets are constructed and transmitted on a network.
 ## I Do
 Cybersecurity is concerned with the protection of data. Though they can occur anywhere, breeches most commonly occur when data is moving around from one place to another in the Transport layer of OSI. Data that is unencrypted can be easily intercepted using techniques we’ll learn about later on. In order to understand what's going on under the hood with packet transportation, we need to understand the protocol governing this layer, which is Transmission Control Protocol (TCP). 
 
-Also, you'll need a strong understanding of the term "packets." In short, a packet is a chunk of data. When a user makes a request to send or receive information, it takes the form of data. To move from the client to the server, data must be placed (and sometimes broken apart) into packets. These packets may all take different routes through the world wide web, but eventually end up at the same destination and, when pieced back together, complete the user's request. Scanning through unencrypted packets is one-way hackers can obtain sensitive information: like usernames and passwords. 
+Also, you'll need a strong understanding of the term "packets." In short, a packet is a chunk of data. When a user makes a request to send or receive information, it takes the form of data. To move from the client to the server, data must be placed into packets. These packets may all take different routes through the world wide web, but eventually end up at the same destination and, when pieced back together, complete the user's request. Scanning through unencrypted packets is one-way hackers can obtain sensitive information: like usernames and passwords. 
 
 
 **Packet Construction**
@@ -97,5 +97,5 @@ Using the example above as a guide, answer the following questions about this pa
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzgxNTk0NjRdfQ==
+eyJoaXN0b3J5IjpbLTg2NzAyMjE0M119
 -->
