@@ -29,7 +29,7 @@ To further digest this, think of a big amazon order. The items can't all ship to
 
 As cybersecurity professional, you may be tasked with inspecting specific packets - we'll spend the rest of this objective tackling the more technical components. 
 
-An actual packet is configured something like this. It contains 32 bits of data and always has the following information. Except for the Data field, all are helping get the information from the client to the server. 
+An actual packet is configured something like this. It contains 32 bits of data and always has the following information. Except for the Data field, all are like the amazon shipping label, helping get the information from the client to the server. 
 
 ![enter image description here](https://lh3.googleusercontent.com/EGkPMWtfmCytOWdQPvofoHYAbiSv8-FL6fvAXm526xjmPQsZ7dLW7Y1QoRmFn8l8P0sL5ctVlAI)
 
@@ -97,5 +97,5 @@ Using the example above as a guide, answer the following questions about this pa
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2NzE3MTEzLC04NjcwMjIxNDNdfQ==
+eyJoaXN0b3J5IjpbLTIxNjIzOTQ1NywtODY3MDIyMTQzXX0=
 -->
