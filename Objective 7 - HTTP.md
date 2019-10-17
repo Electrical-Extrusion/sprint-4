@@ -28,7 +28,8 @@ With this vocabulary and knowledge of OK/error codes we can inspect the HTTP req
 Including knowledge of other layers in the process we get a fuller picture of the HTTP process: 
 1. Client makes a request using 'GET'.  That request is transported using TCP/IP protocols to a known port, usually 443 - HTTPS server - and the server looks up the requested URL.
 ![enter image description here](https://lh3.googleusercontent.com/4SuF0TSYAWp4lF6p3dA6m_UV7otb0C42gmgWWd5ftpQV-3l8i05wmYqhEX5CeHiW__H_s_UfPTQ-)
-2. Server returns the requested URL with 'POST' and an 'OK' (200) message. That return is again transported through TCP/IP and 
+
+2. Server returns the requested URL with 'POST' and an 'OK' (200) message. That return is, again, transported through TCP/IP and makes its way through the OSI layers until it reaches the client again. 
 ![enter image description here](https://lh3.googleusercontent.com/aiVXI9y8RX3y1DBkOwlP9wdUvWzQ4K5x4ktpklnv9bTeNYFDM2LWtA1TU3d48aBGoGSy4KEU2kLK)
 
 
@@ -49,7 +50,7 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 ## Additional Resources
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTExNTI3NCwtMTQyMTMyNjExMCwtMT
+eyJoaXN0b3J5IjpbLTIwMzA2NjQ5NSwtMTQyMTMyNjExMCwtMT
 I5NTIwOTYyLDE3ODM5MzI3ODksLTU0MzMxNjQ2NywtMTY2MDIy
 OTYyOV19
 -->
