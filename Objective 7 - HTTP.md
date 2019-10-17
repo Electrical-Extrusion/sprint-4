@@ -49,8 +49,10 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 
 
 ## We Do
+Follow HTTP stream in Wireshark. 
 
 ## You Do
+
 
 
 
@@ -58,7 +60,7 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 - Reference: [Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNzQzMDg4MCwtMjAzMDY2NDk1LC0xND
-IxMzI2MTEwLC0xMjk1MjA5NjIsMTc4MzkzMjc4OSwtNTQzMzE2
-NDY3LC0xNjYwMjI5NjI5XX0=
+eyJoaXN0b3J5IjpbLTExNTY1NTU4NDgsLTIwMzA2NjQ5NSwtMT
+QyMTMyNjExMCwtMTI5NTIwOTYyLDE3ODM5MzI3ODksLTU0MzMx
+NjQ2NywtMTY2MDIyOTYyOV19
 -->
