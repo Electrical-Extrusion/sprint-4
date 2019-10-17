@@ -10,9 +10,8 @@ Extract CGI metadata from HTTP stream.
 
 
 
-### Contents of a URL 
-![enter image description here](https://lh3.googleusercontent.com/CK6h7UviqJrlm8-q0f07dKBk-COPhxqmED5lwYEblM6wv-U6lFiAfwZHIBf4qtPEGVVKe3oeuKbB)
-*make an infographic like this one!*
+### Extracting URL
+
 
 ### CGI Metadata 
 Common Gateway Interface (CGI) is a protocol for web servers to ????
@@ -31,5 +30,6 @@ DO the same thing on your own
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjM0Mjk5LC02NTY0Njk4MjVdfQ==
+eyJoaXN0b3J5IjpbMTAwNjQzMzE5NSwxMjU2MzQyOTksLTY1Nj
+Q2OTgyNV19
 -->
