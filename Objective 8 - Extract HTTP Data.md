@@ -7,7 +7,7 @@ Extract CGI metadata from HTTP stream.
 ## Required Resources
 
 ## I Do
-
+As a network security professional, you will need to monitor your network for suspicious activity. 
 
 
 ### Extracting URL
@@ -30,6 +30,6 @@ DO the same thing on your own
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjQzMzE5NSwxMjU2MzQyOTksLTY1Nj
-Q2OTgyNV19
+eyJoaXN0b3J5IjpbMTY2NzIzMjU2NSwxMDA2NDMzMTk1LDEyNT
+YzNDI5OSwtNjU2NDY5ODI1XX0=
 -->
