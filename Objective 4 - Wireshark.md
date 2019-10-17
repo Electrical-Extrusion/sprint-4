@@ -5,7 +5,7 @@ Install a packet capture utility (Wireshark) to capture and view packets on a st
 *Video for We Do is probably really important here*
 
 ## Required Resources
-- Software Download: [Download Wireshark](https://www.wireshark.org/download.html)
+- Software Download: [Wireshark I](https://www.wireshark.org/download.html)
 
 ## I Do
 One tool security professionals use to make sure data is being transmitted securely is called a packet analyzer. Packet analyzers intercept and log traffic over a network, functioning in many ways like a microscope, to allow users to see what's going on 'under the hood' of the internet. Today we will install a  popular and free packet analyzer called Wireshark (linked in required resources above).
@@ -49,5 +49,5 @@ Use the statistics tool to figure out the average packet size sent and received 
 - Blog: [How to Use Wireshark](https://www.varonis.com/blog/how-to-use-wireshark/)
 - Blog: [What is Packet Sniffing](https://www.comparitech.com/blog/information-security/what-is-packet-sniffing/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjQ0OTgyNF19
+eyJoaXN0b3J5IjpbMTM2Njc4MTAyMywxMTA2NDQ5ODI0XX0=
 -->
