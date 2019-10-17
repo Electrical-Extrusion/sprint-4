@@ -9,7 +9,7 @@ Understand the mechanics of HTTP protocol and commands.
 ## I Do
 HTTP is the common language of the web. Applications use HTTP to communicate. To frame this topic in terms of our OSI network model, HTTP lives in the application layer. Consequently, HTTP is layered on top of TCP (remember: TCP lives at the transport layer). HTTP uses TCP to transport its message data. IP and Ports fall below these at the Network layer and Data Link layer, respectively. 
 
-HTTP works with 
+On the surface, HTTP is a simple 'request-response' protocol. The client makes a request, and the server responds with an OK message or an err
 
 Basic steps in HTTP are as follows. 
 1. Client makes a request using 'GET'. This request includes a startline and headers, but no body.
@@ -42,7 +42,7 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 ## Additional Resources
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzU2Mjk4NzIsLTE0MjEzMjYxMTAsLT
-EyOTUyMDk2MiwxNzgzOTMyNzg5LC01NDMzMTY0NjcsLTE2NjAy
-Mjk2MjldfQ==
+eyJoaXN0b3J5IjpbLTM2ODkwMjE3NiwtMTQyMTMyNjExMCwtMT
+I5NTIwOTYyLDE3ODM5MzI3ODksLTU0MzMxNjQ2NywtMTY2MDIy
+OTYyOV19
 -->
