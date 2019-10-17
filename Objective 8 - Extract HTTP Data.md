@@ -17,9 +17,11 @@ As a network security professional, you will need to monitor your network for su
 Common Gateway Interface (CGI) is a protocol for web servers to ????
 
 ## We Do
-View all URLs accessed: 
+### View all URLs accessed: 
+![enter image description here](https://lh3.googleusercontent.com/NaaRKH760WmicbwYadzCi-UFn_FyoInzcUoU-9ztSjstAer74ZVlph4xjTWbrWxRkhBlssiKK6XQ)
 
-Use Wireshark to find all of the URLs requested from a specific website:
+![enter image description here](https://lh3.googleusercontent.com/4ntuUWee_Pm3LP80PUiAqdSn5_BL8eNbM8G3lekF8s97RXyU9bYbZO08koGJxkpINNm9HimFdgTo)
+### Use Wireshark to find all of the URLs requested from a specific website:
 
 
 
@@ -44,6 +46,6 @@ DO the same thing on your own
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDA0Njk5NiwxNjY3MjMyNTY1LDEwMD
-Y0MzMxOTUsMTI1NjM0Mjk5LC02NTY0Njk4MjVdfQ==
+eyJoaXN0b3J5IjpbLTE0Nzk4ODY4NTksMTY2NzIzMjU2NSwxMD
+A2NDMzMTk1LDEyNTYzNDI5OSwtNjU2NDY5ODI1XX0=
 -->
