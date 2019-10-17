@@ -9,6 +9,12 @@ Understand the mechanics of HTTP protocol and commands.
 ## I Do
 HTTP is the common language of the web. Applications use HTTP to communicate. To frame this topic in terms of our OSI network model, HTTP lives in the application layer. Consequently, HTTP is layered on top of TCP (remember: TCP lives at the transport layer). HTTP uses TCP to transport its message data. IP and Ports fall below these at the Network layer and Data Link layer, respectively. 
 
+HTTP works with 
+
+Basic steps in HTTP are as follows. 
+1. Client makes a request using 'GET'. This request includes a startline and headers, but no body.
+2. Server responds with an 'OK' (200) message. This response includes a startline, headers, and body. 
+
 
 Important HTTP verbs include GET, POST, PUT, and DELETE. If you've ever used a REST api you may be familiar with these terms. Definitions can be found below: 
 |Word|Definition  |
@@ -19,9 +25,7 @@ Important HTTP verbs include GET, POST, PUT, and DELETE. If you've ever used a R
 | Delete | Deletes files or scripts, rarely used. |
 
 
-Basic steps in HTTP are as follows. 
-1. Client makes a request using 'GET'. This request includes a startline and headers, but no body.
-2. Server responds with an 'OK' (200) message. This response includes a startline, headers, and body. 
+
 
 
 Proxies are intermediaries or middlemen between clients and servers. Proxies work to secure data on the client side by filtering blocked content and on the server side to prevent malicious requests. For example, on the client side, a proxy might be set up on a elementary school network to only allow access to educational websites. On the server side, a proxy might be set up to only allow requests from known IP addresses, or with certain credentials. 
@@ -38,7 +42,7 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 ## Additional Resources
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjI4NzYxMiwtMTQyMTMyNjExMCwtMT
-I5NTIwOTYyLDE3ODM5MzI3ODksLTU0MzMxNjQ2NywtMTY2MDIy
-OTYyOV19
+eyJoaXN0b3J5IjpbLTEyNzU2Mjk4NzIsLTE0MjEzMjYxMTAsLT
+EyOTUyMDk2MiwxNzgzOTMyNzg5LC01NDMzMTY0NjcsLTE2NjAy
+Mjk2MjldfQ==
 -->
