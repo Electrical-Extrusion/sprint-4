@@ -5,10 +5,10 @@ Install a packet capture utility (Wireshark) to capture and view packets on a st
 *Video for We Do is probably really important here*
 
 ## Required Resources
-- Software Download: [Wireshark I](https://www.wireshark.org/download.html)
+- Software Download: [Wireshark Installer](https://www.wireshark.org/download.html)
 
 ## I Do
-One tool security professionals use to make sure data is being transmitted securely is called a packet analyzer. Packet analyzers intercept and log traffic over a network, functioning in many ways like a microscope, to allow users to see what's going on 'under the hood' of the internet. Today we will install a  popular and free packet analyzer called Wireshark (linked in required resources above).
+A tool security professionals use to make sure data is being transmitted securely is a packet analyzer. Packet analyzers intercept and log traffic over a network, functioning in many ways like a microscope, to allow users to see what's going on 'under the hood' of the internet. Today we will install a  popular and free packet analyzer called Wireshark (linked in required resources above).
 
 Once downloaded, we can look at the familiar packet details coming in and out of our local devices, including source IP, destination IP, length (in bytes), source port, destination port, payload data, and more. 
 
@@ -41,13 +41,12 @@ Let's download Wireshark together and use it to finally figure out what happens 
 File capture properties shows a nice summary of all the packets captured. This specific screenshot is from a relatively short capture, 5.939 seconds but still shows nice data about drop rate (0%), packet size, and more. 
 
 ## You Do
-Use the statistics tool to figure out the average packet size sent and received when trying to connect to different websites. Connect to at least 10 websites. Be prepared to come to class with your observations. 
-
+Identify a 
 ## Additional Resources
 
 - Official Documentation: [Wireshark User's Guide]([https://www.wireshark.org/docs/wsug_html_chunked/](https://www.wireshark.org/docs/wsug_html_chunked/))
 - Blog: [How to Use Wireshark](https://www.varonis.com/blog/how-to-use-wireshark/)
 - Blog: [What is Packet Sniffing](https://www.comparitech.com/blog/information-security/what-is-packet-sniffing/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2Njc4MTAyMywxMTA2NDQ5ODI0XX0=
+eyJoaXN0b3J5IjpbLTE5ODAxMTQzNDYsMTEwNjQ0OTgyNF19
 -->
