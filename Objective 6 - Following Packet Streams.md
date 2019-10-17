@@ -21,6 +21,7 @@ Using a packet capture utility (Wireshark), you can easily easily track a stream
 
 video goes here! 
 
+
 ## You Do
 Inspect 5 different packet streams. Identify the number of packets sent in each, and the total conversation size. 
 
@@ -29,6 +30,7 @@ Inspect 5 different packet streams. Identify the number of packets sent in each,
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4MDI5NzY5LDE4MTYwMDIzNywtMTA2NT
-MwMDU4MywtMTQ3MDUyODI1NywtMTMwMjM4MTI5N119
+eyJoaXN0b3J5IjpbMTg0MzcwMzU3OSw5ODgwMjk3NjksMTgxNj
+AwMjM3LC0xMDY1MzAwNTgzLC0xNDcwNTI4MjU3LC0xMzAyMzgx
+Mjk3XX0=
 -->
