@@ -25,7 +25,7 @@ Well known ports include:
 | DNS |Database|53  |
 | RDP |Remote Desktop Connection |3389  |
 
-The majority of these port functions should be self explanatory. HTTP and HTTPS access web pages
+The majority of these port functions should be self explanatory. HTTP and HTTPS access web pages. FTP assists in file transfer. SSH and RDP are both associated with accessing a remote desktop (think: file transfer
 
 
 ## We Do
@@ -51,6 +51,6 @@ To demonstrate, lets use what we learned above to try to connect to 'google.com'
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MjY3NTkxNCw0ODM4NTg3MSwtMTU4NT
-U3MzE5NSwtNTYxNzY0NjQ2XX0=
+eyJoaXN0b3J5IjpbNjA4MjMxMTUwLDQ4Mzg1ODcxLC0xNTg1NT
+czMTk1LC01NjE3NjQ2NDZdfQ==
 -->
