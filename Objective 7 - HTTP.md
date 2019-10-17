@@ -7,10 +7,11 @@ Understand the mechanics of HTTP protocol and commands.
 
 
 ## I Do
-HTTP is the common language of the web. Applications use HTTP to communicate requests and responses between a user (or client) and a server. To frame this topic in terms of our OSI network model, HTTP lives in the application layer. HTTP is thus layered on top of TCP (remember: TCP lives at the transport layer).  HTTP uses TCP to transport its message data. IP and Ports fall below these at the Network layer and Data Link layer, respectively. 
+HTTP is the common language of the web. Applications use HTTP to communicate requests and responses between a user (or client) and a server. To frame this topic in terms of our OSI network model, HTTP lives in the application layer. HTTP is thus layered on top of TCP (remember: TCP lives at the transport layer) and uses TCP to transport its message data. IP and Ports fall below these at the Network layer and Data Link layer, respectively. You can think of the HTTP/TCP relationship like you think of the IP/Port relationship where the latter takes care of details that the former is not conerned with. 
 
 On the surface, HTTP is a simple 'request-response' protocol. The client makes a request, and the server responds with an OK message code or an error message code. You might be familiar with the error code: 404, if you've ever seen a message like this: 
 ![enter image description here](https://lh3.googleusercontent.com/hw7DDpu_ZwSxFNIWDQHGUaIV-2ZAtc-I6hLpnsKyV9qtZsPbAoW5VJuJZ_8zOIUZmSRsQNyvwXj-)
+Other important codes include 200 and 202 (OK), 
 
 Under the hood, HTTP is using scripting terms - GET, POST, PUT, and DELETE. If you've ever used or studied REST APIs you may  be familiar with these terms, or have maybe even used them in a scripting language like Python or Javascript. Definitions can be found below: 
 |Word|Definition  |
@@ -50,7 +51,7 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 ## Additional Resources
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2Nzk2NzkyLC0yMDMwNjY0OTUsLTE0Mj
+eyJoaXN0b3J5IjpbNzA3NzQyNjI1LC0yMDMwNjY0OTUsLTE0Mj
 EzMjYxMTAsLTEyOTUyMDk2MiwxNzgzOTMyNzg5LC01NDMzMTY0
 NjcsLTE2NjAyMjk2MjldfQ==
 -->
