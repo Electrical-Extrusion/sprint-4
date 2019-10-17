@@ -25,7 +25,7 @@ Well known ports include:
 | DNS |Domain Name System Service|53  |
 | RDP |Remote Desktop Connection |3389  |
 
-The majority of these port functions are self explananatory, but it is still helpful to create common definitions. HTTP and HTTPS access web pages. FTP assists in file transfer. SSH is used to manage network devices in a secure channe. DNS does a lot of things, but primarily translates domain names (like 'google.com') into IP numbers that a computer can understand.  Finally, RDP
+The majority of these port functions are self explananatory, but it is still helpful to create common definitions. HTTP and HTTPS access web pages. FTP assists in file transfer. SSH is used to manage network devices in a secure channe. DNS does a lot of things, but primarily translates domain names (like 'google.com') into IP numbers that a computer can understand.  Finally, RDP allows a user to control another desktop remotely, 
 
 ## We Do
 ### Example #1
@@ -50,7 +50,7 @@ To demonstrate, lets use what we learned above to try to connect to 'google.com'
 - Blog: [TCP/IP Ports and Protocols](http://www.pearsonitcertification.com/articles/article.aspx?p=1868080)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTI0ODkwLDE1OTkzNTE4MzcsNjA4Mj
-MxMTUwLDQ4Mzg1ODcxLC0xNTg1NTczMTk1LC01NjE3NjQ2NDZd
-fQ==
+eyJoaXN0b3J5IjpbMTIzMDk3NTI3NCwxNTk5MzUxODM3LDYwOD
+IzMTE1MCw0ODM4NTg3MSwtMTU4NTU3MzE5NSwtNTYxNzY0NjQ2
+XX0=
 -->
