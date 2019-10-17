@@ -9,6 +9,10 @@ Understand the mechanics of HTTP protocol and commands.
 ## I Do
 HTTP is the common language of the web. Applications use HTTP to communicate, much 
 
+Basic steps in HTTP are as follows. 
+1. Client makes a request using 'GET'
+2. 
+
 
 ## We Do
 
@@ -19,5 +23,5 @@ HTTP is the common language of the web. Applications use HTTP to communicate, mu
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1NDY5MTAyLC0xNjYwMjI5NjI5XX0=
+eyJoaXN0b3J5IjpbMTk3NTEwNTg5OSwtMTY2MDIyOTYyOV19
 -->
