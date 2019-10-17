@@ -28,8 +28,8 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 
 
 ## Additional Resources
-
+- Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzI0NzQ0NjAsLTU0MzMxNjQ2NywtMT
-Y2MDIyOTYyOV19
+eyJoaXN0b3J5IjpbMTc4MzkzMjc4OSwtNTQzMzE2NDY3LC0xNj
+YwMjI5NjI5XX0=
 -->
