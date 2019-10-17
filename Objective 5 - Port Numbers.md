@@ -25,9 +25,11 @@ Well known ports include:
 | DNS | 53  |
 | RDP | 3389  |
 
+
 ## We Do
 ### Example #1
-To demonstrate, lets use what we learned above to try to connect to 'google.com' 
+To demonstrate, lets use what we learned above to try to connect to 'google.com'. If you type 74.125.127.147 into your web browser, you'll be directed to google.com with the default port number. Under the hood of an IP address is a port number that can be easilly c
+
 1. In your web browser type 'google.com:80', this indicates that you are trying to access google.com's server, at port #80, designated for web pages. Since google.com is indeed a webpage, this should load the google homepage. 
 ![enter image description here](https://lh3.googleusercontent.com/EAMuSfgyh0YgEerTK7ja2fNMI34RDT6jVZ1VrhXnMO_Rs_APnlwBQBOuHwX0CvWZ2JX0saluozzG)
 2. Now try typing 'google.com:443'. This indicates you  are trying to access google.com's server at port #443, designated for *secure* web pages. Should still work, since google.com is a secure webpage. 
@@ -47,6 +49,6 @@ To demonstrate, lets use what we learned above to try to connect to 'google.com'
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTgxMDU2NSw0ODM4NTg3MSwtMTU4NT
-U3MzE5NSwtNTYxNzY0NjQ2XX0=
+eyJoaXN0b3J5IjpbNTQ3MjY3MzMwLDQ4Mzg1ODcxLC0xNTg1NT
+czMTk1LC01NjE3NjQ2NDZdfQ==
 -->
