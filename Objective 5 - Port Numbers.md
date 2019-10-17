@@ -7,7 +7,7 @@ Know the port numbers for common application-layer protocols (HTTP/S, FTP, SSH, 
 
 ## I Do
 
-A port is a destination endpoint for data being transported by TCP or UDP. It completes the destination or origination network address of a message. Here, we're diving into the data link layer. It isn't enough for a packet to be transmit with a destination IP address because at any one time, a device will be running many different tasks.
+A port is a destination endpoint for data being transported by TCP or UDP. A packet has 'a Here, we're diving into the data link layer. It isn't enough for a packet to be transmit with a destination IP address because at any one time, a device will be running many different tasks.
 
  TCP would get confused if all packets for all tasks came to the same place. Having unique port numbers for different types of tasks (load a web page vs. transfer a file vs. send an email) ensures that all tasks can be sucessfuly and securely completed. If an IP address represents the street name and city, a port represents the actual house number. 
 
@@ -43,5 +43,5 @@ We can access port numbers right in your internet browser. You already know that
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTUxMDkwNTMsLTU2MTc2NDY0Nl19
+eyJoaXN0b3J5IjpbLTk3MTc5MDAzOSwtNTYxNzY0NjQ2XX0=
 -->
