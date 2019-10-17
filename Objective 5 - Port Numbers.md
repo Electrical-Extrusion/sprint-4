@@ -7,7 +7,7 @@ Know the port numbers for common application-layer protocols (HTTP/S, FTP, SSH, 
 
 ## I Do
 
-A port is a destination endpoint for data being transported by TCP or UDP. Sometimes, port numbers are refered to as "logical addresses," because they represent a location for data. At any one time, a device will be running many different tasks. Like a human brain, a computer needs to compartmentalize these tasks in order to get them all done. That's why an IP address alone is not sufficient to direct packets where they need to go. 
+A port is a destination endpoint for data being transported by TCP or UDP. Sometimes, port numbers are refered to as "logical addresses," because they represent a location for data. At any one time, a device will be running many different tasks. Like a human brain, a computer needs to compartmentalize these tasks in order to complete them all. That's why an IP address alone (the device level address) is not sufficient to direct packets where they need to go. 
 
 The IP/port relationship is best explained with an anaology. If an IP address represents the street name and city, a port represents the actual house number. Using the wrong port number is like trying to visit your parent's house, by ringing your childhood best friends' doorbell. You'd be close to where you needed to be, but your parents would never know you were looking for them! (Unless your childhood best friend called them, but computers don't do that!). 
 
@@ -21,9 +21,9 @@ Well known ports include:
 | HTTP |Web Pages| 80  |
 | HTTPS | Secure Web Pages| 443  |
 | FTP |File Transfer| 20 (data), 21 (command)  |
-| SSH | 22  |
-| DNS | 53  |
-| RDP | 3389  |
+| SSH |Secure Shell|22  |
+| DNS | |53  |
+| RDP | |3389  |
 
 
 ## We Do
@@ -49,6 +49,6 @@ To demonstrate, lets use what we learned above to try to connect to 'google.com'
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODcyMjA3MCw0ODM4NTg3MSwtMTU4NT
+eyJoaXN0b3J5IjpbLTQ2NjIyOTY5NCw0ODM4NTg3MSwtMTU4NT
 U3MzE5NSwtNTYxNzY0NjQ2XX0=
 -->
