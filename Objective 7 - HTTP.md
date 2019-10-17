@@ -7,7 +7,7 @@ Understand the mechanics of HTTP protocol and commands.
 
 
 ## I Do
-HTTP is the common language of the web. Applications use HTTP to communicate requests and responses between a user (or client) and a server. To frame this topic in terms of our OSI network model, HTTP lives in the application layer. HTTP is thus layered on top of TCP (remember: TCP lives at the transport layer) and uses TCP to transport its message data. IP and Ports fall below these at the Network layer and Data Link layer, respectively. You can think of the HTTP/TCP relationship like you think of the IP/Port relationship where the latter takes care of details that the former is not conerned with. 
+HTTP is the common language of the web. Applications use HTTP to communicate requests and responses between a user (or client) and a server.
 
 On the surface, HTTP is a simple 'request-response' protocol. The client makes a request, and the server responds We'll add to this later on, but for now think of the steps as follows: 
 1. Client request
@@ -26,11 +26,13 @@ Under the hood, HTTP is using scripting terms - GET, POST, PUT, and DELETE - to 
 | Delete | Deletes files or scripts, rarely used. |
 
 With this vocabulary and knowledge of OK/error codes we can explain the HTTP request-response process at a more detailed level:   
-1. Client makes a request using 'GET'. This request includes a startline and headers, but no body.
-2. Server responds with an 'OK' (200) message. This response includes a startline, headers, and body. 
+1. Client makes a request using 'GET'. 
+2. Server responds with an 'OK' (200) message. 
 
+ To frame this topic in terms of our OSI network model, HTTP lives in the application layer. HTTP is thus layered on top of TCP (remember: TCP lives at the transport layer) and uses TCP to transport its message data. IP and Ports fall below these at the Network layer and Data Link layer, respectively. You can think of the HTTP/TCP relationship like you think of the IP/Port relationship where the latter takes care of details that the former is not conerned with. 
 
 Including knowledge of other layers in the process we get a fuller picture of the HTTP process: 
+
 1. Client makes a request using 'GET'.  That request is transported using TCP/IP protocols to a known port, usually 443 - HTTPS server - and the server looks up the requested URL.
 ![enter image description here](https://lh3.googleusercontent.com/4SuF0TSYAWp4lF6p3dA6m_UV7otb0C42gmgWWd5ftpQV-3l8i05wmYqhEX5CeHiW__H_s_UfPTQ-)
 
@@ -56,7 +58,7 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 - Reference: [Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MzU0OTE1OCwtMjAzMDY2NDk1LC0xND
+eyJoaXN0b3J5IjpbLTkzNzQzMDg4MCwtMjAzMDY2NDk1LC0xND
 IxMzI2MTEwLC0xMjk1MjA5NjIsMTc4MzkzMjc4OSwtNTQzMzE2
 NDY3LC0xNjYwMjI5NjI5XX0=
 -->
