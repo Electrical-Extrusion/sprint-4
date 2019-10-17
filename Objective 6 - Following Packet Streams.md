@@ -29,10 +29,10 @@ Inspect 5 different packet streams. Identify the number of packets sent in each,
 
 ## Additional Resources
 - Documentation: [Following Protocol Streams](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html)
-- 
+- Video: [https://www.youtube.com/watch?v=yb2YSv_QtAQ](https://www.youtube.com/watch?v=yb2YSv_QtAQ)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE5ODY4MDYsMTg0MzcwMzU3OSw5OD
-gwMjk3NjksMTgxNjAwMjM3LC0xMDY1MzAwNTgzLC0xNDcwNTI4
-MjU3LC0xMzAyMzgxMjk3XX0=
+eyJoaXN0b3J5IjpbNjY0ODY3MTgwLC0xODUxOTg2ODA2LDE4ND
+M3MDM1NzksOTg4MDI5NzY5LDE4MTYwMDIzNywtMTA2NTMwMDU4
+MywtMTQ3MDUyODI1NywtMTMwMjM4MTI5N119
 -->
