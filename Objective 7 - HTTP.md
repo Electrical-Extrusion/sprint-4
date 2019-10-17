@@ -10,8 +10,11 @@ Understand the mechanics of HTTP protocol and commands.
 HTTP is the common language of the web. Applications use HTTP to communicate, much 
 
 Basic steps in HTTP are as follows. 
-1. Client makes a request using 'GET'
-2. 
+1. Client makes a request using 'GET'. This request includes a startline and headers, but no body.
+2. Server responds with an 'OK' (200) message. This response includes a startline, headers, and body. 
+
+
+HTTP is layered over TCP. HTTP 
 
 
 ## We Do
@@ -23,5 +26,5 @@ Basic steps in HTTP are as follows.
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTEwNTg5OSwtMTY2MDIyOTYyOV19
+eyJoaXN0b3J5IjpbMzc3ODg0NDgwLC0xNjYwMjI5NjI5XX0=
 -->
