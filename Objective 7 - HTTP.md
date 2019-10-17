@@ -25,11 +25,13 @@ With this vocabulary and knowledge of OK/error codes we can inspect the HTTP req
 2. Server responds with an 'OK' (200) message. This response includes a startline, headers, and body. 
 
 
+Including knowledge of other layers in the process we get a fuller picture of the HTTP process: 
 
 
 
+---
 
-
+### not sure if we need the following: 
 Proxies are intermediaries or middlemen between clients and servers. Proxies work to secure data on the client side by filtering blocked content and on the server side to prevent malicious requests. For example, on the client side, a proxy might be set up on a elementary school network to only allow access to educational websites. On the server side, a proxy might be set up to only allow requests from known IP addresses, or with certain credentials. 
 
 
@@ -44,7 +46,7 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 ## Additional Resources
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDY4OTcwNjQsLTE0MjEzMjYxMTAsLT
-EyOTUyMDk2MiwxNzgzOTMyNzg5LC01NDMzMTY0NjcsLTE2NjAy
-Mjk2MjldfQ==
+eyJoaXN0b3J5IjpbOTk3NzIwMjk4LC0xNDIxMzI2MTEwLC0xMj
+k1MjA5NjIsMTc4MzkzMjc4OSwtNTQzMzE2NDY3LC0xNjYwMjI5
+NjI5XX0=
 -->
