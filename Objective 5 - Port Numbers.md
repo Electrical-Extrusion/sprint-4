@@ -7,9 +7,11 @@ Know the port numbers for common application-layer protocols (HTTP/S, FTP, SSH, 
 
 ## I Do
 
-A port is a destination endpoint for data being transported by TCP or UDP. Sometimes, port numbers are refered to as "logical addresses," because they represent a location for data. At any one time, a device will be running many different tasks. Like a human brain, a computer needs to compartmentalize these tasks in order to complete them all. That's why an IP address alone (the device level address) is not sufficient to direct packets where they need to go. 
+A port is a destination endpoint for data being transported by TCP or UDP. Sometimes, port numbers are refered to as "logical addresses," because they represent a location for data. 
 
-The IP/port relationship is best explained with an anaology. If an IP address represents the street name and city, a port represents the actual house number. Using the wrong port number is like trying to visit your parent's house, by ringing your childhood best friends' doorbell. You'd be close to where you needed to be, but your parents would never know you were looking for them! (Unless your childhood best friend called them, but computers don't do that!). 
+At any one time, a device will be running many different tasks. Just like a human brain, a computer needs to compartmentalize these tasks in order to complete them all. That's why an IP address alone (the device level address) is not sufficient to direct packets where they need to go. 
+
+The IP/port relationship is best explained with an anaology. If an IP address represents the street name and city, a port represents the actual house number. Using the wrong port number is like trying to visit your parent's house, by ringing your childhood best friends' doorbell. You'd be close to where you needed to be, but your parents would never know you were looking for them! (Unless your childhood best friend called them, but computers don't do that!). Using the wrong port number, similarly, allows data to b
 
  Similarly, TCP would get confused if all packets for all tasks came to the same place. Having unique port numbers for different types of tasks (load a web page vs. transfer a file vs. send an email) ensures that all tasks can be sucessfuly and securely completed. 
  
@@ -50,7 +52,7 @@ To demonstrate, lets use what we learned above to try to connect to 'google.com'
 - Blog: [TCP/IP Ports and Protocols](http://www.pearsonitcertification.com/articles/article.aspx?p=1868080)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM0NjA2ODAsMTU5OTM1MTgzNyw2MD
+eyJoaXN0b3J5IjpbLTEzNzAyMDIyODcsMTU5OTM1MTgzNyw2MD
 gyMzExNTAsNDgzODU4NzEsLTE1ODU1NzMxOTUsLTU2MTc2NDY0
 Nl19
 -->
