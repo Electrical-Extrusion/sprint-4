@@ -20,14 +20,11 @@ Under the hood, HTTP is using scripting terms - GET, POST, PUT, and DELETE. If y
 | Put | Updates file or script if there is a discrepancy between the local information and remote information.  |
 | Delete | Deletes files or scripts, rarely used. |
 
-
-
-Basic steps in HTTP are as follows. 
+With this vocabulary and knowledge of OK/error codes we can inspect the HTTP request-response process at a more detailed level:   
 1. Client makes a request using 'GET'. This request includes a startline and headers, but no body.
 2. Server responds with an 'OK' (200) message. This response includes a startline, headers, and body. 
 
 
-Important HTTP verbs include GET, POST, PUT, and DELETE. 
 
 
 
@@ -47,7 +44,7 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 ## Additional Resources
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODExNzk4LC0xNDIxMzI2MTEwLC0xMj
-k1MjA5NjIsMTc4MzkzMjc4OSwtNTQzMzE2NDY3LC0xNjYwMjI5
-NjI5XX0=
+eyJoaXN0b3J5IjpbLTEyMDY4OTcwNjQsLTE0MjEzMjYxMTAsLT
+EyOTUyMDk2MiwxNzgzOTMyNzg5LC01NDMzMTY0NjcsLTE2NjAy
+Mjk2MjldfQ==
 -->
