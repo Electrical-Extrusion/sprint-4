@@ -9,6 +9,15 @@ Understand the mechanics of HTTP protocol and commands.
 ## I Do
 HTTP is the common language of the web. Applications use HTTP to communicate, much 
 
+Important HTTP verbs include GET, POST, PUT, and DELETE. If you've ever used a REST api you may be familiar with these terms. Definitions can be found below: 
+|Word|Definition  |
+|--|--|
+| Get |  |
+| Post |  |
+| Put |  |
+| Delete |  |
+
+
 Basic steps in HTTP are as follows. 
 1. Client makes a request using 'GET'. This request includes a startline and headers, but no body.
 2. Server responds with an 'OK' (200) message. This response includes a startline, headers, and body. 
@@ -30,6 +39,6 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 ## Additional Resources
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MzkzMjc4OSwtNTQzMzE2NDY3LC0xNj
-YwMjI5NjI5XX0=
+eyJoaXN0b3J5IjpbMTEzMjAxODc4MSwxNzgzOTMyNzg5LC01ND
+MzMTY0NjcsLTE2NjAyMjk2MjldfQ==
 -->
