@@ -7,9 +7,9 @@ Know the port numbers for common application-layer protocols (HTTP/S, FTP, SSH, 
 
 ## I Do
 
-A port is a destination endpoint for data being transported by TCP or UDP. Here, we're diving into the data link layer by directing packets on the local network level. At any one time, a device will be running many different tasks. That's why an IP address alone is not sufficient to direct packets where they need to go. This is best explained with an analogy: If an IP address represents the street name and city, a port represents the actual house number. Usi
+A port is a destination endpoint for data being transported by TCP or UDP. Here, we're diving into the data link layer by directing packets on the local network level. At any one time, a device will be running many different tasks. That's why an IP address alone is not sufficient to direct packets where they need to go. This is best explained with an analogy: If an IP address represents the street name and city, a port represents the actual house number. Using the wrong port number is like trying to visit your parent's house, by ringing your childhood best friends' doorbell. You're close to where you need to be, but your parents would never know you were looking for them! (Unless your childhood best friend called them, but computers don't do that!). 
 
- TCP would get confused if all packets for all tasks came to the same place. Having unique port numbers for different types of tasks (load a web page vs. transfer a file vs. send an email) ensures that all tasks can be sucessfuly and securely completed. If an IP address represents the street name and city, a port represents the actual house number. 
+ Similarly, TCP would get confused if all packets for all tasks came to the same place. Having unique port numbers for different types of tasks (load a web page vs. transfer a file vs. send an email) ensures that all tasks can be sucessfuly and securely completed. If an IP address represents the street name and city, a port represents the actual house number. 
 
 Well known ports include: 
 |Protocol| |Port Number  |
@@ -43,5 +43,5 @@ We can access port numbers right in your internet browser. You already know that
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NDQ0MTc5LC01NjE3NjQ2NDZdfQ==
+eyJoaXN0b3J5IjpbLTE2MDEwNTQyOTEsLTU2MTc2NDY0Nl19
 -->
