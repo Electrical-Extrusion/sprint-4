@@ -25,6 +25,8 @@ Well known ports include:
 | DNS |Database|53  |
 | RDP |Remote Desktop Connection |3389  |
 
+The majority of these port functions should be self explanatory. HTTP and HTTPS access web pages
+
 
 ## We Do
 ### Example #1
@@ -49,6 +51,6 @@ To demonstrate, lets use what we learned above to try to connect to 'google.com'
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzkzMTkzMyw0ODM4NTg3MSwtMTU4NT
+eyJoaXN0b3J5IjpbMTg4MjY3NTkxNCw0ODM4NTg3MSwtMTU4NT
 U3MzE5NSwtNTYxNzY0NjQ2XX0=
 -->
