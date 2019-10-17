@@ -33,13 +33,15 @@ We can access port numbers right in your internet browser. You already know that
 ### Example #2
 4. Look at more packet streams in wireshark - screen recording of how to apply column and view all the port numbers in TCP. Most will be 443/some private port.
 
+
  
 
 ## You Do
 
 ## Additional Resources
 - Reference: [Well Known Port Numbers](https://www.webopedia.com/quick_ref/portnumbers.asp)
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTc2NDY0Nl19
+eyJoaXN0b3J5IjpbLTE1NTUxMDkwNTMsLTU2MTc2NDY0Nl19
 -->
