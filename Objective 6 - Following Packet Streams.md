@@ -20,11 +20,12 @@ Using a packet capture utility (Wireshark), you can easily easily track a stream
 6. Ta-da!
 
 ## You Do
-Trace a packet stream 
+Inspect 5 packet streams. Identify the number of packets sent in each. 
 
 ## Additional Resources
+- Documentation: [Following Protocol Streams](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjAwMjM3LC0xMDY1MzAwNTgzLC0xND
-cwNTI4MjU3LC0xMzAyMzgxMjk3XX0=
+eyJoaXN0b3J5IjpbMjEwMTQ5NzczMSwxODE2MDAyMzcsLTEwNj
+UzMDA1ODMsLTE0NzA1MjgyNTcsLTEzMDIzODEyOTddfQ==
 -->
