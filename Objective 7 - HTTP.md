@@ -11,7 +11,7 @@ HTTP is the common language of the web. Applications use HTTP to communicate req
 
 On the surface, HTTP is a simple 'request-response' protocol. The client makes a request, and the server responds with an OK message code or an error message code. You might be familiar with the error code: 404, if you've ever seen a message like this: 
 ![enter image description here](https://lh3.googleusercontent.com/hw7DDpu_ZwSxFNIWDQHGUaIV-2ZAtc-I6hLpnsKyV9qtZsPbAoW5VJuJZ_8zOIUZmSRsQNyvwXj-)
-Other important codes include 200 and 202 (OK), 201 (new resource being created), 204 (no content), 301 (moved permanently), 
+Other important codes include 200 and 202 (OK), 201 (new resource being created), 204 (no content), 301 (moved permanently), 307 (temporary redirect), 400 (bad request), 401 (unauthorized), and 500 (internal server error). For a full list and explanation of these codes, see the "Status Code Definition" blog under additional resources. 
 
 Under the hood, HTTP is using scripting terms - GET, POST, PUT, and DELETE. If you've ever used or studied REST APIs you may  be familiar with these terms, or have maybe even used them in a scripting language like Python or Javascript. Definitions can be found below: 
 |Word|Definition  |
@@ -50,8 +50,9 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 
 ## Additional Resources
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
+- [https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTAyOTE4NiwtMjAzMDY2NDk1LC0xND
+eyJoaXN0b3J5IjpbMTA1MTE0OTkwOSwtMjAzMDY2NDk1LC0xND
 IxMzI2MTEwLC0xMjk1MjA5NjIsMTc4MzkzMjc4OSwtNTQzMzE2
 NDY3LC0xNjYwMjI5NjI5XX0=
 -->
