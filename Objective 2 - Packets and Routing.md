@@ -18,16 +18,16 @@ Also, you'll need a strong understanding of the term "packets." In short, a pack
 **Packet Construction**
 When a user sends a request, the TCP on the user end breaks the data into payloads, and labels each with the needed header, creating a multitude of packets. 
 
-Regardless of the type of security, or data included, packets always contain the following three parts. When learning this concept it can be helpful to use an analogy ofthink about literal packages, and consider how these find their way through a postal system. 
+Regardless of the type of security, or data included, packets always contain the following three parts. When learning this concept it can be helpful to use an analogy of literal packages, and consider how these find their way through a postal system. 
 |Packet Part|Definition| Analogy|
 |--|--|--|
 | **Header** | The header contains instructions like the sender's IP address, receiver's IP address, Protocol, and Packer number |Front of an envelope - addresses, shipping label or stamp. |
 |**Payload** | The payload is where the actual data is stored |The letter inside the envelope.|
 | **Trailer**  | The trailer contains data to show that the interpreter has reached the end of the packet, or, throws an error when needed  |Signature at the end of the letter. |
 
-This whole thing is kind of like a big amazon order being broken into different packages. Each box contains different objects (the payload) but has the same shipping label (header) as the others, and all are united through an order number, tracked by Amazon to make sure you get your order on time (Trailer).  
+To further digest this, think of a big amazon order. The items can't all ship together, so they are placed into different boxes. Each box contains different objects (the payload) but has the same shipping label (header) as the others, and all are united through an order number, tracked by Amazon, to make sure you get your order on time (Trailer).  
 
-While the analogy is helpful for understanding on a conceptual level, as a cybersecurity professional, you may be tasked with inspecting specific packets - we'll spend the rest of this objective tackling those components. 
+As cybersecurity professional, you may be tasked with inspecting specific packets - we'll spend the rest of this objective tackling the more technical components. 
 
 An actual packet is configured something like this. It contains 32 bits of data and always has the following information. Except for the Data field, all are helping get the information from the client to the server. 
 
@@ -97,5 +97,5 @@ Using the example above as a guide, answer the following questions about this pa
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODEyMDA2NiwtODY3MDIyMTQzXX0=
+eyJoaXN0b3J5IjpbMjc2NzE3MTEzLC04NjcwMjIxNDNdfQ==
 -->
