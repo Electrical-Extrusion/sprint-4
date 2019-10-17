@@ -9,11 +9,11 @@ Know the port numbers for common application-layer protocols (HTTP/S, FTP, SSH, 
 
 A port is a destination endpoint for data being transported by TCP or UDP. At any one time, a device will be running many different tasks. That's why an IP address alone is not sufficient to direct packets where they need to go. 
 
-Later on, we'll test this ourselves. For now, know that under the hood of a URL is both an IP address and a port exist. Here, we're diving into the data link layer by directing packets on the local network level. 
-
 The IP/port relationship is best explained with an anaology. If an IP address represents the street name and city, a port represents the actual house number. Using the wrong port number is like trying to visit your parent's house, by ringing your childhood best friends' doorbell. You'd be close to where you needed to be, but your parents would never know you were looking for them! (Unless your childhood best friend called them, but computers don't do that!). 
 
  Similarly, TCP would get confused if all packets for all tasks came to the same place. Having unique port numbers for different types of tasks (load a web page vs. transfer a file vs. send an email) ensures that all tasks can be sucessfuly and securely completed. 
+ 
+Later on, we'll test this ourselves. For now, know that under the hood of a URL is both an IP address and a port exist. Here, we're diving into the data link layer by directing packets on the local network level. 
 
 Well known ports include: 
 |Protocol| |Port Number  |
@@ -28,7 +28,7 @@ Well known ports include:
 
 ## We Do
 ### Example #1
-To demonstrate, lets use what we learned above to try to connect to 'google.com'. If you type 74.125.127.147 into your web browser, you'll be directed to google.com with the default port number. Under the hood of an IP address is a port number that can be easilly c
+To demonstrate, lets use what we learned above to try to connect to 'google.com'. If you type 74.125.127.147 into your web browser, you'll be directed to google.com with the default port number. Under the hood of an IP address is a port number that can be easilly changed. 
 
 1. In your web browser type 'google.com:80', this indicates that you are trying to access google.com's server, at port #80, designated for web pages. Since google.com is indeed a webpage, this should load the google homepage. 
 ![enter image description here](https://lh3.googleusercontent.com/EAMuSfgyh0YgEerTK7ja2fNMI34RDT6jVZ1VrhXnMO_Rs_APnlwBQBOuHwX0CvWZ2JX0saluozzG)
@@ -49,6 +49,6 @@ To demonstrate, lets use what we learned above to try to connect to 'google.com'
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3MjY3MzMwLDQ4Mzg1ODcxLC0xNTg1NT
+eyJoaXN0b3J5IjpbNjM5MTE4MDgxLDQ4Mzg1ODcxLC0xNTg1NT
 czMTk1LC01NjE3NjQ2NDZdfQ==
 -->
