@@ -11,9 +11,9 @@ A port is a destination endpoint for data being transported by TCP or UDP. Somet
 
 At any one time, a device will be running many different tasks. Just like a human brain, a computer needs to compartmentalize these tasks in order to complete them all. That's why an IP address alone (the device level address) is not sufficient to direct packets where they need to go. 
 
-The IP/port relationship is best explained with an anaology. If an IP address represents the street name and city, a port represents the actual house number. Using the wrong port number is like trying to visit your parent's house, by ringing your childhood best friends' doorbell. You'd be close to where you needed to be, but your parents would never know you were looking for them! (Unless your childhood best friend called them, but computers don't do that!). Using the wrong port number, similarly, allows data to b
+The IP/port relationship is best explained with an anaology. If an IP address represents the street name and city, a port represents the actual house number. Using the wrong port number is like trying to visit your parent's house, by ringing your childhood best friends' doorbell. You'd be close to where you needed to be, but your parents would never know you were looking for them! (Unless your childhood best friend called them, but computers don't do that!). 
 
- Similarly, TCP would get confused if all packets for all tasks came to the same place. Having unique port numbers for different types of tasks (load a web page vs. transfer a file vs. send an email) ensures that all tasks can be sucessfuly and securely completed. 
+Using the wrong port number, similarly, allows data to be transfered to a device, but ultimately returns an error, as it isn't where it needs to be. Basically, TCP would get confused if all packets for all tasks came to the same place. Having unique port numbers for different types of tasks (load a web page vs. transfer a file vs. send an email) ensures that all tasks can be sucessfuly and securely completed. 
  
 Later on, we'll test this ourselves. For now, know that under the hood of a URL is both an IP address and a port exist. Here, we're diving into the data link layer by directing packets on the local network level. 
 
@@ -52,7 +52,7 @@ To demonstrate, lets use what we learned above to try to connect to 'google.com'
 - Blog: [TCP/IP Ports and Protocols](http://www.pearsonitcertification.com/articles/article.aspx?p=1868080)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzAyMDIyODcsMTU5OTM1MTgzNyw2MD
-gyMzExNTAsNDgzODU4NzEsLTE1ODU1NzMxOTUsLTU2MTc2NDY0
-Nl19
+eyJoaXN0b3J5IjpbLTQxODIzMTE5MCwxNTk5MzUxODM3LDYwOD
+IzMTE1MCw0ODM4NTg3MSwtMTU4NTU3MzE5NSwtNTYxNzY0NjQ2
+XX0=
 -->
