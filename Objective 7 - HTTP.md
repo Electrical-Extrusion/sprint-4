@@ -51,7 +51,9 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 ## We Do
 Use wireshark to follow a HTTP stream 
 
-Instructor should note the 'GET' requests, 200 OK codes under info
+Instructor should note the 'GET' requests, 200 OK codes under info. 
+
+Look at aggregated (exported) HTTP data together 
 
 
 ## You Do
@@ -64,7 +66,8 @@ Run a packet capture on your own, generate a list of all the URL's accessed in a
 - Reference: [Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
 - Video: [Wireshark 101: HTTP, HakTip 130](https://www.youtube.com/watch?v=RYCH7-PfJpY)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwOTE4NjE2LC0xOTA1MDQ1NjI2LC0yMD
-MwNjY0OTUsLTE0MjEzMjYxMTAsLTEyOTUyMDk2MiwxNzgzOTMy
-Nzg5LC01NDMzMTY0NjcsLTE2NjAyMjk2MjldfQ==
+eyJoaXN0b3J5IjpbOTc3OTI0NzgzLDgyMDkxODYxNiwtMTkwNT
+A0NTYyNiwtMjAzMDY2NDk1LC0xNDIxMzI2MTEwLC0xMjk1MjA5
+NjIsMTc4MzkzMjc4OSwtNTQzMzE2NDY3LC0xNjYwMjI5NjI5XX
+0=
 -->
