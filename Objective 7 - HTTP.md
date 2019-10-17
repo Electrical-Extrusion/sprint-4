@@ -14,8 +14,8 @@ Important HTTP verbs include GET, POST, PUT, and DELETE. If you've ever used a R
 |--|--|
 | Get | A request for the server to 'get' a specified file or script and return it to client.   |
 | Post | Return of the specified file or script sent back to the client.  |
-| Put |   |
-| Delete | Forces the server to delete information stored under the specified URL. |
+| Put | Updates file or script if there is a discrepancy between the local information and remote information.  |
+| Delete | Forces the server to delete f|
 
 
 Basic steps in HTTP are as follows. 
@@ -39,6 +39,6 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 ## Additional Resources
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE5MTY4ODI1LDE3ODM5MzI3ODksLTU0Mz
-MxNjQ2NywtMTY2MDIyOTYyOV19
+eyJoaXN0b3J5IjpbLTIxNjIxNTYzMiwxNzgzOTMyNzg5LC01ND
+MzMTY0NjcsLTE2NjAyMjk2MjldfQ==
 -->
