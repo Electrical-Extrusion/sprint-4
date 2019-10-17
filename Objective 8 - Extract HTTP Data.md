@@ -22,7 +22,8 @@ Common Gateway Interface (CGI) is a protocol for web servers to ????
 
 ![enter image description here](https://lh3.googleusercontent.com/4ntuUWee_Pm3LP80PUiAqdSn5_BL8eNbM8G3lekF8s97RXyU9bYbZO08koGJxkpINNm9HimFdgTo)
 ### Use Wireshark to find all of the URLs requested from a specific website:
-1. Statistics -> HTTP -> 
+There are some cases where you may want to find all of the URLs requested at a specific website, generating a list of every page accessed on that website. Wireshark has a built in tool that makes this fairly simple to do with an existing packet capture fil
+1. Statistics -> HTTP -> Requests 
 ![enter image description here](https://lh3.googleusercontent.com/zJY4n-0veK-35MAaWN6iETLctDwde4WQcL8BLTsnvjF7y4rAmfXrdtqayd-dxdynUlMuxsjW5fLa)
 
 ![enter image description here](https://lh3.googleusercontent.com/QIr1ri6gi0Kt4e84HCGFYDBO3h5cIetAqlHPoPKgITOspm7YGHQ-aJ3SSigU0M676Z2Ax7Y5ukbd)
@@ -47,6 +48,6 @@ DO the same thing on your own
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDM4Mzc3OSwxNjY3MjMyNTY1LDEwMD
-Y0MzMxOTUsMTI1NjM0Mjk5LC02NTY0Njk4MjVdfQ==
+eyJoaXN0b3J5IjpbLTExODAzNzU1ODEsMTY2NzIzMjU2NSwxMD
+A2NDMzMTk1LDEyNTYzNDI5OSwtNjU2NDY5ODI1XX0=
 -->
