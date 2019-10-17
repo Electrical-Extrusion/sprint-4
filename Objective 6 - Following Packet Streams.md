@@ -14,10 +14,13 @@ Using a packet capture utility (Wireshark), you can easily easily track a stream
 
 1. Open Wireshark.
 2. Start packet capture by clicking on the blue fin. 
+![enter image description here](https://lh3.googleusercontent.com/gv-Gzf2Crp2AlJsLnrwG7wR2CQSbAMu41kLjpdJpi9yYOCedhxRSxcVG1LQxeKCO9SM50GTWnmqN)
 3. Let packet capture run for a while. 
-4. find a TCP packet of interest. 
-5. Right Click -> Follow -> Follow TCP Stream
-6. Ta-da!
+![enter image description here](https://lh3.googleusercontent.com/KrlQbXu9LY0yN4DE0VFKrE5wlZ1J11rvHuxjm2NDByNZpDRjj-KuEdwdLRDVc9TuQWTQS4Qx_NdX)
+4. find a TCP packet of interest. Right Click -> Follow -> Follow TCP Stream
+![enter image description here](https://lh3.googleusercontent.com/WMnVZJcCr2k4CsGRkneiF6DzaXIheXjHk7RuU2-94d2Qxd5wrdpRf_e3DfP-JFrhIyBSUGblmxfN)
+
+7. Ta-da!
 
 video goes here! 
 
@@ -30,7 +33,7 @@ Inspect 5 different packet streams. Identify the number of packets sent in each,
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzcwMzU3OSw5ODgwMjk3NjksMTgxNj
-AwMjM3LC0xMDY1MzAwNTgzLC0xNDcwNTI4MjU3LC0xMzAyMzgx
-Mjk3XX0=
+eyJoaXN0b3J5IjpbMTk0NTg5MjM4NywxODQzNzAzNTc5LDk4OD
+AyOTc2OSwxODE2MDAyMzcsLTEwNjUzMDA1ODMsLTE0NzA1Mjgy
+NTcsLTEzMDIzODEyOTddfQ==
 -->
