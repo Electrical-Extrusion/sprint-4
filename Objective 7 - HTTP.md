@@ -12,9 +12,9 @@ HTTP is the common language of the web. Applications use HTTP to communicate, mu
 Important HTTP verbs include GET, POST, PUT, and DELETE. If you've ever used a REST api you may be familiar with these terms. Definitions can be found below: 
 |Word|Definition  |
 |--|--|
-| Get |  |
-| Post |  |
-| Put |  |
+| Get | A request for the server to 'get' a specified file or script and return it to client.   |
+| Post | Return of the specified file or script sent back to the client.  |
+| Put |   |
 | Delete |  |
 
 
@@ -39,6 +39,6 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 ## Additional Resources
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjAxODc4MSwxNzgzOTMyNzg5LC01ND
+eyJoaXN0b3J5IjpbMTM2NDU0NzkzOCwxNzgzOTMyNzg5LC01ND
 MzMTY0NjcsLTE2NjAyMjk2MjldfQ==
 -->
