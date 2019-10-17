@@ -14,7 +14,7 @@ Basic steps in HTTP are as follows.
 2. Server responds with an 'OK' (200) message. This response includes a startline, headers, and body. 
 
 
-HTTP is layered over TCP. HTTP 
+HTTP lives in the application layer and is thus is layered over TCP, which lives at the transport layer. HTTP *uses* TCP to transport its message data. IP and Ports fall below these at the Network layer and Data Link layer. 
 
 
 ## We Do
@@ -26,5 +26,5 @@ HTTP is layered over TCP. HTTP
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3ODg0NDgwLC0xNjYwMjI5NjI5XX0=
+eyJoaXN0b3J5IjpbLTU0MzMxNjQ2NywtMTY2MDIyOTYyOV19
 -->
