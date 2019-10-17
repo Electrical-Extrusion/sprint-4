@@ -49,7 +49,7 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 
 
 ## We Do
-Follow HTTP stream in Wireshark. 
+Use wireshark to follow a HTTP stream. 
 
 ## You Do
 Run a packet capture on your own, generate a list of all the URL's accessed in a 60 second period. 
@@ -60,5 +60,5 @@ Run a packet capture on your own, generate a list of all the URL's accessed in a
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 - Reference: [Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MjU1MjM1NiwtOTM3NDMwODgwXX0=
+eyJoaXN0b3J5IjpbLTE0NzE5MDU2OTQsLTkzNzQzMDg4MF19
 -->
