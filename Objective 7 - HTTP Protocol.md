@@ -49,7 +49,10 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 
 
 ## We Do
-Use wireshark to follow a HTTP stream and generate list of URLs? 
+Use wireshark to follow a HTTP stream 
+
+Instructor should note the 'GET' requests, 200 OK codes under info
+
 
 ## You Do
 Run a packet capture on your own, generate a list of all the URL's accessed in a 60 second period. 
@@ -59,8 +62,8 @@ Run a packet capture on your own, generate a list of all the URL's accessed in a
 ## Additional Resources
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 - Reference: [Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
-- 
+- Video: [Wireshark 101: HTTP, HakTip 130](https://www.youtube.com/watch?v=RYCH7-PfJpY)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTQzNjgwMSwtMTkwNTA0NTYyNiwtOT
-M3NDMwODgwXX0=
+eyJoaXN0b3J5IjpbODIwOTE4NjE2LC0xOTA1MDQ1NjI2LC05Mz
+c0MzA4ODBdfQ==
 -->
