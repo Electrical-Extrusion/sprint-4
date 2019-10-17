@@ -16,13 +16,13 @@ The IP/port relationship is best explained with an anaology. If an IP address re
 Later on, we'll test this ourselves. For now, know that under the hood of a URL is both an IP address and a port exist. Here, we're diving into the data link layer by directing packets on the local network level. 
 
 Well known ports include: 
-|Protocol| |Port Number  |
+|Protocol| Function |Port Number  |
 |--|--|--|
 | HTTP |Web Pages| 80  |
 | HTTPS | Secure Web Pages| 443  |
 | FTP |File Transfer| 20 (data), 21 (command)  |
 | SSH |Secure Shell|22  |
-| DNS | |53  |
+| DNS ||53  |
 | RDP | |3389  |
 
 
@@ -49,6 +49,6 @@ To demonstrate, lets use what we learned above to try to connect to 'google.com'
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjIyOTY5NCw0ODM4NTg3MSwtMTU4NT
-U3MzE5NSwtNTYxNzY0NjQ2XX0=
+eyJoaXN0b3J5IjpbLTE4OTQyMTQ3MzAsNDgzODU4NzEsLTE1OD
+U1NzMxOTUsLTU2MTc2NDY0Nl19
 -->
