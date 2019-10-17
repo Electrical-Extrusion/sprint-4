@@ -16,6 +16,8 @@ Basic steps in HTTP are as follows.
 
 HTTP lives in the application layer and is thus is layered over TCP, which lives at the transport layer. HTTP *uses* TCP to transport its message data. IP and Ports fall below these at the Network layer and Data Link layer. 
 
+Proxies are intermediaries or middlemen between clients and servers. Proxies work to secure data on the client side by filtering blocked content and on the server side to prevent malicious requests. For example, on the client side, a proxy might be set up in a school to only allow access to educational websites. 
+
 
 ## We Do
 
@@ -26,5 +28,6 @@ HTTP lives in the application layer and is thus is layered over TCP, which lives
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzMxNjQ2NywtMTY2MDIyOTYyOV19
+eyJoaXN0b3J5IjpbMTY0MjA5NTgwNSwtNTQzMzE2NDY3LC0xNj
+YwMjI5NjI5XX0=
 -->
