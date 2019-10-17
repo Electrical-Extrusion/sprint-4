@@ -7,7 +7,7 @@ Understand the mechanics of HTTP protocol and commands.
 
 
 ## I Do
-
+HTTP is the common language of the web. Applications use HTTP to communicate, much 
 
 
 ## We Do
@@ -19,5 +19,5 @@ Understand the mechanics of HTTP protocol and commands.
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjAyMjk2MjldfQ==
+eyJoaXN0b3J5IjpbOTU1NDY5MTAyLC0xNjYwMjI5NjI5XX0=
 -->
