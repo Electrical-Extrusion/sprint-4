@@ -12,7 +12,7 @@ HTTP is the common language of the web. Applications use HTTP to communicate. To
 On the surface, HTTP is a simple 'request-response' protocol. The client makes a request, and the server responds with an OK message code or an error message code. You might be familiar with the error code: 404, if you've ever seen a message like this: 
 ![enter image description here](https://lh3.googleusercontent.com/hw7DDpu_ZwSxFNIWDQHGUaIV-2ZAtc-I6hLpnsKyV9qtZsPbAoW5VJuJZ_8zOIUZmSRsQNyvwXj-)
 
-Under the hood, HTTP is using scripting terms - GET, POST, PUT, and DELETE. If you've ever used or studied REST APIs you may have be familiar with these terms, or maybe even have used them in Python or Javascript. Definitions can be found below: 
+Under the hood, HTTP is using scripting terms - GET, POST, PUT, and DELETE. If you've ever used or studied REST APIs you may  be familiar with these terms, or have maybe even used them in a scripting language like Python or Javascript. Definitions can be found below: 
 |Word|Definition  |
 |--|--|
 | Get | A request for the server to 'get' a specified file or script and return it to client.   |
@@ -47,7 +47,7 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 ## Additional Resources
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDEzODY1MSwtMTQyMTMyNjExMCwtMT
-I5NTIwOTYyLDE3ODM5MzI3ODksLTU0MzMxNjQ2NywtMTY2MDIy
-OTYyOV19
+eyJoaXN0b3J5IjpbLTY3ODExNzk4LC0xNDIxMzI2MTEwLC0xMj
+k1MjA5NjIsMTc4MzkzMjc4OSwtNTQzMzE2NDY3LC0xNjYwMjI5
+NjI5XX0=
 -->
