@@ -9,7 +9,11 @@ Understand the mechanics of HTTP protocol and commands.
 ## I Do
 HTTP is the common language of the web. Applications use HTTP to communicate requests and responses between a user (or client) and a server. To frame this topic in terms of our OSI network model, HTTP lives in the application layer. HTTP is thus layered on top of TCP (remember: TCP lives at the transport layer) and uses TCP to transport its message data. IP and Ports fall below these at the Network layer and Data Link layer, respectively. You can think of the HTTP/TCP relationship like you think of the IP/Port relationship where the latter takes care of details that the former is not conerned with. 
 
-On the surface, HTTP is a simple 'request-response' protocol. The client makes a request, and the server responds with an OK message code or an error message code. You might be familiar with the error code: 404, if you've ever seen a message like this: 
+On the surface, HTTP is a simple 'request-response' protocol. The client makes a request, and the server responds We'll add to this later on, but for now think of the steps as follows: 
+1. Client request
+2. Server response
+
+The server response usually contains an OK message code or an error message code. You might be familiar with the error code: 404, if you've ever seen a message like this: 
 ![enter image description here](https://lh3.googleusercontent.com/hw7DDpu_ZwSxFNIWDQHGUaIV-2ZAtc-I6hLpnsKyV9qtZsPbAoW5VJuJZ_8zOIUZmSRsQNyvwXj-)
 Other important codes include 200 and 202 (OK), 201 (new resource being created), 204 (no content), 301 (moved permanently), 307 (temporary redirect), 400 (bad request), 401 (unauthorized), and 500 (internal server error). For a full list and explanation of these codes, see the "Status Code Definition" reference under additional resources. 
 
@@ -52,7 +56,7 @@ Proxies are intermediaries or middlemen between clients and servers. Proxies wor
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 - Reference: [Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjgyMTc1NywtMjAzMDY2NDk1LC0xND
+eyJoaXN0b3J5IjpbLTY5MzU0OTE1OCwtMjAzMDY2NDk1LC0xND
 IxMzI2MTEwLC0xMjk1MjA5NjIsMTc4MzkzMjc4OSwtNTQzMzE2
 NDY3LC0xNjYwMjI5NjI5XX0=
 -->
