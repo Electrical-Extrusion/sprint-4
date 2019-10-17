@@ -59,6 +59,8 @@ Run a packet capture on your own, generate a list of all the URL's accessed in a
 ## Additional Resources
 - Video: [How Does HTTP Work? ](https://www.youtube.com/watch?v=M_oTNuVNkms)
 - Reference: [Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDUwNDU2MjYsLTkzNzQzMDg4MF19
+eyJoaXN0b3J5IjpbMTU5MTQzNjgwMSwtMTkwNTA0NTYyNiwtOT
+M3NDMwODgwXX0=
 -->
