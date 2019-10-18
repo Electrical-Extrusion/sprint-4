@@ -18,10 +18,13 @@ Common Gateway Interface (CGI) is a protocol for web servers to ????
 
 ## We Do
 ### View all URLs accessed: 
-You can use packet sniffers to view a list of all URL's accessed in a 
-![enter image description here](https://lh3.googleusercontent.com/NaaRKH760WmicbwYadzCi-UFn_FyoInzcUoU-9ztSjstAer74ZVlph4xjTWbrWxRkhBlssiKK6XQ)
+You can use packet sniffers to view a list of all URL's accessed in a given file capture. You can also save this data for use in a later project or for additional filtering through a scripting software.  
 
+1. File -> Export Objects -> HTTP
+![enter image description here](https://lh3.googleusercontent.com/NaaRKH760WmicbwYadzCi-UFn_FyoInzcUoU-9ztSjstAer74ZVlph4xjTWbrWxRkhBlssiKK6XQ)
+2. Wireshark wil generate a list with 
 ![enter image description here](https://lh3.googleusercontent.com/4ntuUWee_Pm3LP80PUiAqdSn5_BL8eNbM8G3lekF8s97RXyU9bYbZO08koGJxkpINNm9HimFdgTo)
+
 ### Use Wireshark to find all of the URLs requested from a specific website:
 There are some cases where you may want to find all of the URLs requested at a specific website, generating a list of every page accessed on that website. Wireshark has a built in tool that makes this fairly simple to do with an existing packet capture file. 
 1. Statistics -> HTTP -> Requests 
@@ -49,7 +52,7 @@ DO the same thing on your own
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDQzMDcxMCwzMjAyODY2NDEsMTY2Nz
-IzMjU2NSwxMDA2NDMzMTk1LDEyNTYzNDI5OSwtNjU2NDY5ODI1
-XX0=
+eyJoaXN0b3J5IjpbMzkwMzAyOTgxLDMyMDI4NjY0MSwxNjY3Mj
+MyNTY1LDEwMDY0MzMxOTUsMTI1NjM0Mjk5LC02NTY0Njk4MjVd
+fQ==
 -->
