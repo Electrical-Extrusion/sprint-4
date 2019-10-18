@@ -66,6 +66,5 @@ Run a packet capture on your own, generate a list of all the URL's accessed in a
 - Reference: [Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
 - Video: [Wireshark 101: HTTP, HakTip 130](https://www.youtube.com/watch?v=RYCH7-PfJpY)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3OTI0NzgzLDgyMDkxODYxNiwtMTkwNT
-A0NTYyNiwtOTM3NDMwODgwXX0=
+eyJoaXN0b3J5IjpbOTc3OTI0NzgzXX0=
 -->
