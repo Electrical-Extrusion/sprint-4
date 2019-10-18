@@ -45,14 +45,14 @@ To demonstrate, lets use what we learned above to try to connect to 'google.com'
  
 
 ## You Do
-Ru
+Run your own capture in Wireshark and take not of the port numbers used. Apply source and destination port numbers as columns and sort results accordingly. 
 
 ## Additional Resources
 - Reference: [Well Known Port Numbers](https://www.webopedia.com/quick_ref/portnumbers.asp)
 - Blog: [TCP/IP Ports and Protocols](http://www.pearsonitcertification.com/articles/article.aspx?p=1868080)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTUxODIxMzEsLTQxODIzMTE5MCwxNT
-k5MzUxODM3LDYwODIzMTE1MCw0ODM4NTg3MSwtMTU4NTU3MzE5
-NSwtNTYxNzY0NjQ2XX0=
+eyJoaXN0b3J5IjpbMjA3Nzg5NDcxMiwtNDE4MjMxMTkwLDE1OT
+kzNTE4MzcsNjA4MjMxMTUwLDQ4Mzg1ODcxLC0xNTg1NTczMTk1
+LC01NjE3NjQ2NDZdfQ==
 -->
