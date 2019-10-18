@@ -48,5 +48,5 @@ Use the statistics tool to figure out the average packet size sent and received 
 - Blog: [How to Use Wireshark](https://www.varonis.com/blog/how-to-use-wireshark/)
 - Blog: [What is Packet Sniffing](https://www.comparitech.com/blog/information-security/what-is-packet-sniffing/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODc3MDAwODgsMTEwNjQ0OTgyNF19
+eyJoaXN0b3J5IjpbLTE2ODc3MDAwODhdfQ==
 -->
