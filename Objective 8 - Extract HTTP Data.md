@@ -36,8 +36,10 @@ There are some cases where you may want to find all of the URLs requested at a s
 
 
 
-Confused about URL resource name and real file names.... what exactly does that mean and how do I know when I have the 'REAL' file name? 
-
+### Real File Name
+1. File -> Export -> HTTP -> find pdf
+2. Double click packet 
+3. HTTP -> 
 
 
 
@@ -52,7 +54,7 @@ DO the same thing on your own
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyOTkzMjgwLDMyMDI4NjY0MSwxNjY3Mj
-MyNTY1LDEwMDY0MzMxOTUsMTI1NjM0Mjk5LC02NTY0Njk4MjVd
-fQ==
+eyJoaXN0b3J5IjpbOTgwODkzMTY0LDcyMjk5MzI4MCwzMjAyOD
+Y2NDEsMTY2NzIzMjU2NSwxMDA2NDMzMTk1LDEyNTYzNDI5OSwt
+NjU2NDY5ODI1XX0=
 -->
