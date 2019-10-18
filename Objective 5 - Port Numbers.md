@@ -52,7 +52,5 @@ Run your own capture in Wireshark and take not of the port numbers used. Apply s
 - Blog: [TCP/IP Ports and Protocols](http://www.pearsonitcertification.com/articles/article.aspx?p=1868080)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Nzg5NDcxMiwtNDE4MjMxMTkwLDE1OT
-kzNTE4MzcsNjA4MjMxMTUwLDQ4Mzg1ODcxLC0xNTg1NTczMTk1
-LC01NjE3NjQ2NDZdfQ==
+eyJoaXN0b3J5IjpbMjA3Nzg5NDcxMl19
 -->
