@@ -9,7 +9,7 @@ Extract CGI metadata from HTTP stream.
 ## I Do
 Until this point, we've focused heavily on the layers that make up a network. As a network security professional, you will need to not only understand these layers but also monitor your network for suspicious activity. 
 
-The challenge for today will focus on utilizing packet sniffers to extract meaningful data from a .pcap session. 
+The challenge for today will focus on utilizing packet sniffers to extract meaningful HTTP data from a .pcap session. Even encrypted packets contain, at the application level, URL information, file names, file types, and mor
 
 
 ### Extracting URL
@@ -53,7 +53,8 @@ DO the same thing on your own.
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyNDY2OTIyLC0xNzQ3MDMxNTY1LDE5NT
-MyODQ2NDIsNzIyOTkzMjgwLDMyMDI4NjY0MSwxNjY3MjMyNTY1
-LDEwMDY0MzMxOTUsMTI1NjM0Mjk5LC02NTY0Njk4MjVdfQ==
+eyJoaXN0b3J5IjpbLTMxNzI0NDI4MCw4OTI0NjY5MjIsLTE3ND
+cwMzE1NjUsMTk1MzI4NDY0Miw3MjI5OTMyODAsMzIwMjg2NjQx
+LDE2NjcyMzI1NjUsMTAwNjQzMzE5NSwxMjU2MzQyOTksLTY1Nj
+Q2OTgyNV19
 -->
