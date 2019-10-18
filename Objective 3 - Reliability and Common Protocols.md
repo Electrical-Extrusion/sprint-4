@@ -76,6 +76,5 @@ Summarize your current understanding of what happens when you type google.com in
 - Reading (UDP vs TCP): [User Diagram Protocol](https://www.lifewire.com/user-datagram-protocol-817976)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2ODA5ODM5LDExMDE3MzQ0NTksLTk1OD
-MwNzM2MiwtMjcwMDg4MjgwXX0=
+eyJoaXN0b3J5IjpbNjE2ODA5ODM5XX0=
 -->
