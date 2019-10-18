@@ -32,7 +32,5 @@ Inspect 5 different packet streams. Identify the number of packets sent in each,
 - Video: [Wireshark 101: TCP Streams and Objects](https://www.youtube.com/watch?v=yb2YSv_QtAQ)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTIwMjc4MiwtMTg1MTk4NjgwNiwxOD
-QzNzAzNTc5LDk4ODAyOTc2OSwxODE2MDAyMzcsLTEwNjUzMDA1
-ODMsLTE0NzA1MjgyNTcsLTEzMDIzODEyOTddfQ==
+eyJoaXN0b3J5IjpbMTcxMTIwMjc4Ml19
 -->
