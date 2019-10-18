@@ -13,7 +13,7 @@ The challenge for today will focus on utilizing packet sniffers to extract meani
 
 
 ### Extracting URL
-
+URLs are ??!!?!?
 
 ### CGI Metadata 
 Common Gateway Interface (CGI) is a protocol for web servers to ????
@@ -48,12 +48,12 @@ There are some cases where you may want to find all of the URLs requested at a s
 
 
 ## You Do
-DO the same thing on your own 
+DO the same thing on your own. 
 
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDcwMzE1NjUsMTk1MzI4NDY0Miw3Mj
-I5OTMyODAsMzIwMjg2NjQxLDE2NjcyMzI1NjUsMTAwNjQzMzE5
-NSwxMjU2MzQyOTksLTY1NjQ2OTgyNV19
+eyJoaXN0b3J5IjpbODkyNDY2OTIyLC0xNzQ3MDMxNTY1LDE5NT
+MyODQ2NDIsNzIyOTkzMjgwLDMyMDI4NjY0MSwxNjY3MjMyNTY1
+LDEwMDY0MzMxOTUsMTI1NjM0Mjk5LC02NTY0Njk4MjVdfQ==
 -->
