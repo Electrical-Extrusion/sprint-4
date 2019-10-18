@@ -38,8 +38,10 @@ There are some cases where you may want to find all of the URLs requested at a s
 
 ### Real File Name
 1. File -> Export -> HTTP -> find pdf
-2. Double click packet 
-3. HTTP -> 
+
+3. Double click packet 
+4. HTTP -> content-disposition: inline; filename = __________________
+
 
 
 
@@ -54,7 +56,7 @@ DO the same thing on your own
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwODkzMTY0LDcyMjk5MzI4MCwzMjAyOD
+eyJoaXN0b3J5IjpbNDA5Mzg1NDc3LDcyMjk5MzI4MCwzMjAyOD
 Y2NDEsMTY2NzIzMjU2NSwxMDA2NDMzMTk1LDEyNTYzNDI5OSwt
 NjU2NDY5ODI1XX0=
 -->
