@@ -1,0 +1,54 @@
+# Objective Statement
+Understand the Open Systems Interconnection (OSI) seven layer model for networks.
+  
+## Instructor Notes
+
+
+## Required Resources
+
+- [Video: What is OSI Model?]([https://www.youtube.com/watch?v=Ilk7UXzV_Qc](https://www.youtube.com/watch?v=Ilk7UXzV_Qc))
+
+## I Do
+
+ A common interview question for new software engineers is "what happens when you type in google.com to your web browser?". A seemingly simple exercize is actually hiding an incredibly complex process, most commonly explained by the **Open Systems Interconnection (OSI)** seven layer model for networks. In this conceptual framework, there are seven distinct layers ultimately connecting you (the user) to google.com. Importantly, each layer has its own job, and each passes information to the next layer, transmitting and receiving data in some form or another. The seven layers are pictured below. 
+
+![source: [https://www.webopedia.com/quick_ref/OSI_Layers.asp](https://www.webopedia.com/quick_ref/OSI_Layers.asp)](https://lh3.googleusercontent.com/iMnsbSRP1rAS3MgO3u_A2BhOBz1OXgPNzhkd-Xi6awQnsktyU0Iulyark66HuXaHVOfWuSAj2G0)
+ 
+Let's take a look at the seven layers, broken into the 'Application Level' layers (5-7) and the 'Moving Data around' layers (1-4). If you've ever used the internet you are familiar with layer 7, the application layer, but the rest are equally important. Each device involved in the process of data transfer will go through these steps. Let's explore what happens on the user end when you type in 'google.com':
+
+**Application Level**
+ 7. Application - the user puts in a request for information in some friendly application 
+ 6. Presentation - Transforms and translates request data so it can be read.
+ 5. Session - Opens and maintains connection between user and receiving server
+
+**Moving Data Around**
+ 4. Transport - Data move from end to end, transfer is completed. (TCP, UDP)
+ 3. Network - Data moves through switching and routing pathways. (IP addresses)
+ 2. Data Link - Data is chunked into packets, encoded and decoded at switches. 
+ 1 Physical - Hardware, pins, volts, and cables. 
+
+
+## We Do
+
+Okay, so that still doesn't answer the question - what actually happens when you type in google.com? Let's synthesize those steps with a whiteboarding activity, and this time, consider both the transmission, and reciept of data. 
+
+  *Instructor notes*
+  *Whiteboarding should walk through the 7 steps *
+
+## You Do
+
+This section is student-facing. It should present a challenge for the student to complete on their own. Step-by-step, detailed instructions should *not* be provided, as the goal is for the student to use the skills and concepts learned in the previous two sections and to solve them by completing a task on their own. The requirements for the challenge will be explained at the end of the corresponding video as well, again with the expectation that students watching the video will complete the challenge after finishing the video.
+
+  
+
+Total expected time to complete: 5-15 minutes.
+
+  
+
+## Additional Resources
+
+  
+
+- [Link to helpful reading](http://www.example.com)
+
+- [Link to a third-party video](http://www.example.com)
