@@ -9,7 +9,7 @@ Search for string information in packet data.
 
 ## I Do
 
-Wireshark can be used to 
+Alongside simply extracting data, it can sometimes be helpful to search for specific strings within packets. Packets containing certain URL information, usernames, passwords, and more represent significant network vunerabiliites.  
 
 ## We Do
 
