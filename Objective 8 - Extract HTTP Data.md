@@ -38,17 +38,14 @@ There are some cases where you may want to find all of the URLs requested at a s
 
 ### Real File Name
 1. File -> Export -> HTTP -> find pdf
-
-3. Double click packet 
+![enter image description here](https://lh3.googleusercontent.com/If2wFeducWwoIyvEjKuk44ziA-olPcSEiruEZKaDW3ZeVSYI7o9J8lwZ7JDXSU1weg7o2PoUGaA_)
+2. Double click packet 
+![enter image description here](https://lh3.googleusercontent.com/9Kd85Y7CKcXKNRVDQ741o84qIrd5oq_6DjSQhD7YZfrsIgXFvwF93J0oMdLghXQpAKBeOoG37jRD)
 4. HTTP -> content-disposition: inline; filename = __________________
+![enter image description here](https://lh3.googleusercontent.com/asKnHEexrNzeYzuMtn4vF744-qAywqmdBSdicONzfGu5lJOyMMZqmQ6MAQ-ytrSkxYrMc4sXw-yS)
 
 
 
-
--  A list of top-level domains for all DNS queries made. 
-  -   The filename and file type for each file downloaded from legacylifespaces.com.
--   The URL resource name and real file name for the PDF file requested from serveftp.com.
--   The URL resource name and real file name for the SWF file requested from serveftp.com.
 
 ## You Do
 DO the same thing on your own 
@@ -56,7 +53,7 @@ DO the same thing on your own
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5Mzg1NDc3LDcyMjk5MzI4MCwzMjAyOD
-Y2NDEsMTY2NzIzMjU2NSwxMDA2NDMzMTk1LDEyNTYzNDI5OSwt
-NjU2NDY5ODI1XX0=
+eyJoaXN0b3J5IjpbLTExMTU0MzE0MjYsNzIyOTkzMjgwLDMyMD
+I4NjY0MSwxNjY3MjMyNTY1LDEwMDY0MzMxOTUsMTI1NjM0Mjk5
+LC02NTY0Njk4MjVdfQ==
 -->
