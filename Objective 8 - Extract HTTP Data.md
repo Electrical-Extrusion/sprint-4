@@ -53,8 +53,5 @@ DO the same thing on your own.
 ## Additional Resources
 - Wikipedia: [Common Gateway Interface (CGI)](https://en.wikipedia.org/wiki/Common_Gateway_Interface)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDg2NDgxNiw4OTI0NjY5MjIsLTE3ND
-cwMzE1NjUsMTk1MzI4NDY0Miw3MjI5OTMyODAsMzIwMjg2NjQx
-LDE2NjcyMzI1NjUsMTAwNjQzMzE5NSwxMjU2MzQyOTksLTY1Nj
-Q2OTgyNV19
+eyJoaXN0b3J5IjpbMTIyNDg2NDgxNl19
 -->
