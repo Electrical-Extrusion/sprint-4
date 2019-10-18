@@ -9,14 +9,14 @@ Extract CGI metadata from HTTP stream.
 ## I Do
 Until this point, we've focused heavily on the layers that make up a network. As a network security professional, you will need to not only understand these layers but also monitor your network for suspicious activity. 
 
-The challenge for today will focus on utilizing packet sniffers to extract meaningful HTTP data from a .pcap session. Even encrypted packets contain, at the application level, URL information, file names, file types, and mor
+The challenge for today will focus on utilizing packet sniffers to extract meaningful HTTP data from a .pcap session. Even encrypted packets contain, at the application level, URL information, file names, file types, and more. By aggregating and filtering this information, you can start to understand what is happening on your network. 
 
 
 ### Extracting URL
 URLs are ??!!?!?
 
 ### CGI Metadata 
-Common Gateway Interface (CGI) is a protocol for web servers to ????
+Common Gateway Interface (CGI) is a protocol for web servers to move between what's doi
 
 ## We Do
 ### View all URLs accessed: 
@@ -53,7 +53,7 @@ DO the same thing on your own.
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzI0NDI4MCw4OTI0NjY5MjIsLTE3ND
+eyJoaXN0b3J5IjpbMTU5ODgyMzMyMCw4OTI0NjY5MjIsLTE3ND
 cwMzE1NjUsMTk1MzI4NDY0Miw3MjI5OTMyODAsMzIwMjg2NjQx
 LDE2NjcyMzI1NjUsMTAwNjQzMzE5NSwxMjU2MzQyOTksLTY1Nj
 Q2OTgyNV19
