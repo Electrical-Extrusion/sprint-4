@@ -45,15 +45,13 @@ There are some cases where you may want to find all of the URLs requested at a s
 ![enter image description here](https://lh3.googleusercontent.com/asKnHEexrNzeYzuMtn4vF744-qAywqmdBSdicONzfGu5lJOyMMZqmQ6MAQ-ytrSkxYrMc4sXw-yS)
 
 
-
-
 ## You Do
 DO the same thing on your own 
 
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTU0MzE0MjYsNzIyOTkzMjgwLDMyMD
-I4NjY0MSwxNjY3MjMyNTY1LDEwMDY0MzMxOTUsMTI1NjM0Mjk5
-LC02NTY0Njk4MjVdfQ==
+eyJoaXN0b3J5IjpbMTk1MzI4NDY0Miw3MjI5OTMyODAsMzIwMj
+g2NjQxLDE2NjcyMzI1NjUsMTAwNjQzMzE5NSwxMjU2MzQyOTks
+LTY1NjQ2OTgyNV19
 -->
