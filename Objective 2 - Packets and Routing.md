@@ -1,4 +1,4 @@
-# Objective Statemen
+# Objective Statement
 
 Understand and explain how packets are constructed and transmitted on a network.
 
@@ -8,7 +8,7 @@ Understand and explain how packets are constructed and transmitted on a network.
 
 ## I Do
 
-Cybersecurity is concerned with the protection of data. Though they can occur anywhere, breeches most commonly occur when data is moving around from one place to another in the Transport layer of OSI. Data that is unencrypted can be easily intercepted using techniques we’ll learn about later on. In order to understand what's going on under the hood with packet transportation, we need to understand the protocol governing this layer, which is Transmission Control Protocol (TCP).
+Though they can occur anywhere, breeches most commonly occur when data is moving around from one place to another in the Transport layer of OSI. Data that is unencrypted can be easily intercepted using techniques we’ll learn about later on. In order to understand what's going on under the hood with packet transportation, we need to understand the protocol governing this layer, which is Transmission Control Protocol (TCP).
 
 Also, you'll need a strong understanding of the term "packets." In short, a packet is a chunk of data. When a user makes a request to send or receive information, it takes the form of data. To move from the client to the server, data must be placed into packets. These packets may all take different routes through the world wide web, but eventually end up at the same destination and, when pieced back together, complete the user's request. Scanning through unencrypted packets is one-way hackers can obtain sensitive information: like usernames and passwords.
 
@@ -63,7 +63,7 @@ Conceptually, looks like this:
 ![enter image description here](https://lh3.googleusercontent.com/TnoaLUVjrOHY8EjLbJpZauIFcKLfDyL5RkzqCn1qDGok5SxwwZ0b8FHKCeLqJ_iuC7pKYyTW6l4)
 
 Technically, looks more like this:
-![enter image description here](https://lh3.googleusercontent.com/9sRO80ifa3IzSP4OPzDdcmH4zmVnMx7s71UYDmWMmQ-KcFOx22cL7eEA55PUOgWVWTi_621xrUo)
+![applsci-06-00358-g001-550](https://i.imgur.com/LGBz7Pz.jpg)
 
 ## We Do
 
@@ -72,13 +72,19 @@ Technically, looks more like this:
 As you can see, packet printouts are fairly straightforward. Reading from top-down, we start to notice some of the packet components discussed above. For now, we'll focus on IP addresses, ports, sequence numbers, acknowledgment numbers, flags, cheksum, and data.
 ![enter image description here](https://lh3.googleusercontent.com/68F2hIAa_tmkDwtwggDtLc26B8JPjMco0TBe-l3gq0Q9DPRl4CbZ57why7G-A0nw39mmltbCUvc)
 
-- IP addresses aren't technically part of a TCP packet, but they are always sent in tandem.
-- Port numbers tell us the endpoints of the connection. Here, 443 indicates that the user is connecting to a secure site via HTTPS, and 57880 indicates a private port on the user's end. Since 443 is listed as the source, we know that this packet is traveling from the secure site, server, to the client.
-- Sequence number is the number assigned to the first byte of data in the current message. It tells us where in the overall data flow this packet belongs.
-- Acknowledgment number contains the next sequence number that is expected inflow of data. In and of itself it doesn't tell us much but combined with packets around it, it might be helpful.
-- Flag tells us what type of packet this is - here, an ACK packet, designates that this packet is acknowledging receipt of some information. Maybe an email was sent?
-- A checksum of 0 indicates that the data was not damaged in transit. The fact that it is unverified only means that the software used for packet sniffing has not completed the data transfer and that damage can't be confirmed.
-- Finally, our packet contains the encrypted data, not much for us to see, but the Data Link and Physical layers will make use of that later on.
+IP addresses aren't technically part of a TCP packet, but they are always sent in tandem.
+
+Port numbers tell us the endpoints of the connection. Here, 443 indicates that the user is connecting to a secure site via HTTPS, and 57880 indicates a private port on the user's end. Since 443 is listed as the source, we know that this packet is traveling from the secure site, server, to the client.
+
+Sequence number is the number assigned to the first byte of data in the current message. It tells us where in the overall data flow this packet belongs.
+
+Acknowledgment number contains the next sequence number that is expected inflow of data. In and of itself it doesn't tell us much but combined with packets around it, it might be helpful.
+
+Flag tells us what type of packet this is - here, an ACK packet, designates that this packet is acknowledging receipt of some information. Maybe an email was sent?
+
+A checksum of 0 indicates that the data was not damaged in transit. The fact that it is unverified only means that the software used for packet sniffing has not completed the data transfer and that damage can't be confirmed.
+
+Finally, our packet contains the encrypted data, not much for us to see, but the Data Link and Physical layers will make use of that later on.
 
 ## You Do
 
@@ -93,3 +99,4 @@ Using the example above as a guide, answer the following questions about this pa
 ## Additional Resources
 
 - Video Walkthrough (technical): [TCP](https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13&t=0s)
+- Blog: [Exploring the Anatomy of a Data Packet](https://www.techrepublic.com/article/exploring-the-anatomy-of-a-data-packet/)

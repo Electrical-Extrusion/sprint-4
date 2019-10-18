@@ -4,23 +4,21 @@ Install a packet capture utility (Wireshark) to capture and view packets on a st
 
 ## Instructor Notes
 
-*Video for We Do is probably really important here*
-
 ## Required Resources
 
 - Software Download: [Wireshark Installer](https://www.wireshark.org/download.html)
 
 ## I Do
 
-A tool security professionals use to make sure data is being transmitted securely is a packet analyzer. Packet analyzers intercept and log traffic over a network, functioning in many ways like a microscope, to allow users to see what's going on 'under the hood' of the internet. Today we will install a  popular and free packet analyzer called Wireshark (linked in required resources above).
+A tool security professionals use to make sure data is being transmitted securely is a packet analyzer. Packet analyzers intercept and log traffic over a network, functioning in many ways like a microscope, to allow users to see what's going on 'under the hood' of the internet. Today we will install a  popular and free packet analyzer called Wireshark (linked in required resources above) and practice capturing and viewing packets.
 
-Once downloaded, we can look at the familiar packet details coming in and out of our local devices, including source IP, destination IP, length (in bytes), source port, destination port, payload data, and more.
+Once downloaded, packet details should look somewhat familiar. You actually analyzed screenshot from Wireshark in objective 2 in the form of a TCP packet! Wireshark also gathers information about other protocols like HTTP and DNS coming in and out of our local devices. Inside the packets important information can be found including source IP, destination IP, length (in bytes), source port, destination port, payload data, URL data, file transfer data, timestamp data, and more.
 
-In the 'real world' of cybersecurity, Wireshark is popularly used to diagnose network problems by locating the exact packets that are not properly transmitting.
+In the 'real world' of cybersecurity, Wireshark is popularly used to establish network norms and detecct anomolies. Later on you'll learn to use some of the more powerful data aggregation tools, but for now let's start by capturing packets on your home network.
 
 ## We Do
 
-Let's download Wireshark together and use it to finally figure out what happens when we type in 'google.com'.
+We will download Wireshark together and use it to finally figure out what happens when we type in 'google.com'.
 
 1. Download the stable release version for your OS .![enter image description here](https://lh3.googleusercontent.com/90C_FSB0VJC6y3wJY3TCEsyh7XX1HxDaMk-VhJiYtSFE4YfXjyUI3MBZbHBnUMyBu2jMBDqL_4Y)
 
@@ -53,3 +51,4 @@ Use the statistics tool to figure out the average packet size sent and received 
 - Official Documentation: [Wireshark User's Guide]([https://www.wireshark.org/docs/wsug_html_chunked/](https://www.wireshark.org/docs/wsug_html_chunked/))
 - Blog: [How to Use Wireshark](https://www.varonis.com/blog/how-to-use-wireshark/)
 - Blog: [What is Packet Sniffing](https://www.comparitech.com/blog/information-security/what-is-packet-sniffing/)
+- Video: [Wireshark Tutorial for Beginners](https://www.youtube.com/watch?v=TkCSr30UojM)

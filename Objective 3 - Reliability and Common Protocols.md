@@ -63,11 +63,30 @@ In the first objective, we talked about OSI on a conceptual level, without knowl
 *Whiteboarding should include this information!
 Ethernet isn't included in this diagram but belongs on the Data Link layer
 Note that all of the protocols we're worried about are in the 'moving data around' layers*
-![enter image description here](https://lh3.googleusercontent.com/VlhP4wEeA5VqVRrgEqmUoECuTq28G9UFdMcRQZuTwu0GJSJqaNHFYhWLR1-xOeIY9nxg5LAs63Y)
+![enter image description here](https://lh3.googleusercontent.com/VlhP4wEeA5VqVRrgEqmUoECuTq28G9UFdMcRQZuTwu0GJSJqaNHFYhWLR1-xOeIY9nxg5LAs63Y)![Screen Shot 2019-10-18 at 4.05.48 PM](https://i.imgur.com/JsKfszH.png)
 
 ## You Do
 
-Summarize your current understanding of what happens when you type google.com into your internet browser. Be prepared to share in breakout rooms.
+Summarize your current understanding of what happens when you type google.com into your internet browser in paragraph format or long-form bulleted list. Be prepared to share in breakout rooms.
+
+Your summary must include all of the following terms:
+* User
+* Client
+* Application
+* Server
+* Presentation
+* Session
+* Transport
+* Network
+* Data Link
+* Physical
+* TCP
+* HTTP
+* IP
+* Ethernet
+* ARP
+* UDP
+* ICMP
 
 ## Additional Resources
 
