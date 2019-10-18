@@ -10,7 +10,7 @@ Understand the Open Systems Interconnection (OSI) seven-layer model for networks
 
 ## I Do
 
- A common interview question for new software engineers is "what happens when you type in google.com to your web browser?". A seemingly simple exercise is actually hiding an incredibly complex process, most commonly explained by the **Open Systems Interconnection (OSI)** seven-layer model for networks. In this conceptual framework, there are seven distinct layers working together to connect you (the user) to google.com. 
+ A common interview question for new software engineers is "what happens when you type in google.com to your web browser?". A seemingly simple exercise is actually hiding an incredibly complex process, most commonly explained by the **Open Systems Interconnection (OSI)** seven-layer model for networks. In this conceptual framework, there are seven distinct layers working together to connect you (the user) to google.com.
 
 Generally speaking, in this process, information is moving from a user (often referred to as a client) to a place with information (a server) and then returning new information to the client. For this to happen, the client request has to be translated into a common computer language *and* transported to the server, which happens, conceptually speaking, in seven steps. We call these steps 'layers' since lots of sub-steps occur at each.  These sub-steps, called protocols, are grouped by the function performed into layers. Every layer preforms some job and passes the information along, transmitting and receiving the information as data in some form or another. The seven layers are pictured below.
 

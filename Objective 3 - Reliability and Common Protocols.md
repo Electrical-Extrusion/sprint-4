@@ -70,23 +70,24 @@ Note that all of the protocols we're worried about are in the 'moving data aroun
 Summarize your current understanding of what happens when you type google.com into your internet browser in paragraph format or long-form bulleted list. Be prepared to share in breakout rooms.
 
 Your summary must include all of the following terms:
-* User
-* Client
-* Application
-* Server
-* Presentation
-* Session
-* Transport
-* Network
-* Data Link
-* Physical
-* TCP
-* HTTP
-* IP
-* Ethernet
-* ARP
-* UDP
-* ICMP
+
+- User
+- Client
+- Application
+- Server
+- Presentation
+- Session
+- Transport
+- Network
+- Data Link
+- Physical
+- TCP
+- HTTP
+- IP
+- Ethernet
+- ARP
+- UDP
+- ICMP
 
 ## Additional Resources
 
