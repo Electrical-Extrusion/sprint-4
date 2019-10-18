@@ -7,7 +7,7 @@ Extract CGI metadata from HTTP stream.
 ## Required Resources
 
 ## I Do
-As a network security professional, you will need to monitor your network for suspicious activity. 
+Until this point, we've focused heavily on the layers that make up a network. As a network security professional, you will need to not only understand these layers but also monitor your network for suspicious activity. 
 
 
 ### Extracting URL
@@ -51,7 +51,7 @@ DO the same thing on your own
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzI4NDY0Miw3MjI5OTMyODAsMzIwMj
-g2NjQxLDE2NjcyMzI1NjUsMTAwNjQzMzE5NSwxMjU2MzQyOTks
-LTY1NjQ2OTgyNV19
+eyJoaXN0b3J5IjpbMTI4ODQ5OTkyMiwxOTUzMjg0NjQyLDcyMj
+k5MzI4MCwzMjAyODY2NDEsMTY2NzIzMjU2NSwxMDA2NDMzMTk1
+LDEyNTYzNDI5OSwtNjU2NDY5ODI1XX0=
 -->
