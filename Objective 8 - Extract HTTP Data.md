@@ -18,6 +18,7 @@ Common Gateway Interface (CGI) is a protocol for web servers to ????
 
 ## We Do
 ### View all URLs accessed: 
+You can use packet sniffers to view a list of all URL's accessed in a 
 ![enter image description here](https://lh3.googleusercontent.com/NaaRKH760WmicbwYadzCi-UFn_FyoInzcUoU-9ztSjstAer74ZVlph4xjTWbrWxRkhBlssiKK6XQ)
 
 ![enter image description here](https://lh3.googleusercontent.com/4ntuUWee_Pm3LP80PUiAqdSn5_BL8eNbM8G3lekF8s97RXyU9bYbZO08koGJxkpINNm9HimFdgTo)
@@ -48,7 +49,7 @@ DO the same thing on your own
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1ODA4NjM5LDMyMDI4NjY0MSwxNjY3Mj
-MyNTY1LDEwMDY0MzMxOTUsMTI1NjM0Mjk5LC02NTY0Njk4MjVd
-fQ==
+eyJoaXN0b3J5IjpbMTMxNDQzMDcxMCwzMjAyODY2NDEsMTY2Nz
+IzMjU2NSwxMDA2NDMzMTk1LDEyNTYzNDI5OSwtNjU2NDY5ODI1
+XX0=
 -->
