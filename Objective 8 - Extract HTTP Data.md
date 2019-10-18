@@ -32,7 +32,7 @@ There are some cases where you may want to find all of the URLs requested at a s
 
 
 
-
+Confused about URL resource name and real file names.... what exactly does that mean and how do I know when I have the 'REAL' file name? 
 
 
 
@@ -48,6 +48,7 @@ DO the same thing on your own
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwMjg2NjQxLDE2NjcyMzI1NjUsMTAwNj
-QzMzE5NSwxMjU2MzQyOTksLTY1NjQ2OTgyNV19
+eyJoaXN0b3J5IjpbMjc1ODA4NjM5LDMyMDI4NjY0MSwxNjY3Mj
+MyNTY1LDEwMDY0MzMxOTUsMTI1NjM0Mjk5LC02NTY0Njk4MjVd
+fQ==
 -->
