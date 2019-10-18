@@ -22,7 +22,7 @@ You can use packet sniffers to view a list of all URL's accessed in a given file
 
 1. File -> Export Objects -> HTTP
 ![enter image description here](https://lh3.googleusercontent.com/NaaRKH760WmicbwYadzCi-UFn_FyoInzcUoU-9ztSjstAer74ZVlph4xjTWbrWxRkhBlssiKK6XQ)
-2. Wireshark wil generate a list with 
+2. Wireshark wil generate a list with the hostnames of every HTTP request made during the file capture, and the type of content returne
 ![enter image description here](https://lh3.googleusercontent.com/4ntuUWee_Pm3LP80PUiAqdSn5_BL8eNbM8G3lekF8s97RXyU9bYbZO08koGJxkpINNm9HimFdgTo)
 
 ### Use Wireshark to find all of the URLs requested from a specific website:
@@ -52,7 +52,7 @@ DO the same thing on your own
 ## Additional Resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwMzAyOTgxLDMyMDI4NjY0MSwxNjY3Mj
-MyNTY1LDEwMDY0MzMxOTUsMTI1NjM0Mjk5LC02NTY0Njk4MjVd
-fQ==
+eyJoaXN0b3J5IjpbLTEyNDUzNjQyMjcsMzIwMjg2NjQxLDE2Nj
+cyMzI1NjUsMTAwNjQzMzE5NSwxMjU2MzQyOTksLTY1NjQ2OTgy
+NV19
 -->
