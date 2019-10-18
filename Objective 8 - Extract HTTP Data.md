@@ -16,7 +16,7 @@ The challenge for today will focus on utilizing packet sniffers to extract meani
 URLs are ??!!?!?
 
 ### CGI Metadata 
-Common Gateway Interface (CGI) is a protocol for web servers to move between what's doi
+Common Gateway Interface (CGI) is a protocol for web servers to move between what's done behind the scenes in command prompt and what a user sees in a dynamic application. 
 
 ## We Do
 ### View all URLs accessed: 
@@ -51,9 +51,9 @@ There are some cases where you may want to find all of the URLs requested at a s
 DO the same thing on your own. 
 
 ## Additional Resources
-
+- Wikipedia: [Common Gateway Interface (CGI)](https://en.wikipedia.org/wiki/Common_Gateway_Interface)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODgyMzMyMCw4OTI0NjY5MjIsLTE3ND
+eyJoaXN0b3J5IjpbMTIyNDg2NDgxNiw4OTI0NjY5MjIsLTE3ND
 cwMzE1NjUsMTk1MzI4NDY0Miw3MjI5OTMyODAsMzIwMjg2NjQx
 LDE2NjcyMzI1NjUsMTAwNjQzMzE5NSwxMjU2MzQyOTksLTY1Nj
 Q2OTgyNV19
