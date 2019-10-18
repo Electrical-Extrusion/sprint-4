@@ -42,17 +42,17 @@ To demonstrate, lets use what we learned above to try to connect to 'google.com'
 ### Example #2
 4. Look at more packet streams in wireshark - screen recording of how to apply column and view all the port numbers in TCP. Most will be 443/some private port.
 
-
  
 
 ## You Do
+Ru
 
 ## Additional Resources
 - Reference: [Well Known Port Numbers](https://www.webopedia.com/quick_ref/portnumbers.asp)
 - Blog: [TCP/IP Ports and Protocols](http://www.pearsonitcertification.com/articles/article.aspx?p=1868080)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODIzMTE5MCwxNTk5MzUxODM3LDYwOD
-IzMTE1MCw0ODM4NTg3MSwtMTU4NTU3MzE5NSwtNTYxNzY0NjQ2
-XX0=
+eyJoaXN0b3J5IjpbLTE4MTUxODIxMzEsLTQxODIzMTE5MCwxNT
+k5MzUxODM3LDYwODIzMTE1MCw0ODM4NTg3MSwtMTU4NTU3MzE5
+NSwtNTYxNzY0NjQ2XX0=
 -->
