@@ -4,6 +4,9 @@ Install, configure and deploy NetworkMiner.
 ## Instructor Notes
 
 ## Required Resources
+- Software Download: [Network Miner](https://www.netresec.com/?page=Networkminer)
+
+*Note:* Downloading NetworkMiner on non-Windows computers requires a third party application (Mono Framework). For a full tutorial ... GOOD LUCK
 
 ## I Do
 
@@ -12,7 +15,3 @@ Install, configure and deploy NetworkMiner.
 ## You Do
 
 ## Additional Resources
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTExNjM4OV19
--->

@@ -14,7 +14,7 @@ A tool security professionals use to make sure data is being transmitted securel
 
 Once downloaded, packet details should look somewhat familiar. You actually analyzed screenshot from Wireshark in objective 2 in the form of a TCP packet! Wireshark also gathers information about other protocols like HTTP and DNS coming in and out of our local devices. Inside the packets important information can be found including source IP, destination IP, length (in bytes), source port, destination port, payload data, URL data, file transfer data, timestamp data, and more.
 
-In the 'real world' of cybersecurity, Wireshark is popularly used to establish network norms and detecct anomolies. Later on you'll learn to use some of the more powerful data aggregation tools, but for now let's start by capturing packets on your home network.
+In the 'real world' of cybersecurity, Wireshark is popularly used to establish network norms and detect anomalies. Later on you'll learn to use some of the more powerful data aggregation tools, but for now let's start by capturing packets on your home network.
 
 ## We Do
 
@@ -48,7 +48,7 @@ Use the statistics tool to figure out the average packet size sent and received 
 
 ## Additional Resources
 
-- Official Documentation: [Wireshark User's Guide]([https://www.wireshark.org/docs/wsug_html_chunked/](https://www.wireshark.org/docs/wsug_html_chunked/))
+- Official Documentation: [Wireshark User's Guide](https://www.wireshark.org/docs/wsug_html_chunked/))
 - Blog: [How to Use Wireshark](https://www.varonis.com/blog/how-to-use-wireshark/)
 - Blog: [What is Packet Sniffing](https://www.comparitech.com/blog/information-security/what-is-packet-sniffing/)
 - Video: [Wireshark Tutorial for Beginners](https://www.youtube.com/watch?v=TkCSr30UojM)
