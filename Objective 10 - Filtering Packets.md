@@ -38,10 +38,10 @@ Beyond just 'is equal to' there are several ways to filter packets. Common displ
 
 |English | C-like | Meaning | Example |
 |--|--|--|--|
-|```eq```|```==```|Equal| ```ip.src==10.0.0.5 ```|
+|```eq```|```==```|Equal| ```ip.src==10.0.0.5```|
 |```ne```|```!=```|Not Equal| ```ip.src!=10.0.0.5```|
 |```gt```|```>```|Greater Than| ```frame.len > 10```|
-|```lt```|```<```|Less Than| ```frame.len ```|
+|```lt```|```<```|Less Than| ```frame.len```|
 |```contains```|n/a|Protocol, field or slice contains a value| ```sip.To contains "a1763"```|
 |```matches```|```~```|Protocol, field or slice contains a value|```http.host matches "acme\.(org|com|net)"``` |
 |bitwise_and|```&```| Bitwise AND is non-zero|```tcp.flags & 0x02```|

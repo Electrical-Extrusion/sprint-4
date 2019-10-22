@@ -13,6 +13,3 @@ Use and/or to form complex filter patterns.
 
 ## Additional Resources
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Mjg2MDgzN119
--->
